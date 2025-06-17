@@ -1,0 +1,113 @@
+// =========================================
+// MIXINS (Based on styles.css + Bootstrap 4 compatible)
+// File: src/styles/abstracts/_mixins.scss
+// =========================================
+
+// ----------------------------
+// Mixin: Transition
+// ----------------------------
+@mixin transition($props...) {
+  transition: $props;
+  -webkit-transition: $props;
+  -moz-transition: $props;
+  -o-transition: $props;
+}
+
+// ----------------------------
+// Mixin: Flex Center (horizontal + vertical)
+// ----------------------------
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// ----------------------------
+// Mixin: Flex Column Center
+// ----------------------------
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// ----------------------------
+// Mixin: Background Cover
+// ----------------------------
+@mixin bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+// ----------------------------
+// Mixin: Box Shadow
+// ----------------------------
+@mixin box-shadow($shadow...) {
+  box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+}
+
+// ----------------------------
+// Mixin: Placeholder Styling
+// ----------------------------
+@mixin placeholder($color) {
+  &::placeholder {
+    color: $color;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+
+  &::-ms-input-placeholder {
+    color: $color;
+  }
+}
+
+// ----------------------------
+// Mixin: Border Radius
+// ----------------------------
+@mixin radius($value) {
+  border-radius: $value;
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+}
+
+// ----------------------------
+// Mixin: Responsive Media Query
+// ----------------------------
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: 576px) { @content; }
+  } @else if $breakpoint == md {
+    @media (max-width: 768px) { @content; }
+  } @else if $breakpoint == lg {
+    @media (max-width: 992px) { @content; }
+  } @else if $breakpoint == xl {
+    @media (max-width: 1200px) { @content; }
+  }
+}
+
+// ----------------------------
+// Mixin: Absolute Centering
+// ----------------------------
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// ----------------------------
+// Mixin: Ellipsis Text (truncate)
+// ----------------------------
+@mixin ellipsis($lines: 1) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+}

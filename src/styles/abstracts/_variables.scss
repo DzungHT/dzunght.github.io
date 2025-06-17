@@ -1,0 +1,95 @@
+// =========================================
+// BOOTSTRAP VARIABLE OVERRIDES & CUSTOM (Based on styles.css)
+// File: src/styles/abstracts/_variables.scss
+// =========================================
+
+// --------------------
+// Bootstrap Override Defaults
+// --------------------
+$font-family-base: 'Roboto', sans-serif !default;
+$headings-font-family: 'Roboto', sans-serif !default;
+$font-size-base: 0.875rem !default; // 14px
+$line-height-base: 1.714 !default; // ~24px
+$font-weight-base: 500 !default;
+$headings-font-weight: bold !default;
+
+$body-color: #999999 !default;
+$body-bg: #ffffff !default;
+$text-muted: #999999 !default;
+$primary: #0bceaf !default;
+// $primary: #188c91 !default;
+$secondary: #009688 !default;
+$danger: #ff5252 !default;
+$success: #56cc35 !default;
+$info: #52b8ff !default;
+$dark: #202026 !default;
+
+$shadow-sm:
+  0 2px 5px rgba(0, 0, 0, 0.16),
+  0 2px 10px rgba(0, 0, 0, 0.12) !default;
+
+$spacer: 1rem !default;
+
+// --------------------
+// Custom Variables
+// --------------------
+// Typography sizes
+$font-size-h1: 60px;
+$font-size-h2: 48px;
+$font-size-h3: 30px;
+$font-size-h4: 20px;
+$font-size-p: 18px;
+
+// Line heights
+$line-height-h1: 65px;
+$line-height-h2: 55px;
+$line-height-h3: 40px;
+$line-height-h4: 30px;
+$line-height-p: 30px;
+
+// Font weights
+$font-weight-semibold: 600;
+$font-weight-bold: bold;
+
+// Semantic colors
+$color-white: #ffffff;
+$color-light: #f6f6f6;
+$color-black: #000000;
+$color-gray: #999999;
+$color-dark-alt: #202026;
+$color-accent-1: #9c27b0;
+$color-accent-2: #ff4081;
+
+// Overlays
+$overlay-black: rgba(0, 0, 0, 0.9);
+$overlay-white: rgba(255, 255, 255, 0.9);
+
+// Border radius
+$radius-sm: 4px;
+$radius-md: 10px;
+$radius-lg: 20px;
+$radius-round: 50%;
+
+// Shadows
+$shadow-1: $shadow-sm;
+$shadow-light:
+  0 0 2px rgba(255, 255, 255, 0.8),
+  0 0 1px 1px rgba(255, 255, 255, 0.8);
+$shadow-dark: -1rem 0 3rem rgba(0, 0, 0, 1);
+
+// Transition
+$transition-default: all 0.3s ease;
+
+// z-index layers
+$z-layers: (
+  auto: auto,
+  base: 0,
+  dropdown: 1000,
+  overlay: 2000,
+  modal: 3000,
+  loader: 9999999,
+);
+
+// Custom font references
+$font-primary: $font-family-base;
+$font-secondary: 'Montserrat', sans-serif;

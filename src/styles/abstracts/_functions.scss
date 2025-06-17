@@ -1,0 +1,44 @@
+// =========================================
+// FUNCTIONS (Based on styles.css needs)
+// File: src/styles/abstracts/_functions.scss
+// =========================================
+
+// ----------------------------
+// Function: rem() - convert px to rem
+// ----------------------------
+@function rem($px, $base: 16) {
+  @return #{$px / $base}rem;
+}
+
+// ----------------------------
+// Function: strip-unit() - remove unit from px/rem/etc
+// ----------------------------
+@function strip-unit($value) {
+  @if type-of($value) == 'number' and unit($value) != '' {
+    @return $value / ($value * 0 + 1);
+  }
+  @return $value;
+}
+
+// ----------------------------
+// Function: z() - return z-index from layer map
+// ----------------------------
+$z-layers: (
+  auto: auto,
+  base: 0,
+  dropdown: 1000,
+  overlay: 2000,
+  modal: 3000,
+  loader: 9999999
+);
+
+@function z($key) {
+  @return map-get($z-layers, $key);
+}
+
+// ----------------------------
+// Function: color-opacity() - return rgba from hex + opacity
+// ----------------------------
+@function color-opacity($color, $opacity) {
+  @return rgba($color, $opacity);
+}
