@@ -1,28 +1,27 @@
-import React, { useEffect, useState } from "react";
+// src/components/Loader.tsx
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
-const Loader: React.FC = () => {
-  const [
-    isLoading,
-     setIsLoading
-  ] = useState(true);
+const Loader = () => {
+  const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
   useEffect(() => {
-    // Simulate window.onload
-    const timeout = setTimeout(() => {
-      setIsLoading(false);
-      // Portfolio filtering logic using Isotope or similar (optional plugin)
-      // This part should be implemented using refs or libraries like react-isotope if needed.
-    }, 1000); // simulate delay
-    return () => clearTimeout(timeout);
-  }, []);
+    setLoading(true); // bật loader khi đổi route
+  }, [location.pathname]);
 
-  if (!isLoading) return null;
+  useEffect(() => {
+    // layout render xong thì ẩn loader
+    setLoading(false);
+  }, []); // chỉ chạy 1 lần sau render đầu tiên
+
+  if (!loading) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999999] flex items-center justify-center bg-base02">
-      <div className="relative w-[200px] h-[200px]">
-        <div className="absolute border-[4px] border-pink-500 rounded-full animate-loader box-content"></div>
-        <div className="absolute border-[4px] border-teal-500 rounded-full animate-loader animation-delay-[-0.5s] box-content"></div>
+    <div className="section-loader fade-out">
+      <div className="loader">
+        <div></div>
+        <div></div>
       </div>
     </div>
   );

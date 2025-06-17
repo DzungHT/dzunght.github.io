@@ -1,10 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import "./styles/index.scss";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import './styles/index.scss';
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
@@ -13,5 +13,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 );
 
 // Xoá loader cứng khi React đã mount xong
-const globalLoader = document.getElementById("global-loader");
+const globalLoader = document.getElementById('global-loader');
 if (globalLoader) globalLoader.remove();
