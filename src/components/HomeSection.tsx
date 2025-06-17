@@ -12,7 +12,7 @@ const userInfo = {
   location: 'Hanoi, Vietnam',
   socials: [
     { iconClass: 'fa fa-facebook', url: 'https://www.facebook.com/dz.optimus' },
-    { iconClass: 'fa fa-linkedin', url: 'https://www.linkedin.com/in/d%C5%A9ng-ho%C3%A0ng-tr%C3%AD-b38049136/' },
+    { iconClass: 'fa fa-linkedin', url: 'https://www.linkedin.com/in/dzunght95/' },
     { iconClass: 'fa fa-github', url: 'https://github.com/DzungHT' },
   ],
 };
