@@ -1,18 +1,33 @@
 import { motion } from 'framer-motion';
+import { userInfo } from '@/data/Information';
 
-const userInfo = {
-  name: 'Hoàng Trí Dũng',
-  avatar: '/assets/images/avatar.jpg',
-  role: 'Project Manager / Web developer',
-  email: 'dzunght95@gmail.com',
-  phone: '(+84)-334-xxx-525',
-  location: 'Hanoi, Vietnam',
-  socials: [
-    { iconClass: 'fa fa-github', url: 'https://github.com/DzungHT' },
-    { iconClass: 'fa fa-linkedin', url: 'https://www.linkedin.com/in/dzunght95/' },
-    { iconClass: 'fa fa-facebook', url: 'https://www.facebook.com/dz.optimus' },
-  ],
-};
+interface PersonalInfo {
+  iconClass: string;
+  text: string;
+  link: string;
+}
+const personalInfo: PersonalInfo[] = [
+  {
+    iconClass: 'fa fa-briefcase',
+    text: '10+ years of work experience in software development.',
+    link: `#`,
+  },
+  {
+    iconClass: 'fa fa-envelope',
+    text: userInfo.email,
+    link: `mailto:${userInfo.email}`,
+  },
+  {
+    iconClass: 'fa fa-phone',
+    text: userInfo.phone,
+    link: `#`,
+  },
+  {
+    iconClass: 'fa fa-map-marker',
+    text: userInfo.location,
+    link: `#`,
+  },
+];
 
 const HomeSection = () => {
   return (
@@ -32,21 +47,15 @@ const HomeSection = () => {
                 <div className="mh-promo">
                   <span>Hello I'm</span>
                 </div>
-                <h2>{userInfo.name}</h2>
+                <h2>{userInfo.fullName}</h2>
                 <h4>{userInfo.role}</h4>
                 <ul>
-                  <li>
-                    <i className="fa fa-envelope" />
-                    <a href={`mailto:${userInfo.email}`}>{userInfo.email}</a>
-                  </li>
-                  <li>
-                    <i className="fa fa-phone" />
-                    <a href={`callto:${userInfo.phone}`}>{userInfo.phone}</a>
-                  </li>
-                  <li>
-                    <i className="fa fa-map-marker" />
-                    <address>{userInfo.location}</address>
-                  </li>
+                  {personalInfo.map((item, index) => (
+                    <li key={index}>
+                      <i className={item.iconClass} />
+                      <a href={item.link}>{item.text}</a>
+                    </li>
+                  ))}
                 </ul>
                 <ul className="social-icon">
                   {userInfo.socials.map((item, index) => (
@@ -70,7 +79,7 @@ const HomeSection = () => {
             >
               <div className="hero-img">
                 <div className="img-border">
-                  <img src={userInfo.avatar} alt="dzunght" className="img-fluid" />
+                  <img src={userInfo.avatar} alt={userInfo.shortName} className="img-fluid" />
                 </div>
               </div>
             </motion.div>

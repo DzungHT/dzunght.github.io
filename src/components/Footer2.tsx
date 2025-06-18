@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { animateScroll } from 'react-scroll';
+import { userInfo, linkedinInfo, facebookInfo } from '@/data/Information';
 import bgImage from '@/assets/images/map-color-overlay.png';
 
 const options = {
@@ -24,30 +25,26 @@ const fadeInUp = {
   }),
 };
 
-const socials = [
-  { iconClass: 'fa fa-facebook', url: 'https://www.facebook.com/dz.optimus' },
-  { iconClass: 'fa fa-linkedin', url: 'https://www.linkedin.com/in/dzunght95' },
-  { iconClass: 'fa fa-github', url: 'https://github.com/DzungHT' },
-];
+const socials = userInfo.socials;
 
 const contactInfo = [
   {
-    icon: 'fa fa-linkedin',
-    title: 'LinkedIn',
+    icon: linkedinInfo.iconClass,
+    title: linkedinInfo.name,
+    link: linkedinInfo.url,
     lines: ["If you'd like to connect, ", 'please reach out to me on LinkedIn.'],
-    link: 'https://www.linkedin.com/in/dzunght95',
   },
   {
     icon: 'fa fa-envelope-o',
-    title: 'dzunght95@gmail.com',
+    title: userInfo.email,
     lines: ['You can contact me directly via Email', 'for any questions or collaborations.'],
-    link: 'mailto:dzunght95@gmail.com',
+    link: `mailto:${userInfo.email}`,
   },
   {
-    icon: 'fa fa-facebook',
-    title: 'Facebook',
+    icon: facebookInfo.iconClass,
+    title: facebookInfo.name,
+    link: facebookInfo.url,
     lines: ['For any inquiries, ', 'feel free to contact me via Facebook.'],
-    link: 'https://www.facebook.com/dz.optimus',
   },
 ];
 
