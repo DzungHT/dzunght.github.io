@@ -1,0 +1,103 @@
+// =========================================
+// BOOTSTRAP VARIABLE OVERRIDES & CUSTOM (Based on styles.css)
+// File: src/styles/abstracts/_variables.scss
+// =========================================
+
+// Custom font references
+$font-primary: 'Roboto', sans-serif !default;
+$font-secondary: 'Montserrat', sans-serif !default;
+
+// --------------------
+// Semantic colors
+// --------------------
+// colors used in the application
+$color-accent-1: #ee4e34 !default;
+$color-accent-1-alt: #fcedda !default;
+
+$color-white: #ffffff !default;
+$color-light: #f6f6f6 !default;
+$color-black: #000000 !default;
+$color-gray: #999999 !default;
+$color-dark: #100e17 !default;
+$color-dark-alt: #202026 !default;
+$color-danger: #ff5252 !default;
+$color-success: #56cc35 !default;
+$color-info: #52b8ff !default;
+
+// Overlays
+$overlay-black: rgba(0, 0, 0, 0.9);
+$overlay-white: rgba(255, 255, 255, 0.9);
+
+// Shadows
+$shadow-sm:
+  0 2px 5px 0 rgba(0, 0, 0, 0.16),
+  0 2px 10px 0 rgba(0, 0, 0, 0.12) !default;
+// $shadow-light:
+//   0 0 2px rgba(255, 255, 255, 0.8),
+//   0 0 1px 1px rgba(255, 255, 255, 0.8) !default;
+// $shadow-dark: -1rem 0 3rem rgba(0, 0, 0, 1) !default;
+
+// --------------------
+// Custom Variables
+// --------------------
+// Typography sizes
+$font-size-h1: 60px !default;
+$font-size-h2: 48px !default;
+$font-size-h3: 30px !default;
+$font-size-h4: 20px !default;
+$font-size-p: 18px !default;
+
+// Line heights
+$line-height-h1: 65px !default;
+$line-height-h2: 55px !default;
+$line-height-h3: 40px !default;
+$line-height-h4: 30px !default;
+$line-height-p: 30px !default;
+
+// Font weights
+$font-weight-semibold: 600 !default;
+$font-weight-bold: bold !default;
+
+// Border radius
+$radius-sm: 4px;
+$radius-md: 10px;
+$radius-lg: 20px;
+$radius-round: 50%;
+
+// Transition
+$transition-default: all 0.3s ease;
+
+// z-index layers
+$z-layers: (
+  auto: auto,
+  base: 0,
+  dropdown: 1000,
+  overlay: 2000,
+  modal: 3000,
+  loader: 9999999,
+);
+
+// --------------------
+// Bootstrap overrides
+// --------------------
+
+// Typography
+$font-family-base: $font-primary !default;
+$font-weight-base: 500 !default;
+$font-size-base: 0.875rem !default; // 14px
+$line-height-base: 1.714 !default; // ~24px
+
+$headings-font-family: $font-primary !default;
+$headings-font-weight: bold !default;
+$spacer: 1rem !default; // 16px
+
+// Colors
+$primary: $color-accent-1;
+$secondary: $color-accent-1-alt;
+$text-muted: $color-gray !default;
+$danger: $color-danger !default;
+$success: $color-success !default;
+$info: $color-info !default;
+$dark: $color-dark-alt !default;
+$body-color: $secondary !default;
+$body-bg: $color-dark !default;

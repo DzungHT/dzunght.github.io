@@ -2,7 +2,6 @@
 // MIXINS (Based on styles.css + Bootstrap 4 compatible)
 // File: src/styles/abstracts/_mixins.scss
 // =========================================
-
 // ----------------------------
 // Mixin: Transition
 // ----------------------------
@@ -11,6 +10,15 @@
   -webkit-transition: $props;
   -moz-transition: $props;
   -o-transition: $props;
+  -ms-transition: $props;
+}
+
+@mixin transform($props...) {
+  transform: $props;
+  -o-transform: $props;
+  -ms-transform: $props;
+  -moz-transform: $props;
+  -webkit-transform: $props;
 }
 
 // ----------------------------
@@ -82,13 +90,21 @@
 // ----------------------------
 @mixin respond($breakpoint) {
   @if $breakpoint == sm {
-    @media (max-width: 576px) { @content; }
+    @media (max-width: 576px) {
+      @content;
+    }
   } @else if $breakpoint == md {
-    @media (max-width: 768px) { @content; }
+    @media (max-width: 768px) {
+      @content;
+    }
   } @else if $breakpoint == lg {
-    @media (max-width: 992px) { @content; }
+    @media (max-width: 992px) {
+      @content;
+    }
   } @else if $breakpoint == xl {
-    @media (max-width: 1200px) { @content; }
+    @media (max-width: 1200px) {
+      @content;
+    }
   }
 }
 

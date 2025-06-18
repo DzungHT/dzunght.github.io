@@ -29,7 +29,7 @@ $z-layers: (
   dropdown: 1000,
   overlay: 2000,
   modal: 3000,
-  loader: 9999999
+  loader: 9999999,
 );
 
 @function z($key) {
