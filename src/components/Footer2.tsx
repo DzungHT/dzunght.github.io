@@ -55,7 +55,7 @@ const Footer2: React.FC = () => {
         <Container>
           <Row className="section-separator">
             <Col sm={12} className="section-title">
-              <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.2}>
+              <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: false }} custom={0.2}>
                 Contact Me
               </motion.h3>
             </Col>
@@ -69,7 +69,7 @@ const Footer2: React.FC = () => {
                       variants={fadeInUp}
                       initial="hidden"
                       whileInView="visible"
-                      viewport={{ once: true }}
+                      viewport={{ once: false }}
                       custom={0.3 + idx * 0.2}
                     >
                       <div className="each-icon">
@@ -100,7 +100,7 @@ const Footer2: React.FC = () => {
             </Col>
 
             <Col sm={12} className="mh-copyright">
-              <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}>
+              <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: false }} custom={0.3}>
                 <Row>
                   <Col sm={6} className="text-left text-xs-center">
                     <p>
