@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import { useState, useEffect } from 'react';
 import { Link, Events, scrollSpy } from 'react-scroll';
+import { menuItems } from '@/data/MenuItems';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -32,8 +33,6 @@ const Header = () => {
   const handleToggle = () => setExpanded((prev) => !prev);
   const handleClose = () => setExpanded(false);
 
-  const menuItems = ['home', 'about', 'skills', 'experience', 'blog', 'contact'];
-
   return (
     <header id="mh-header" className={`black-bg mh-header mh-fixed-nav mh-xs-mobile-nav nav-scroll ${scrolled ? 'nav-strict' : ''}`}>
       <div className="overlay" onClick={handleClose}></div>
@@ -54,9 +53,17 @@ const Header = () => {
             <div className={`collapse navbar-collapse ${expanded ? 'active show' : ''}`} id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto ml-auto" onClick={handleClose}>
                 {menuItems.map((item) => (
-                  <li className={`nav-item ${activeSection === item ? 'active' : ''}`} key={item}>
-                    <Link to={`mh-${item}`} smooth duration={750} offset={-60} spy={true} onSetActive={handleSetActive} className="nav-link">
-                      {item.charAt(0).toUpperCase() + item.slice(1)}
+                  <li className={`nav-item ${activeSection === item.name ? 'active' : ''}`} key={item.name}>
+                    <Link
+                      to={item.url}
+                      smooth
+                      duration={750}
+                      offset={-60}
+                      spy={true}
+                      onSetActive={handleSetActive}
+                      className="nav-link text-capitalize"
+                    >
+                      {item.name}
                     </Link>
                   </li>
                 ))}
