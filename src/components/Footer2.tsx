@@ -24,28 +24,31 @@ const fadeInUp = {
   }),
 };
 
+const socials = [
+  { iconClass: 'fa fa-facebook', url: 'https://www.facebook.com/dz.optimus' },
+  { iconClass: 'fa fa-linkedin', url: 'https://www.linkedin.com/in/dzunght95' },
+  { iconClass: 'fa fa-github', url: 'https://github.com/DzungHT' },
+];
+
 const contactInfo = [
   {
-    icon: 'fa fa-location-arrow',
-    title: 'Address',
-    lines: ['Hanoi, Vietnam', ''],
+    icon: 'fa fa-linkedin',
+    title: 'LinkedIn',
+    lines: ["If you'd like to connect, ", 'please reach out to me on LinkedIn.'],
+    link: 'https://www.linkedin.com/in/dzunght95',
   },
   {
     icon: 'fa fa-envelope-o',
-    title: 'Email',
-    lines: ['dzunght95@gmail.com', ''],
+    title: 'dzunght95@gmail.com',
+    lines: ['You can contact me directly via Email', 'for any questions or collaborations.'],
+    link: 'mailto:dzunght95@gmail.com',
   },
   {
-    icon: 'fa fa-phone',
-    title: 'Phone',
-    lines: ['(+84)-334-xxx-525', ''],
+    icon: 'fa fa-facebook',
+    title: 'Facebook',
+    lines: ['For any inquiries, ', 'feel free to contact me via Facebook.'],
+    link: 'https://www.facebook.com/dz.optimus',
   },
-];
-
-const socials = [
-  { iconClass: 'fa fa-facebook', url: 'https://www.facebook.com/dz.optimus' },
-  { iconClass: 'fa fa-linkedin', url: 'https://www.linkedin.com/in/d%C5%A9ng-ho%C3%A0ng-tr%C3%AD-b38049136/' },
-  { iconClass: 'fa fa-github', url: 'https://github.com/DzungHT' },
 ];
 
 const Footer2: React.FC = () => {
@@ -73,7 +76,9 @@ const Footer2: React.FC = () => {
                       custom={0.3 + idx * 0.2}
                     >
                       <div className="each-icon">
-                        <i className={item.icon}></i>
+                        <a href={item.link}>
+                          <i className={item.icon}></i>
+                        </a>
                       </div>
                       <div className="each-info">
                         <h4>{item.title}</h4>
@@ -105,7 +110,7 @@ const Footer2: React.FC = () => {
                       <a href="#" onClick={scrollToTop}>
                         &copy; 2025
                         {/* {` - ${new Date().getFullYear()} `} */}
-                        &nbsp;Hoàng Trí Dũng. All rights reserved for content.
+                        &nbsp;Hoàng Trí Dũng. <strong>All rights reserved for content.</strong>
                         <br />
                         Code licensed under the MIT License.
                       </a>
