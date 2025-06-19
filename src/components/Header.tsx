@@ -1,12 +1,16 @@
 // src/components/Header.jsx
 import { useState, useEffect } from 'react';
 import { Link, Events, scrollSpy } from 'react-scroll';
-import { menuItems } from '@/data/MenuItems';
+import { menuItems, type MenuItem } from '@/data/MenuItems';
+import { useLocation, Link as RouterLink } from 'react-router-dom';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,12 +30,32 @@ const Header = () => {
     };
   }, []);
 
-  const handleSetActive = (to) => {
-    setActiveSection(to.replace('mh-', ''));
+  const handleSetActive = (to: string) => {
+    setActiveSection(to);
   };
 
   const handleToggle = () => setExpanded((prev) => !prev);
   const handleClose = () => setExpanded(false);
+
+  const MenuItemRender = (item: MenuItem) => {
+    if (item.url === '*' || currentPath === item.url)
+      return (
+        <li className={`nav-item ${activeSection === item.scrollTo ? 'active' : ''}`} key={item.name}>
+          <Link to={item.scrollTo!} smooth duration={750} offset={-60} spy={true} onSetActive={handleSetActive} className="nav-link text-capitalize">
+            {item.name}
+          </Link>
+        </li>
+      );
+    else {
+      return (
+        <li className={`nav-item ${activeSection === item.scrollTo ? 'active' : ''}`} key={item.name}>
+          <RouterLink to={item.url} state={{ scrollTo: item.scrollTo }} className="nav-link text-capitalize">
+            {item.name}
+          </RouterLink>
+        </li>
+      );
+    }
+  };
 
   return (
     <header id="mh-header" className={`black-bg mh-header mh-fixed-nav mh-xs-mobile-nav nav-scroll ${scrolled ? 'nav-strict' : ''}`}>
@@ -52,21 +76,7 @@ const Header = () => {
 
             <div className={`collapse navbar-collapse ${expanded ? 'active show' : ''}`} id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto ml-auto" onClick={handleClose}>
-                {menuItems.map((item) => (
-                  <li className={`nav-item ${activeSection === item.name ? 'active' : ''}`} key={item.name}>
-                    <Link
-                      to={item.url}
-                      smooth
-                      duration={750}
-                      offset={-60}
-                      spy={true}
-                      onSetActive={handleSetActive}
-                      className="nav-link text-capitalize"
-                    >
-                      {item.name}
-                    </Link>
-                  </li>
-                ))}
+                {menuItems.map(MenuItemRender)}
               </ul>
             </div>
           </nav>
