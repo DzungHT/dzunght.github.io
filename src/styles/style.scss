@@ -1819,7 +1819,7 @@ body {
   color: $primary;
 }
 .mh-blog .mh-blog-item h2 a:hover {
-  color: #0ac4a7;
+  color: $primary;
 }
 
 /*
@@ -1979,6 +1979,9 @@ body {
       FOOTER ONE
     ==============
 */
+.mh-footer {
+  min-height: 100vh;
+}
 .mh-footer ::placeholder {
   opacity: 0.9;
 }

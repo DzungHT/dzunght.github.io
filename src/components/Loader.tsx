@@ -8,6 +8,13 @@ const Loader = () => {
 
   useEffect(() => {
     setLoading(true); // bật loader khi đổi route
+
+    // Delay nhỏ để giả lập loading (hoặc bạn có thể thay bằng trạng thái thực tế như fetch xong)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
   }, [location.pathname]);
 
   useEffect(() => {
