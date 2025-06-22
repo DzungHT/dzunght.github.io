@@ -1,26 +1,26 @@
-// src/components/Loader.tsx
+'use client';
+
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
 
 const Loader = () => {
   const [loading, setLoading] = useState(true);
-  const location = useLocation();
+  const pathname = usePathname();
 
   useEffect(() => {
-    setLoading(true); // bật loader khi đổi route
+    setLoading(true); // Bật loader khi đổi route
 
-    // Delay nhỏ để giả lập loading (hoặc bạn có thể thay bằng trạng thái thực tế như fetch xong)
     const timer = setTimeout(() => {
       setLoading(false);
     }, 300);
 
     return () => clearTimeout(timer);
-  }, [location.pathname]);
+  }, [pathname]);
 
   useEffect(() => {
-    // layout render xong thì ẩn loader
+    // Ẩn loader sau render lần đầu
     setLoading(false);
-  }, []); // chỉ chạy 1 lần sau render đầu tiên
+  }, []);
 
   if (!loading) return null;
 

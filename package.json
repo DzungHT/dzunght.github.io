@@ -4,16 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preview": "serve out",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d out"
   },
   "homepage": "https://dzunght.github.io",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "github-markdown-css": "^5.8.1",
+    "gray-matter": "^4.0.3",
     "motion": "^12.18.1",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
@@ -21,7 +23,6 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-markdown": "^10.1.0",
-    "react-router-dom": "^7.6.2",
     "react-scroll": "^1.9.3"
   },
   "devDependencies": {
@@ -31,7 +32,6 @@
     "@types/react-dom": "^19.1.2",
     "@types/react-router-dom": "^5.3.3",
     "@types/react-scroll": "^1.8.10",
-    "@vitejs/plugin-react-swc": "^3.9.0",
     "cssnano": "^7.0.7",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
@@ -44,7 +44,9 @@
     "sass-embedded": "^1.89.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
-    "vite": "^6.3.5",
-    "vite-plugin-static-copy": "^3.0.2"
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "next": "^15.3.4",
+    "serve": "^14.2.4"
   }
 }

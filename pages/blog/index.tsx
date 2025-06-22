@@ -1,9 +1,10 @@
+'use client'; // nếu dùng App Router, giữ dòng này vì có framer-motion
+
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { posts } from '@/data/PostList';
-import bgImage from '@/assets/images/extra-feature-bg.jpg';
-import { Link } from 'react-router-dom';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -16,7 +17,7 @@ const fadeInUp = {
 
 const BlogSection: React.FC = () => {
   return (
-    <section className="mh-blog image-bg" style={{ backgroundImage: `url(${bgImage})` }}>
+    <section className="mh-blog image-bg featured-img-two">
       <div className="img-color-overlay">
         <Container>
           <Row className="section-separator">
@@ -39,20 +40,20 @@ const BlogSection: React.FC = () => {
                   <img src={post.thumnailUrl} alt="blog" className="img-fluid" />
                   <div className="blog-inner">
                     <h2>
-                      <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                      <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                     </h2>
                     <div className="mh-blog-post-info">
                       <ul>
                         <li>
-                          <strong>Post On</strong> <a href="#">{post.date}</a>
+                          <strong>Post On</strong> <span>{post.date}</span>
                         </li>
                         <li>
-                          <strong>By</strong> <a href="#">DzungHT</a>
+                          <strong>By</strong> <span>DzungHT</span>
                         </li>
                       </ul>
                     </div>
                     <p>{post.description}</p>
-                    <Link to={`/blog/${post.slug}`}>Read More</Link>
+                    <Link href={`/blog/${post.slug}`}>Read More</Link>
                   </div>
                 </motion.div>
               </Col>

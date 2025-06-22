@@ -1,11 +1,10 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
 import Loader from '../components/Loader';
 import Footer2 from '@/components/Footer2';
 import ScrollHandler from '@/components/ScrollHandler';
 
-const BlogLayout: React.FC = () => (
+const BlogLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <>
     <Loader />
     <ScrollHandler />
@@ -27,9 +26,7 @@ const BlogLayout: React.FC = () => (
       </div>
     </section>
 
-    <main>
-      <Outlet />
-    </main>
+    <main>{children}</main>
 
     <Footer2 />
   </>

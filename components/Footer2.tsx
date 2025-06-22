@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { animateScroll } from 'react-scroll';
 import { userInfo, linkedinInfo, facebookInfo } from '@/data/Information';
-import bgImage from '@/assets/images/map-color-overlay.png';
 
 const options = {
   // your options here, for example:
@@ -51,7 +50,7 @@ const contactInfo = [
 const Footer2: React.FC = () => {
   return (
     <footer className="mh-footer" id="mh-contact">
-      <div className="map-image image-bg" style={{ backgroundImage: `url(${bgImage})` }}>
+      <div className="map-image image-bg">
         <Container>
           <Row className="section-separator">
             <Col sm={12} className="section-title">

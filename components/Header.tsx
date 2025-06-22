@@ -1,16 +1,17 @@
-// src/components/Header.jsx
+'use client';
+
 import { useState, useEffect } from 'react';
-import { Link, Events, scrollSpy } from 'react-scroll';
-import { menuItems, type MenuItem } from '@/data/MenuItems';
-import { useLocation, Link as RouterLink } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
+import { Link as ScrollLink, Events, scrollSpy } from 'react-scroll';
+import { menuItems, type MenuItem } from '../data/MenuItems';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
-  const location = useLocation();
-  const currentPath = location.pathname;
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,7 +19,6 @@ const Header = () => {
     };
     window.addEventListener('scroll', handleScroll);
 
-    // Subscribe to scroll events to track active section
     Events.scrollEvent.register('begin', () => {});
     Events.scrollEvent.register('end', () => {});
     scrollSpy.update();
@@ -38,23 +38,36 @@ const Header = () => {
   const handleClose = () => setExpanded(false);
 
   const MenuItemRender = (item: MenuItem) => {
-    if (item.url === '*' || currentPath === item.url)
-      return (
-        <li className={`nav-item ${activeSection === item.scrollTo ? 'active' : ''}`} key={item.name}>
-          <Link to={item.scrollTo!} smooth duration={750} offset={-60} spy={true} onSetActive={handleSetActive} className="nav-link text-capitalize">
+    const normalizePath = (path: string) => path.replace(/\/+$/, '');
+    const isSamePage = item.url === '*' || normalizePath(pathname) === normalizePath(item.url);
+
+    return (
+      <li className={`nav-item ${activeSection === item.scrollTo ? 'active' : ''}`} key={item.name}>
+        {isSamePage ? (
+          <ScrollLink
+            to={item.scrollTo!}
+            smooth
+            duration={750}
+            offset={-60}
+            spy={true}
+            onSetActive={handleSetActive}
+            className="nav-link text-capitalize"
+          >
+            {item.name}
+          </ScrollLink>
+        ) : (
+          <Link
+            href={{
+              pathname: item.url,
+              query: { scrollTo: item.scrollTo },
+            }}
+            className="nav-link text-capitalize"
+          >
             {item.name}
           </Link>
-        </li>
-      );
-    else {
-      return (
-        <li className={`nav-item ${activeSection === item.scrollTo ? 'active' : ''}`} key={item.name}>
-          <RouterLink to={item.url} state={{ scrollTo: item.scrollTo }} className="nav-link text-capitalize">
-            {item.name}
-          </RouterLink>
-        </li>
-      );
-    }
+        )}
+      </li>
+    );
   };
 
   return (
