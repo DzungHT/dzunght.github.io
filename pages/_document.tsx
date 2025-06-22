@@ -17,7 +17,7 @@ export default function Document() {
         />
         <meta property="og:title" content="Hoàng Trí Dũng | Portfolio cá nhân" />
         <meta property="og:description" content="Lập trình viên Fullstack, 10+ năm kinh nghiệm. Xem các dự án nổi bật của tôi." />
-        <meta property="og:image" content="https://dzunght.github.io/assets/images/preview.png" />
+        <meta property="og:image" content="https://dzunght.github.io/assets/images/preview.jpg" />
         <meta property="og:url" content="https://dzunght.github.io/" />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
