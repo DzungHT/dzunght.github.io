@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import 'github-markdown-css/github-markdown.css';
 import { posts } from '../../data/PostList';
@@ -14,19 +13,6 @@ type BlogDetailProps = {
 };
 
 export default function BlogDetail({ slug, content }: BlogDetailProps) {
-  const [mdContent, setMdContent] = useState(content);
-
-  useEffect(() => {
-    // Nếu muốn fetch lại để cập nhật động (không cần nếu đã có content từ SSG)
-    const filePath = `/posts/${slug}.md`;
-    fetch(filePath)
-      .then((res) => res.text())
-      .then((raw) => setMdContent(raw))
-      .catch(() => {
-        setMdContent('# 404\nKhông tìm thấy bài viết');
-      });
-  }, [slug]);
-
   const post = posts.find((p) => p.slug === slug);
 
   return (
@@ -56,7 +42,7 @@ export default function BlogDetail({ slug, content }: BlogDetailProps) {
                     </div>
 
                     <div className="markdown-body">
-                      <ReactMarkdown>{mdContent}</ReactMarkdown>
+                      <ReactMarkdown>{content}</ReactMarkdown>
                     </div>
                   </div>
                 </div>
