@@ -4,9 +4,8 @@ This is a modern developer portfolio website built with the following tech stack
 
 ## 🚀 Tech Stack
 - [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
+- [Next.js](https://nextjs.org/) for using SSG (Static Site Generation)
 - [TypeScript](https://www.typescriptlang.org/)
-- [React Router v6](https://reactrouter.com/)
 - [Bootstrap v4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) + [React Bootstrap](https://react-bootstrap.github.io/) for styling
 - [GitHub Pages](https://pages.github.com/) for deployment
 
@@ -19,13 +18,31 @@ This is a modern developer portfolio website built with the following tech stack
 ## 📁 Project Structure
 
 ```
-src/
-├── components/ # Reusable UI components like Header, Footer
-├── layouts/ # Default layout with Header, Footer, and <Outlet />
-├── pages/ # Page components (Home, Resume, Blog, BlogDetail)
-├── router/ # React Router setup
-├── App.tsx # Main app component
-└── main.tsx # Entry point
+├── data/                   // static data
+├── hooks/                  // React hooks
+├── components/             // React component
+├── layouts/
+├── pages/
+├── styles/
+├── posts/                  // Blog content using Markdown
+├── public/                 // Static resouces
+│   ├── assets/         
+│   ├── posts/              // Images of blogs
+│   │   └── first-post/
+│   │       └── thumbnail.png
+│   ├── favicon.ico
+│   └── ...
+├── tsconfig.json
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── eslint.config.js
+├── next-env.d.ts
+├── next.config.js
+├── postcss.config.js
+├── package.json
+├── LICENSE
+├── README.md
 ```
 
 ## 📚 Setup
