@@ -9,7 +9,7 @@
     "start": "next start",
     "preview": "serve out",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d out --nojekyll",
     "tree": "node tree.js > structure.md"
   },
   "homepage": "https://dzunght.github.io",
