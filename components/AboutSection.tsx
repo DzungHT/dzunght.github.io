@@ -47,7 +47,7 @@ const aboutData = {
     'CI/CD with GitLab CI',
     '...',
   ],
-  cvLink: '#',
+  cvLink: '/CV_DUNGHT.pdf',
 };
 
 const AboutSection: React.FC = () => {
