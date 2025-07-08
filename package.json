@@ -9,7 +9,7 @@
     "build": "npm run build:loader && next build",
     "preview": "serve out",
     "lint": "next lint",
-    "predeploy": "node scripts/deploy.js",
+    "predeploy": "node scripts/predeploy.js",
     "deploy": "gh-pages -d out --nojekyll"
   },
   "dependencies": {
