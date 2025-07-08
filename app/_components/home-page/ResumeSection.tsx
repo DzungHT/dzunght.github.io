@@ -201,7 +201,14 @@ export default function ResumeSection() {
           <Col xs={12} sm={6} className="pe-sm-5">
             <Row className="mb-4">
               <Col>
-                <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.2} className="resume-title">
+                <motion.h3
+                  variants={fadeInUp}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={0.2}
+                  className="resume-title mb-4"
+                >
                   Educations
                 </motion.h3>
                 <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.4} className="">
@@ -212,7 +219,14 @@ export default function ResumeSection() {
 
             <Row className="mb-4">
               <Col>
-                <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.6} className="resume-title">
+                <motion.h3
+                  variants={fadeInUp}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={0.6}
+                  className="resume-title mb-4"
+                >
                   Works Experiences
                 </motion.h3>
                 <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.8} className="">
@@ -226,10 +240,24 @@ export default function ResumeSection() {
           <Col xs={12} sm={6} className="ps-sm-5">
             <Row className="mb-4">
               <Col>
-                <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.2} className="resume-title">
+                <motion.h3
+                  variants={fadeInUp}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={0.2}
+                  className="resume-title mb-4"
+                >
                   Professional Skills
                 </motion.h3>
-                <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.4} className="skill-list">
+                <motion.div
+                  variants={fadeInUp}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={0.4}
+                  className="skill-list ps-4"
+                >
                   {professionalSkills.map((item, idx) => {
                     return <Skill key={idx} data={item} />;
                   })}
@@ -245,7 +273,7 @@ export default function ResumeSection() {
                   whileInView="visible"
                   viewport={{ once: true }}
                   custom={0.6}
-                  className="resume-title mb-4"
+                  className="resume-title mb-5"
                 >
                   Technical Skills
                 </motion.h3>
@@ -258,7 +286,7 @@ export default function ResumeSection() {
                       whileInView="visible"
                       viewport={{ once: true }}
                       custom={idx == 0 ? 0.8 : 0.2}
-                      className="skill-group"
+                      className="skill-group ms-4"
                     >
                       <span>{item.groupName}</span>
                       {item.skills.map((item, sIdx) => {

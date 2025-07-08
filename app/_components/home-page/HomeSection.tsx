@@ -47,7 +47,7 @@ export default function HomeSection() {
     <section id="home-section" className="home-section">
       <Container>
         <Row className="justify-content-center align-items-center">
-          <Col sm={6} className="text-center text-lg-end">
+          <Col md={6} className="text-center text-lg-end">
             <motion.div
               className="text-end d-inline-block"
               initial={{ opacity: 0, y: 30 }}
@@ -58,7 +58,7 @@ export default function HomeSection() {
               <Avatar src="/imgs/avatar.jpg" />
             </motion.div>
           </Col>
-          <Col sm={6}>
+          <Col md={6}>
             <div className="home-info text-lg-start text-center mt-4 mt-lg-0">
               <motion.div
                 className="home-intro mb-2"
@@ -88,7 +88,7 @@ export default function HomeSection() {
                 {userInfo.role}
               </motion.h5>
 
-              <ul className="text-start">
+              <ul className="text-center text-md-start">
                 {personalInfo.map((item, index) => (
                   <motion.li
                     key={index}
@@ -104,23 +104,25 @@ export default function HomeSection() {
                   </motion.li>
                 ))}
               </ul>
-              <motion.ul
-                className="social-icon"
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false, amount: 0.4 }}
-                transition={{ duration: 1, delay: getDelay(0.2) }}
-              >
-                {userInfo.socials.map((item, index) => (
-                  <li key={index}>
-                    <a href={item.url}>
-                      <i>
-                        <item.icon />
-                      </i>
-                    </a>
-                  </li>
-                ))}
-              </motion.ul>
+              <div className="text-center text-md-start">
+                <motion.ul
+                  className="social-icon list-inline"
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: false, amount: 0.4 }}
+                  transition={{ duration: 1, delay: getDelay(0.2) }}
+                >
+                  {userInfo.socials.map((item, index) => (
+                    <li key={index} className="list-inline-item">
+                      <a href={item.url}>
+                        <i>
+                          <item.icon />
+                        </i>
+                      </a>
+                    </li>
+                  ))}
+                </motion.ul>
+              </div>
             </div>
           </Col>
         </Row>

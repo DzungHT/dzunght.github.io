@@ -49,7 +49,7 @@ export default function AboutMeSection() {
         <SectionTitle title="About Me" />
 
         <Row className="align-items-center justify-content-center">
-          <Col sm={6} className="text-center">
+          <Col sm={12} lg={8} className="text-center">
             <p>
               I&#39;m Hoang Tri Dung, a Project Manager with a software engineering background. 10+ years of experience in fullstack development,
               Agile team leadership, and software project management.
@@ -60,7 +60,7 @@ export default function AboutMeSection() {
         </Row>
 
         <Row className="align-items-center justify-content-center">
-          <Col sm={6} className="text-center">
+          <Col sm={12} lg={8} className="text-center">
             <motion.div className="about-tag" variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}>
               <ul>
                 {aboutData.tags.map((tag, idx) => (
