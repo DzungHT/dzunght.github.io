@@ -1,0 +1,15 @@
+@use '../custom/base.scss' as *;
+.services {
+  .service-icon {
+    font-size: 50px;
+  }
+
+  .border-effect {
+    transition:
+      background 1s ease,
+      transform 0.3s ease; /* Thời gian và kiểu chuyển động */
+    &:hover {
+      transform: translateY(-20px) scale(1.05);
+    }
+  }
+}

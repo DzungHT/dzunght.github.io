@@ -1,0 +1,78 @@
+@use '../custom/base.scss' as *;
+
+#mainNav {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: $color-dark-alt;
+
+  .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    font-family: $font-family-base;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  .navbar-brand {
+    color: $primary;
+    font-family: $font-family-base;
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+
+    img {
+      height: 1.5rem;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      cursor: pointer;
+      font-weight: bold;
+      .nav-link {
+        font-family: $font-family-base;
+        font-size: 0.95rem;
+        color: $color-white;
+        letter-spacing: 0.0625em;
+
+        &.active,
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+
+    &.navbar-shrink {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background: linear-gradient(30deg, rgba(32, 32, 32, 0.8) 0%, rgba(31, 31, 31, 0.8) 100%);
+      box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+
+      .navbar-brand {
+        font-size: 1.25em;
+
+        svg,
+        img {
+          height: 1.5rem;
+        }
+      }
+    }
+
+    .navbar-nav {
+      .nav-item {
+        margin-right: 1rem;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

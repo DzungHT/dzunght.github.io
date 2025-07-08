@@ -1,0 +1,88 @@
+@use '../custom/base' as *;
+
+.home-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('/imgs/home-fullhd.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+
+  position: relative;
+
+  .avatar {
+    width: 320px;
+    height: 320px;
+  }
+
+  .home-info {
+    .home-intro {
+      span {
+        background-color: $primary;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding: 10px 30px;
+        border-radius: 20px;
+      }
+    }
+
+    ul {
+      margin-top: 20px;
+      li {
+        margin: 10px 0;
+
+        i {
+          margin: 0 15px 0 10px;
+          display: inline-block;
+        }
+
+        &:hover {
+          i,
+          a {
+            color: $primary;
+          }
+        }
+      }
+    }
+
+    .social-icon {
+      margin-top: 0;
+      li {
+        list-style: none;
+        float: left;
+        margin-bottom: 0px;
+        margin-right: 8px;
+        a {
+          font-size: 25px;
+          text-align: center;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          margin-right: 0;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    a {
+      color: $body-color;
+      text-decoration: none;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .home-section {
+    padding: 180px 0;
+  }
+
+  .home-intro {
+    span {
+      border-bottom-left-radius: 0px !important;
+    }
+  }
+}

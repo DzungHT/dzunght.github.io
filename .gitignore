@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Others
+.tmp
+.vscode
+public/css/loader.css
+yarn.lock

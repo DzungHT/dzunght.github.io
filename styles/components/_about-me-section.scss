@@ -1,0 +1,21 @@
+@use '../custom/variables' as *;
+
+.about-tag {
+  word-break: break-all;
+
+  ul {
+    li {
+      margin: 0px 6px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      padding: 4px 0px;
+      display: inline-block;
+
+      span {
+        border: 1px solid $primary;
+        padding: 4px 10px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

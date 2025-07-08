@@ -1,0 +1,29 @@
+@use '../custom/variables' as *;
+
+.resume-title {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 70%;
+    border: 2px solid $color-info;
+  }
+}
+
+.skill-group {
+  padding: 10px;
+  border: 1px dashed $color-info;
+  position: relative;
+  margin-bottom: 36px;
+
+  > span {
+    position: absolute;
+    color: $color-info;
+    top: -20px;
+  }
+}

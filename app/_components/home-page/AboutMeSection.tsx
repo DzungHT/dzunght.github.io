@@ -1,0 +1,78 @@
+'use client';
+
+import SectionTitle from '@/components/SectionTitle';
+import { fadeInUp } from '@/lib/motionEffect';
+import { motion } from 'motion/react';
+import { Col, Container, Row } from 'react-bootstrap';
+
+const aboutData = {
+  tags: [
+    // Project Management Skills
+    'Agile',
+    'Scrum',
+    'Kanban',
+    'Project Management',
+    'Team Leadership',
+    // Backend Skills
+    'C#',
+    'ASP.Net Core',
+    'Java',
+    'Spring Boot',
+    // 'NodeJS',
+    // Frontend Skills
+    // 'HTML',
+    // 'CSS',
+    // 'JavaScript',
+    // 'TypeScript',
+    'VueJS',
+    'ReactJS',
+    'Angular',
+    // Database Skills
+    'MySQL',
+    'MS SQL Server',
+    'MongoDB',
+    // 'Oracle',
+    // DevOps Skills
+    'Git',
+    'Docker',
+    'CI/CD with Azure DevOps',
+    'CI/CD with GitLab CI',
+    '...',
+  ],
+  cvLink: '#',
+};
+
+export default function AboutMeSection() {
+  return (
+    <section id="about-me-section" className="about-me-section pt-4 bg-2">
+      <Container>
+        <SectionTitle title="About Me" />
+
+        <Row className="align-items-center justify-content-center">
+          <Col sm={6} className="text-center">
+            <p>
+              I&#39;m Hoang Tri Dung, a Project Manager with a software engineering background. 10+ years of experience in fullstack development,
+              Agile team leadership, and software project management.
+              <br />
+              Also I am good at
+            </p>
+          </Col>
+        </Row>
+
+        <Row className="align-items-center justify-content-center">
+          <Col sm={6} className="text-center">
+            <motion.div className="about-tag" variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}>
+              <ul>
+                {aboutData.tags.map((tag, idx) => (
+                  <li key={idx}>
+                    <span>{tag}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+}

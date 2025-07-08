@@ -1,0 +1,164 @@
+@use './custom/variables' as *;
+.bg-1 {
+  background-color: $color-bg1;
+  background-image: url(/imgs/bg-1.jpg);
+}
+
+.bg-2 {
+  background-color: $color-bg2;
+  background-image: url(/imgs/bg-2.jpg);
+}
+
+body {
+  @extend .bg-2;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+.avatar-circle {
+  border: 1rem solid $primary;
+  border-radius: 100%;
+}
+
+.avatar {
+  img {
+    aspect-ratio: 1/1;
+    border: 1rem solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+  }
+}
+
+.border-effect {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 !important;
+
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    box-sizing: inherit;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+  }
+
+  &:hover {
+    background: transparent;
+    transition: background 1s ease;
+    &:before,
+    &:after {
+      width: 100%;
+      height: 100%;
+    }
+
+    &:before {
+      border-top-color: $primary;
+      border-right-color: $primary;
+      transition:
+        width 0.25s ease-out,
+        height 0.25s ease-out 0.25s;
+    }
+
+    &:after {
+      border-bottom-color: $primary;
+      border-left-color: $primary;
+      transition:
+        border-color 0s ease-out 0.5s,
+        width 0.25s ease-out 0.5s,
+        height 0.25s ease-out 0.75s;
+    }
+  }
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  padding-right: 25px;
+  padding-bottom: 15px;
+
+  .section-title-text {
+    position: relative;
+    z-index: 1;
+  }
+  &:after {
+    position: absolute;
+    opacity: 0.45;
+    top: 12px;
+    right: 0;
+    content: '';
+    height: 30px;
+    width: 50px;
+    background-image: repeating-radial-gradient(circle at center, #04b4e0, #04b4e0 1px, transparent 1px, transparent 100%);
+    background-size: 6px 6px;
+    z-index: 0;
+  }
+}
+
+@import './components/timeline';
+
+.skill {
+  .skill-title {
+    font-size: 13px;
+    line-height: 1.1em;
+    position: relative;
+    float: left;
+    margin: 0 0 4px;
+  }
+  .skill-value {
+    font-size: 11px;
+    line-height: 1.1em;
+    position: relative;
+    float: right;
+    margin: 0 0 4px;
+    color: #aaa;
+  }
+
+  .skill-progress-bar {
+    position: relative;
+    display: inline-block;
+    background-color: #222;
+    border: 1px solid #04b4e0;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background-color: #04b4e0;
+    }
+
+    .skill-percentage {
+      background-color: #04b4e0;
+      border: 2px solid #222;
+      -moz-border-radius: 9px;
+      -webkit-border-radius: 9px;
+      border-radius: 9px;
+      height: 8px;
+      padding: 0;
+    }
+  }
+}
