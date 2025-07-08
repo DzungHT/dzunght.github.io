@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍💻 Personal Portfolio Website
 
-## Getting Started
+This is a modern developer portfolio website built with the following tech stack:
 
-First, run the development server:
+## 🚀 Tech Stack
+- [React](https://reactjs.org/)
+- [Bootstrap v4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) + [React Bootstrap](https://react-bootstrap.github.io/) for styling
+- [Next.js](https://nextjs.org/) for using SSG (Static Site Generation)
+- [TypeScript](https://www.typescriptlang.org/)
+- [GitHub Pages](https://pages.github.com/) for deployment
+
+## 📄 Features
+- Personal CV/Resume online
+- Blog section written in Markdown (planned)
+- Responsive layout with a modern UI
+- Deployed via GitHub Pages
+
+
+## 📚 Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Deployment
+This app is deployed using GitHub Pages. The output is built via:
+```bash
+npm run deploy
+```
+Then push to the correct branch (`gh-pages` or as configured).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📘 Writing Blog Posts (Planned)
+Blog posts will be written in Markdown. Each post will support frontmatter for title, date, and tags.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
+- 📚 Website content (text, images, etc.) may be shared or quoted **with proper attribution**.
+- 🛠️ Source code is provided for **personal and educational use only**.
+- 💰 **Commercial use of the source code is not allowed without the author's permission**.
 
-To learn more about Next.js, take a look at the following resources:
+> Unauthorized commercial use may result in legal consequences.  
+> See full details in the [LICENSE](./LICENSE) file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
