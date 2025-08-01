@@ -51,7 +51,7 @@ The blog system supports:
 
 ## Example Blog Post
 
-```markdown
+````markdown
 ---
 title: "My First Blog Post"
 excerpt: "This is my first blog post about web development"
@@ -70,6 +70,7 @@ This is the content of my blog post...
 ```javascript
 console.log("Hello, World!");
 ```
+````
 
 ## Conclusion
 
