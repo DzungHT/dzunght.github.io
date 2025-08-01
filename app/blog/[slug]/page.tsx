@@ -3,17 +3,23 @@ import { getBlogPost, getBlogPosts } from '@/lib/blogUtils';
 import BlogPost from '@/app/_components/blog-page/BlogPost';
 import { notFound } from 'next/navigation';
 
+// Định nghĩa một kiểu dữ liệu cho params
+interface BlogPostPageProps {
+  params: Promise<{ slug: string }>;
+}
+
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
-  
+
   return posts.map((post) => ({
     slug: post.slug,
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const post = await getBlogPost(params.slug);
-  
+export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const paramsData = await params;
+  const post = await getBlogPost(paramsData.slug);
+
   if (!post) {
     return {
       title: 'Post Not Found',
@@ -33,12 +39,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default async function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = await getBlogPost(params.slug);
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const paramsData = await params;
+  const post = await getBlogPost(paramsData.slug);
 
   if (!post) {
     notFound();
   }
 
   return <BlogPost post={post} />;
-} 
+}
