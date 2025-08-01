@@ -11,8 +11,16 @@ $font-secondary: 'Montserrat', sans-serif !default;
 // Semantic colors
 // --------------------
 // colors used in the application
-$color-accent-1: #ee4e34 !default;
-$color-accent-1-alt: #fcedda !default;
+$color-primary: #ee4e34 !default;
+$color-primary-text: #ffffff !default;
+$color-primary-sub-text: #bdbdbd !default;
+$color-secondary: #04b4e0 !default;
+
+$color-accent: #ff6f59 !default; // use for hover
+$color-border: #444 !default; // user for border/divider
+
+// $color-accent-1-alt: #fcedda !default;
+// $color-accent-1-alt: #fcf0f0 !default;
 
 $color-white: #ffffff !default;
 $color-light: #f6f6f6 !default;
@@ -20,8 +28,8 @@ $color-black: #000000 !default;
 $color-gray: #999999 !default;
 $color-dark: #100e17 !default;
 $color-dark-alt: #202026 !default;
-$color-danger: #ff5252 !default;
-$color-success: #56cc35 !default;
+$color-danger: #e74c3c !default;
+$color-success: #3cb371 !default;
 $color-info: #04b4e0 !default;
 
 $color-bg1: #2b2b2b !default;
@@ -98,12 +106,13 @@ $spacer: 1rem !default; // 16px
 $h2-font-size: 2rem !default;
 
 // Colors
-$primary: $color-accent-1;
-$secondary: $color-accent-1-alt;
+$primary: $color-primary;
+$secondary: $color-secondary;
 $text-muted: $color-gray !default;
 $danger: $color-danger !default;
 $success: $color-success !default;
 $info: $color-info !default;
 $dark: $color-dark-alt !default;
-$body-color: $secondary !default;
+$body-color: $color-primary-text !default;
 $body-bg: $color-bg2 !default;
+$link-color: #ff5c39;

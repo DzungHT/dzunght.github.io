@@ -37,13 +37,13 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services-section" className="services-section bg-2 pb-4">
+    <section id="services-section" className="services-section bg-2 pb-4 mt-5">
       <Container>
         <SectionTitle title="What I do" />
 
         <Row className="align-items-center justify-content-center services">
           {services.map((item, idx) => (
-            <Col xs={12} sm={6} md={4} key={idx}>
+            <Col xs={12} sm={12} md={6} lg={4} key={idx}>
               <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: false }} custom={item.delay} className="">
                 <Card className="shadow-sm border-effect my-2">
                   <Card.Body>

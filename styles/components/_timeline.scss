@@ -48,7 +48,7 @@
         position: absolute;
         margin-left: -8px;
         border-radius: 10px;
-        background-color: #04b4e0;
+        background-color: $secondary;
         opacity: 0.25;
         z-index: 0;
         animation: ripple 1.5s ease-in-out infinite;
@@ -64,7 +64,7 @@
         margin-left: -4px;
         background-color: #222;
         border-radius: 5px;
-        border: 2px solid #04b4e0;
+        border: 2px solid $secondary;
         z-index: 1;
       }
     }
@@ -83,6 +83,7 @@
       .item-description,
       .item-description > * {
         font-size: 0.92em;
+        color: $color-primary-sub-text;
       }
     }
   }

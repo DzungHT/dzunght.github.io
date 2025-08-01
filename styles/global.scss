@@ -11,13 +11,16 @@
 
 body {
   @extend .bg-2;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 }
+
 ul {
   margin: 0;
   padding: 0;
-}
-ul li {
-  list-style-type: none;
+  li {
+    list-style-type: none;
+  }
 }
 
 .avatar-circle {
@@ -97,19 +100,20 @@ ul li {
     position: relative;
     display: inline-block;
     z-index: 1;
-    
-    &:after {
-      position: absolute;
-      opacity: 0.45;
-      top: 12px;
-      right: -25px;
-      content: '';
-      height: 30px;
-      width: 50px;
-      background-image: repeating-radial-gradient(circle at center, #04b4e0, #04b4e0 1px, transparent 1px, transparent 100%);
-      background-size: 6px 6px;
-      z-index: -1;
-    }
+    color: $primary;
+
+    // &:after {
+    //   position: absolute;
+    //   opacity: 0.45;
+    //   top: 12px;
+    //   right: -25px;
+    //   content: '';
+    //   height: 30px;
+    //   width: 50px;
+    //   background-image: repeating-radial-gradient(circle at center, $secondary, $secondary 1px, transparent 1px, transparent 100%);
+    //   background-size: 6px 6px;
+    //   z-index: -1;
+    // }
   }
 }
 
@@ -129,14 +133,14 @@ ul li {
     position: relative;
     float: right;
     margin: 0 0 4px;
-    color: #aaa;
+    color: $color-primary-sub-text;
   }
 
   .skill-progress-bar {
     position: relative;
     display: inline-block;
-    background-color: #222;
-    border: 1px solid #04b4e0;
+    background-color: #2e2e2e;
+    border: 1px solid $secondary;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
@@ -150,11 +154,11 @@ ul li {
     &:before {
       content: '';
       position: absolute;
-      background-color: #04b4e0;
+      background-color: $secondary;
     }
 
     .skill-percentage {
-      background-color: #04b4e0;
+      background: linear-gradient(to right, #2193b0, #6dd5ed);
       border: 2px solid #222;
       -moz-border-radius: 9px;
       -webkit-border-radius: 9px;
@@ -162,5 +166,18 @@ ul li {
       height: 8px;
       padding: 0;
     }
+  }
+}
+
+.skill-group {
+  padding: 10px;
+  border: 1px dashed rgba($primary, 0.5);
+  position: relative;
+  margin-bottom: 36px;
+
+  > span {
+    position: absolute;
+    color: $primary;
+    top: -20px;
   }
 }

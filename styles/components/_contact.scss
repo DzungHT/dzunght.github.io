@@ -1,4 +1,4 @@
-@use '../custom/variables' as *;
+@use '../custom/base.scss' as *;
 
 .contact-icon {
   a {
@@ -25,6 +25,14 @@
     &:hover {
       color: $primary;
       border-color: $primary;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #contact-section {
+    .contact-content {
+      padding: 60px 0;
     }
   }
 }

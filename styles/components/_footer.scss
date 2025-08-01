@@ -1,1 +1,7 @@
+@use '../custom/variables' as *;
 @use './contact';
+
+#footer-section {
+  border-top: 1px solid $color-border;
+  margin-top: 36px;
+}

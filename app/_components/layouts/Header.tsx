@@ -46,7 +46,7 @@ const Header = () => {
             to={item.scrollTo!}
             smooth={true}
             duration={300}
-            offset={-90}
+            offset={-74}
             spy={true}
             onSetActive={handleSetActive}
             className="nav-link text-capitalize"

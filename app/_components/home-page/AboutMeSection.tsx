@@ -1,8 +1,7 @@
 'use client';
 
 import SectionTitle from '@/components/SectionTitle';
-import { fadeInUp } from '@/lib/motionEffect';
-import { motion } from 'motion/react';
+import Tag from '@/components/Tag';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const aboutData = {
@@ -61,15 +60,7 @@ export default function AboutMeSection() {
 
         <Row className="align-items-center justify-content-center">
           <Col sm={12} lg={8} className="text-center">
-            <motion.div className="about-tag" variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}>
-              <ul>
-                {aboutData.tags.map((tag, idx) => (
-                  <li key={idx}>
-                    <span>{tag}</span>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
+            <Tag tags={aboutData.tags} />
           </Col>
         </Row>
       </Container>

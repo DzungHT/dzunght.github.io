@@ -17,7 +17,7 @@ export default function TimelineItem({ data }: { data: TimelineItemData }) {
       <div className="divider"></div>
       <div className="right-part">
         <h4 className="item-title">{data.title}</h4>
-        <div className="item-decription pb-4 ps-2">{data.description}</div>
+        <div className="item-description pb-4 ps-2">{data.description}</div>
       </div>
     </div>
   );

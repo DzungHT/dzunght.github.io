@@ -198,17 +198,10 @@ export default function ResumeSection() {
 
         <Row className="justify-content-center services">
           {/* Educations & Works Experiences */}
-          <Col xs={12} sm={6} className="pe-sm-5">
+          <Col xs={12} lg={6} className="pe-sm-5">
             <Row className="mb-4">
               <Col>
-                <motion.h3
-                  variants={fadeInUp}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  custom={0.2}
-                  className="resume-title mb-4"
-                >
+                <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.2} className="resume-title">
                   Educations
                 </motion.h3>
                 <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.4} className="">
@@ -219,14 +212,7 @@ export default function ResumeSection() {
 
             <Row className="mb-4">
               <Col>
-                <motion.h3
-                  variants={fadeInUp}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  custom={0.6}
-                  className="resume-title mb-4"
-                >
+                <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.6} className="resume-title">
                   Works Experiences
                 </motion.h3>
                 <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.8} className="">
@@ -237,17 +223,10 @@ export default function ResumeSection() {
           </Col>
 
           {/* Skills */}
-          <Col xs={12} sm={6} className="ps-sm-5">
+          <Col xs={12} lg={6} className="ps-sm-5">
             <Row className="mb-4">
               <Col>
-                <motion.h3
-                  variants={fadeInUp}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  custom={0.2}
-                  className="resume-title mb-4"
-                >
+                <motion.h3 variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.2} className="resume-title">
                   Professional Skills
                 </motion.h3>
                 <motion.div
@@ -273,7 +252,7 @@ export default function ResumeSection() {
                   whileInView="visible"
                   viewport={{ once: true }}
                   custom={0.6}
-                  className="resume-title mb-5"
+                  className="resume-title mb-4"
                 >
                   Technical Skills
                 </motion.h3>

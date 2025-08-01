@@ -2,28 +2,18 @@
 
 .resume-title {
   text-transform: capitalize;
-  margin-bottom: 16px;
+  // margin-bottom: 1rem;
+  margin-top: 2rem;
+  // padding-bottom: 0.3rem;
   position: relative;
-  display: inline-block;
+  display: block;
+  // border-bottom: 1px solid $color-border;
 
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    width: 70%;
-    border: 2px solid $color-info;
-  }
-}
-
-.skill-group {
-  padding: 10px;
-  border: 1px dashed $color-info;
-  position: relative;
-  margin-bottom: 36px;
-
-  > span {
-    position: absolute;
-    color: $color-info;
-    top: -20px;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: 0;
+  //   width: 50%;
+  //   border-bottom: 1px solid $color-border;
+  // }
 }

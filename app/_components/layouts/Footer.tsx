@@ -4,6 +4,7 @@ import { Container, Col, Card, Row } from 'react-bootstrap';
 import { motion } from 'motion/react';
 import { facebookInfo, linkedinInfo, userInfo } from '@/lib/userInfo';
 import { FaRegEnvelope } from 'react-icons/fa6';
+import SectionTitle from '@/components/SectionTitle';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -52,52 +53,36 @@ const Footer: React.FC = () => {
     <footer className="footer py-4 bg-2">
       <section id="contact-section">
         <Container>
-          <Row className="align-items-center">
-            <Col sm={12}>
-              <motion.h3
-                variants={fadeInUp}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: false }}
-                custom={0.2}
-                className="text-center my-4"
-              >
-                Contact Me
-              </motion.h3>
-            </Col>
-
-            <Col sm={12}>
-              <Row className="align-items-center justify-content-center">
-                {contactInfo.map((item, idx) => (
-                  <Col sm={12} md={6} lg={4} key={idx}>
-                    <motion.div
-                      className=""
-                      variants={fadeInUp}
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: false }}
-                      custom={0.3 + idx * 0.2}
-                    >
-                      <Card className="contact-card my-2 bg-1 shadow-sm border-effect">
-                        <Card.Body>
-                          <div className="contact-icon text-center">
-                            <a href={item.link}>
-                              <item.icon />
-                            </a>
-                          </div>
-                          <h3 className="text-center">{item.title}</h3>
-                          {item.lines.map((line, i) => (
-                            <div key={i} className="text-center">
-                              {line}
-                            </div>
-                          ))}
-                        </Card.Body>
-                      </Card>
-                    </motion.div>
-                  </Col>
-                ))}
-              </Row>
-            </Col>
+          <SectionTitle title="Contact Me" />
+          <Row className="align-items-center justify-content-center contact-content">
+            {contactInfo.map((item, idx) => (
+              <Col sm={12} md={6} lg={4} key={idx}>
+                <motion.div
+                  className=""
+                  variants={fadeInUp}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: false }}
+                  custom={0.3 + idx * 0.2}
+                >
+                  <Card className="contact-card my-2 bg-1 shadow-sm border-effect">
+                    <Card.Body>
+                      <div className="contact-icon text-center">
+                        <a href={item.link}>
+                          <item.icon />
+                        </a>
+                      </div>
+                      <h3 className="text-center">{item.title}</h3>
+                      {item.lines.map((line, i) => (
+                        <div key={i} className="text-center">
+                          {line}
+                        </div>
+                      ))}
+                    </Card.Body>
+                  </Card>
+                </motion.div>
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>
