@@ -5,25 +5,14 @@
   padding-bottom: 6rem;
   background-color: $body-bg;
 
-  .section-title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: $primary;
-  }
-
-  .section-subtitle {
-    font-size: 1.2rem;
-    color: $body-color;
-    opacity: 0.8;
-  }
-
   .blog-card {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
 
     &:hover {
       transform: translateY(-5px);
@@ -36,7 +25,7 @@
       flex-wrap: wrap;
       gap: 1rem;
       font-size: 0.9rem;
-      color: $body-color;
+      color: $color-primary-sub-text;
       opacity: 0.7;
 
       .meta-item {
@@ -46,20 +35,40 @@
       }
     }
 
+    // New: Series badge styling
+    .blog-series {
+      cursor: pointer;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      color: $color-primary-sub-text;
+      opacity: 0.6;
+      text-decoration: none;
+
+      &:hover {
+        .blog-series-text {
+          text-decoration: underline;
+        }
+      }
+    }
+
     .blog-title {
       font-size: 1.5rem;
       font-weight: bold;
-      margin-bottom: 1rem;
+      margin-bottom: 0;
       line-height: 1.3;
 
       a {
-        color: $body-color;
+        // color: $primary;
         text-decoration: none;
         transition: color 0.3s ease;
 
-        &:hover {
-          color: $primary;
-        }
+        // &:hover {
+        // color: $primary;
+        // }
       }
     }
 
@@ -70,18 +79,24 @@
       margin-bottom: 1rem;
     }
 
-    .blog-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-
+    // New: Blog tags container styling
+    .blog-tags-container {
       .tag {
-        background: $primary;
-        color: $white;
-        padding: 0.25rem 0.75rem;
-        border-radius: 20px;
-        font-size: 0.8rem;
-        font-weight: 500;
+        ul {
+          justify-content: flex-start;
+          margin: 0;
+          padding: 0;
+
+          li {
+            margin: 0 5px 5px 0;
+            padding: 0;
+
+            span {
+              font-size: 0.8rem;
+              padding: 2px 8px;
+            }
+          }
+        }
       }
     }
   }
@@ -93,13 +108,13 @@
   background-color: $body-bg;
 
   .back-link {
-    color: $primary;
+    color: $color-primary-sub-text;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 
     &:hover {
-      color: lighten($primary, 10%);
+      color: $primary;
     }
   }
 
@@ -111,7 +126,7 @@
       font-size: 3rem;
       font-weight: bold;
       margin-bottom: 1.5rem;
-      color: $body-color;
+      color: $primary;
       line-height: 1.2;
     }
 
@@ -121,9 +136,10 @@
       flex-wrap: wrap;
       gap: 1.5rem;
       font-size: 1rem;
-      color: $body-color;
       opacity: 0.7;
       margin-bottom: 1rem;
+      color: $color-primary-sub-text;
+      font-size: 0.9rem;
 
       .meta-item {
         display: flex;
@@ -132,180 +148,84 @@
       }
     }
 
-    .blog-post-tags {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+    // New: Series styling for post header
+    .blog-post-series {
+      margin: 1.5rem 0;
 
-      .tag {
-        background: $primary;
-        color: $white;
-        padding: 0.5rem 1rem;
-        border-radius: 25px;
+      .badge {
+        background: rgba($info, 0.2);
+        border: 1px solid rgba($info, 0.3);
         font-size: 0.9rem;
-        font-weight: 500;
+        padding: 0.5rem 0.8rem;
       }
     }
-  }
 
-  .blog-post-content {
-    color: $body-color;
-    line-height: 1.8;
-    font-size: 1.1rem;
+    // New: Blog post tags container styling
+    .blog-post-tags-container {
+      .tag {
+        ul {
+          li {
+            margin: 0 8px 2px 0;
 
-    .markdown-content {
-      h1, h2, h3, h4, h5, h6 {
-        color: $body-color;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        font-weight: bold;
-      }
-
-      h1 { font-size: 2.5rem; }
-      h2 { font-size: 2rem; }
-      h3 { font-size: 1.75rem; }
-      h4 { font-size: 1.5rem; }
-      h5 { font-size: 1.25rem; }
-      h6 { font-size: 1.1rem; }
-
-      p {
-        margin-bottom: 1.5rem;
-        text-align: justify;
-      }
-
-      ul, ol {
-        margin-bottom: 1.5rem;
-        padding-left: 2rem;
-
-        li {
-          margin-bottom: 0.5rem;
-        }
-      }
-
-             blockquote, .blog-blockquote {
-         border-left: 4px solid $primary;
-         padding-left: 1.5rem;
-         margin: 2rem 0;
-         font-style: italic;
-         opacity: 0.8;
-         background: rgba($primary, 0.05);
-         padding: 1rem 1.5rem;
-         border-radius: 0 8px 8px 0;
-       }
-
-      code {
-        background: rgba($primary, 0.1);
-        color: $primary;
-        padding: 0.2rem 0.4rem;
-        border-radius: 4px;
-        font-family: 'Courier New', monospace;
-      }
-
-             pre {
-         background: rgba(0, 0, 0, 0.3);
-         padding: 1.5rem;
-         border-radius: 8px;
-         overflow-x: auto;
-         margin: 2rem 0;
-         border: 1px solid rgba(255, 255, 255, 0.1);
-
-         code {
-           background: none;
-           color: $body-color;
-           padding: 0;
-           font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
-           font-size: 0.9rem;
-           line-height: 1.5;
-         }
-       }
-
-       .language-javascript,
-       .language-typescript,
-       .language-js,
-       .language-ts {
-         color: #f8f8f2;
-       }
-
-       .language-yaml,
-       .language-yml {
-         color: #f8f8f2;
-       }
-
-      a {
-        color: $primary;
-        text-decoration: none;
-        border-bottom: 1px solid transparent;
-        transition: border-color 0.3s ease;
-
-        &:hover {
-          border-bottom-color: $primary;
-        }
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 2rem 0;
-      }
-
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 2rem 0;
-
-        th, td {
-          padding: 0.75rem;
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          text-align: left;
-        }
-
-        th {
-          background: rgba($primary, 0.1);
-          font-weight: bold;
+            // span {
+            //   font-size: 0.9rem;
+            //   padding: 3px 10px;
+            // }
+          }
         }
       }
     }
   }
 }
 
-@include media-breakpoint-down(md) {
-  .blog-section {
-    .section-title {
-      font-size: 2.5rem;
-    }
+// @include media-breakpoint-down(md) {
+//   .blog-section {
+//     .section-title {
+//       font-size: 2.5rem;
+//     }
 
-    .blog-card {
-      .blog-title {
-        font-size: 1.25rem;
-      }
-    }
-  }
+//     .blog-card {
+//       .blog-title {
+//         font-size: 1.25rem;
+//       }
+//     }
+//   }
 
-  .blog-post-section {
-    .blog-post-header {
-      .blog-post-title {
-        font-size: 2rem;
-      }
+//   .blog-post-section {
+//     .blog-post-header {
+//       .blog-post-title {
+//         font-size: 2rem;
+//       }
 
-      .blog-post-meta {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-    }
+//       .blog-post-meta {
+//         flex-direction: column;
+//         gap: 0.5rem;
+//       }
+//     }
 
-    .blog-post-content {
-      font-size: 1rem;
+//     .blog-post-content {
+//       font-size: 1rem;
 
-      .markdown-content {
-        h1 { font-size: 2rem; }
-        h2 { font-size: 1.75rem; }
-        h3 { font-size: 1.5rem; }
-        h4 { font-size: 1.25rem; }
-        h5 { font-size: 1.1rem; }
-        h6 { font-size: 1rem; }
-      }
-    }
-  }
-} 
+//       .markdown-content {
+//         h1 {
+//           font-size: 2rem;
+//         }
+//         h2 {
+//           font-size: 1.75rem;
+//         }
+//         h3 {
+//           font-size: 1.5rem;
+//         }
+//         h4 {
+//           font-size: 1.25rem;
+//         }
+//         h5 {
+//           font-size: 1.1rem;
+//         }
+//         h6 {
+//           font-size: 1rem;
+//         }
+//       }
+//     }
+//   }
+// }

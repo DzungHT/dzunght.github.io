@@ -8,7 +8,8 @@ export interface BlogPost {
   excerpt: string;
   date: string;
   author: string;
-  readTime: string;
+  views: number;
+  series?: string;
   tags: string[];
 }
 
@@ -31,7 +32,9 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
           excerpt: data.excerpt || 'No excerpt available',
           date: data.date || new Date().toISOString(),
           author: data.author || 'Hoang Tri Dung',
-          readTime: data.readTime || '5 min read',
+          views: data.views || 0,
+          featured: data.featured || false,
+          series: data.series || null,
           tags: data.tags || [],
         };
       })
@@ -58,7 +61,8 @@ export async function getBlogPost(slug: string): Promise<BlogPost & { content: s
       excerpt: data.excerpt || 'No excerpt available',
       date: data.date || new Date().toISOString(),
       author: data.author || 'Hoang Tri Dung',
-      readTime: data.readTime || '5 min read',
+      views: data.views || 0,
+      series: data.series || null,
       tags: data.tags || [],
       content,
     };

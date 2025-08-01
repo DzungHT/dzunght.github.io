@@ -1,6 +1,6 @@
 import { marked } from 'marked';
 import hljs from 'highlight.js';
-import 'highlight.js/styles/github-dark.css'; // You can change the style as needed
+
 
 // Configure marked for security and better rendering
 marked.setOptions({
@@ -39,7 +39,6 @@ marked.use({ renderer });
 export async function renderMarkdown(content: string): Promise<string> {
   // marked(content) may return a Promise in some versions, so ensure always await
   if (typeof marked.parse === 'function') {
-    // @ts-ignore
     return await marked.parse(content);
   } else {
     return marked(content);

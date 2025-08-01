@@ -1,10 +1,11 @@
 'use client';
 
-import { Container, Row, Col, Card } from 'react-bootstrap';
-import { motion } from 'motion/react';
-import { FaCalendar, FaClock, FaUser } from 'react-icons/fa';
-import Link from 'next/link';
 import SectionTitle from '@/components/SectionTitle';
+import Tag from '@/components/Tag';
+import { motion } from 'motion/react';
+import Link from 'next/link';
+import { Card, Col, Container, OverlayTrigger, Row, Tooltip } from 'react-bootstrap';
+import { FaBook, FaCalendar } from 'react-icons/fa';
 
 interface BlogPost {
   slug: string;
@@ -12,7 +13,8 @@ interface BlogPost {
   excerpt: string;
   date: string;
   author: string;
-  readTime: string;
+  views: number;
+  series?: string;
   tags: string[];
 }
 
@@ -24,10 +26,7 @@ export default function BlogList({ posts }: BlogListProps) {
   return (
     <section className="blog-section bg-1">
       <Container>
-        <SectionTitle
-          title="Blog"
-          subtitle="Thoughts on software development, project management, and technology"
-        />
+        <SectionTitle title="My blogs" subtitle="Thoughts on software development, project management, and technology" />
         <Row>
           {posts.map((post, index) => (
             <Col key={post.slug} lg={4} md={6} className="mb-4">
@@ -39,42 +38,47 @@ export default function BlogList({ posts }: BlogListProps) {
               >
                 <Card className="blog-card h-100">
                   <Card.Body>
-                    <div className="blog-meta mb-3">
-                      <span className="meta-item">
-                        <FaCalendar className="me-1" />
-                        {new Date(post.date).toLocaleDateString('en-US', {
-                          year: 'numeric',
-                          month: 'long',
-                          day: 'numeric',
-                        })}
-                      </span>
-                      <span className="meta-item">
-                        <FaClock className="me-1" />
-                        {post.readTime}
-                      </span>
-                      <span className="meta-item">
-                        <FaUser className="me-1" />
-                        {post.author}
-                      </span>
-                    </div>
-                    
+                    {post.series && (
+                      <OverlayTrigger placement="top" overlay={<Tooltip>Part of series: {post.series}</Tooltip>}>
+                        <>
+                          <Link className="blog-series" href={`/blog/${post.slug}`}>
+                            <span style={{ marginRight: '4px', color: '#888' }}>┌─</span>
+                            <FaBook className="me-1" />
+                            <span className="blog-series-text">{post.series}</span>
+                          </Link>
+                        </>
+                      </OverlayTrigger>
+                    )}
                     <Card.Title as="h3" className="blog-title">
                       <Link href={`/blog/${post.slug}`} className="text-decoration-none">
                         {post.title}
                       </Link>
                     </Card.Title>
-                    
-                    <Card.Text className="blog-excerpt">
-                      {post.excerpt}
-                    </Card.Text>
-                    
+
+                    <div className="blog-meta mb-3">
+                      <OverlayTrigger placement="top" overlay={<Tooltip>Publication date</Tooltip>}>
+                        <span className="meta-item">
+                          <FaCalendar className="me-1" />
+                          {new Date(post.date).toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric',
+                          })}
+                        </span>
+                      </OverlayTrigger>
+                      {/* <OverlayTrigger placement="top" overlay={<Tooltip>Post views</Tooltip>}>
+                        <span className="meta-item">
+                          <FaEye className="me-1" />
+                          {post.views.toLocaleString()}
+                        </span>
+                      </OverlayTrigger> */}
+                    </div>
+
+                    <Card.Text className="blog-excerpt">{post.excerpt}</Card.Text>
+
                     {post.tags.length > 0 && (
-                      <div className="blog-tags">
-                        {post.tags.map((tag) => (
-                          <span key={tag} className="tag">
-                            {tag}
-                          </span>
-                        ))}
+                      <div className="blog-tags-container">
+                        <Tag tags={post.tags} />
                       </div>
                     )}
                   </Card.Body>
@@ -103,4 +107,4 @@ export default function BlogList({ posts }: BlogListProps) {
       </Container>
     </section>
   );
-} 
+}
