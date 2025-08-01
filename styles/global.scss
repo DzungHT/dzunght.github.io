@@ -95,19 +95,21 @@ ul li {
 
   .section-title-text {
     position: relative;
+    display: inline-block;
     z-index: 1;
-  }
-  &:after {
-    position: absolute;
-    opacity: 0.45;
-    top: 12px;
-    right: 0;
-    content: '';
-    height: 30px;
-    width: 50px;
-    background-image: repeating-radial-gradient(circle at center, #04b4e0, #04b4e0 1px, transparent 1px, transparent 100%);
-    background-size: 6px 6px;
-    z-index: 0;
+    
+    &:after {
+      position: absolute;
+      opacity: 0.45;
+      top: 12px;
+      right: -25px;
+      content: '';
+      height: 30px;
+      width: 50px;
+      background-image: repeating-radial-gradient(circle at center, #04b4e0, #04b4e0 1px, transparent 1px, transparent 100%);
+      background-size: 6px 6px;
+      z-index: -1;
+    }
   }
 }
 

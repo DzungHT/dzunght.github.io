@@ -1,0 +1,120 @@
+---
+title: "Getting Started with Next.js 15"
+excerpt: "Learn how to build modern web applications with Next.js 15, the latest version of the popular React framework."
+date: "2024-01-15"
+author: "Hoang Tri Dung"
+readTime: "8 min read"
+tags: ["Next.js", "React", "Web Development", "JavaScript"]
+---
+
+# Getting Started with Next.js 15
+
+Next.js 15 brings exciting new features and improvements that make building modern web applications even more powerful and efficient. In this post, I'll walk you through the key features and how to get started.
+
+## What's New in Next.js 15
+
+### 1. Improved App Router
+The App Router has been enhanced with better performance and developer experience:
+
+```javascript
+// app/page.tsx
+export default function Home() {
+  return (
+    <main>
+      <h1>Welcome to Next.js 15</h1>
+    </main>
+  )
+}
+```
+
+### 2. Enhanced Server Components
+Server Components are now more powerful with better streaming and caching:
+
+```javascript
+// app/blog/[slug]/page.tsx
+async function getPost(slug: string) {
+  const post = await fetch(`/api/posts/${slug}`)
+  return post.json()
+}
+
+export default async function BlogPost({ params }: { params: { slug: string } }) {
+  const post = await getPost(params.slug)
+  
+  return (
+    <article>
+      <h1>{post.title}</h1>
+      <div>{post.content}</div>
+    </article>
+  )
+}
+```
+
+## Key Benefits
+
+1. **Performance**: Automatic code splitting and optimization
+2. **SEO**: Built-in SEO features with metadata API
+3. **Developer Experience**: Hot reloading and excellent TypeScript support
+4. **Scalability**: Easy deployment to Vercel and other platforms
+
+## Getting Started
+
+To create a new Next.js 15 project:
+
+```bash
+npx create-next-app@latest my-app
+cd my-app
+npm run dev
+```
+
+## Best Practices
+
+### 1. Use TypeScript
+TypeScript provides better developer experience and catch errors early:
+
+```typescript
+interface Post {
+  id: string
+  title: string
+  content: string
+  publishedAt: Date
+}
+```
+
+### 2. Implement Proper Error Handling
+Always handle errors gracefully:
+
+```typescript
+export default async function BlogList() {
+  try {
+    const posts = await fetchPosts()
+    return <PostList posts={posts} />
+  } catch (error) {
+    return <ErrorComponent error={error} />
+  }
+}
+```
+
+### 3. Optimize Images
+Use Next.js Image component for automatic optimization:
+
+```jsx
+import Image from 'next/image'
+
+export default function Hero() {
+  return (
+    <Image
+      src="/hero.jpg"
+      alt="Hero image"
+      width={1200}
+      height={600}
+      priority
+    />
+  )
+}
+```
+
+## Conclusion
+
+Next.js 15 continues to push the boundaries of what's possible with React applications. The combination of server components, improved performance, and excellent developer experience makes it an excellent choice for modern web development.
+
+Whether you're building a simple blog or a complex enterprise application, Next.js 15 provides the tools and features you need to succeed.
