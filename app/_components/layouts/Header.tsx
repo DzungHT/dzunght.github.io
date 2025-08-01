@@ -71,7 +71,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" fixed="top" variant="dark" className={`fixed-top ${scrolled ? 'navbar-shrink' : ''}`} id="mainNav">
       <Container>
-        <Navbar.Brand href="#page-top">
+        <Navbar.Brand href="/">
           <img src="/favicon.svg" alt="Logo" />
           <span className="ms-1 my-auto">dzunght.github.io</span>
         </Navbar.Brand>
