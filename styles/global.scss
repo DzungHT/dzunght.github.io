@@ -188,3 +188,14 @@ ul {
     top: -20px;
   }
 }
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+  color: $color-primary-sub-text;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  color: $color-primary-text;
+}
