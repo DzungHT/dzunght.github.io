@@ -1,6 +1,7 @@
 import { marked } from 'marked';
 import hljs from 'highlight.js';
-
+import 'highlight.js/styles/github-dark.css';
+import '../styles/components/_markdown-content.scss';
 
 // Configure marked for security and better rendering
 marked.setOptions({

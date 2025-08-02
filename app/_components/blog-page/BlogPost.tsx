@@ -1,7 +1,6 @@
 'use client';
 
 import Tag from '@/components/Tag';
-import MarkdownContent from '../../../components/MarkdownContent';
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import { Badge, Col, Container, OverlayTrigger, Row, Tooltip } from 'react-bootstrap';
@@ -16,14 +15,16 @@ interface BlogPostData {
   views: number;
   series?: string;
   tags: string[];
-  content: string;
 }
 
 interface BlogPostProps {
   post: BlogPostData;
+
+  // Nội dung thẻ html render từ markdown
+  children: React.ReactNode;
 }
 
-export default function BlogPost({ post }: BlogPostProps) {
+export default function BlogPost({ post, children }: BlogPostProps) {
   // Markdown rendering handled by MarkdownContent component
 
   return (
@@ -83,9 +84,7 @@ export default function BlogPost({ post }: BlogPostProps) {
                 )}
               </header>
 
-              <div className="blog-post-content">
-                <MarkdownContent content={post.content} />
-              </div>
+              <div className="blog-post-content">{children}</div>
             </motion.article>
           </Col>
         </Row>

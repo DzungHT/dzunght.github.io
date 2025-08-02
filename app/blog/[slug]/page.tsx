@@ -1,6 +1,7 @@
-import { Metadata } from 'next';
-import { getBlogPost, getBlogPosts } from '@/lib/blogUtils';
 import BlogPost from '@/app/_components/blog-page/BlogPost';
+import MarkdownContent from '@/components/MarkdownContent';
+import { getBlogPost, getBlogPosts } from '@/lib/blogUtils';
+import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 // Định nghĩa một kiểu dữ liệu cho params
@@ -46,6 +47,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) {
     notFound();
   }
-
-  return <BlogPost post={post} />;
+  return (
+    <BlogPost post={post}>
+      <MarkdownContent content={post.content} />
+    </BlogPost>
+  );
 }
