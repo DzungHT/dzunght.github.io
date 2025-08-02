@@ -1,0 +1,159 @@
+1:"$Sreact.fragment"
+2:I[8354,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+3:I[7033,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[6874,["874","static/chunks/874-1d2740a4d60ef656.js","345","static/chunks/app/not-found-b1ff5eed07aa575f.js"],""]
+7:I[2403,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+8:"$Sreact.suspense"
+9:I[447,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+b:I[9665,[],"OutletBoundary"]
+e:I[4911,[],"AsyncMetadataOutlet"]
+10:I[9665,[],"ViewportBoundary"]
+12:I[9665,[],"MetadataBoundary"]
+14:I[6614,[],""]
+:HL["/_next/static/css/7a23b55d7e7780b7.css","style"]
+:HL["/_next/static/css/b3fba3c3f93148a1.css","style"]
+0:{"P":null,"b":"Vd_RjxPu2AYO-2W9-tiox","p":"","c":["","blog","ky-thuat-SEO-website-co-ban-phan-1"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","ky-thuat-SEO-website-co-ban-phan-1","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","ky-thuat-SEO-website-co-ban-phan-1","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b3fba3c3f93148a1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","O_L_uHsO4fz4dDlfzlXeAv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+15:I[4911,[],"AsyncMetadata"]
+13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
+d:null
+17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-ed9f6b395972e54c.js"],"default"]
+18:T174a,
+> Xin chào các bạn đã đến với trang blog cá nhân [dzunght.github.io](https://dzunght.github.io/blog) - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.
+> Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.
+
+# Phần 1: Hiểu về SEO website là gì?
+
+SEO website là một khái niệm cũng không còn mới mẻ trong ngành CNTT của chúng ta ngành nay. Nhưng tôi cá là nhiều bạn làm lập trình viên web như tôi nhiều năm cũng chưa biết SEO website là làm gì và làm như thế nào. Khi làm trang blog này, tôi cũng muốn thử áp dụng SEO coi như một trải nghiệm.
+
+Do vậy, tôi viết series này để ghi lại những trải nghiệm, kinh nghiệm của mình khi áp dụng SEO cho trang blog của tôi. Để SEO thành công thì cần rất nhiều yếu tố, do vậy trong khuôn khổ của series này, **tôi chỉ đề cập chính đến yếu tố về mặt lập trình**.
+
+**Bạn có website nhưng không ai tìm biết? Lượng truy cập khiêm tốn?** Bạn đang nghe nhiều về "SEO" nhưng vẫn chưa hiểu rõ SEO là gì và bắt đầu từ đâu? Bài viết này sẽ giúp bạn hiểu rõ về SEO website một cách dễ dàng và hệ thống nhất, theo phương pháp 5W1H: _What - Why - Who - Where - When - How_.
+
+---
+
+## 1. What – SEO Website là gì?
+
+SEO (**S**earch **E**ngine **O**ptimization) là quá trình **tối ưu hóa website để cải thiện thứ hạng trên công cụ tìm kiếm** như Google, Bing,... Nói đơn giản, khi người dùng tìm kiếm từ khóa liên quan đến lĩnh vực của bạn, website của bạn càng lên top, thì càng dễ được click vào.
+
+Ví dụ: Nếu bạn bán giày và người dùng tìm “giày thể thao nam”, SEO giúp website của bạn xuất hiện ở những vị trí đầu trong kết quả tìm kiếm.
+
+## 2. Why – Tại sao cần SEO Website?
+
+SEO không chỉ giúp bạn **tăng lượng truy cập miễn phí** (organic traffic), mà còn:
+
+- **Tiết kiệm chi phí quảng cáo** dài hạn.
+- **Tăng uy tín thương hiệu** nhờ xuất hiện ở những vị trí hàng đầu.
+- **Thu hút đúng đối tượng khách hàng** đang có nhu cầu tìm kiếm.
+- Dễ dàng **phân tích hành vi người dùng** qua các từ khóa.
+
+Nếu không SEO, website của bạn có thể bị “chôn vùi” trong hàng trăm trang kết quả mà không ai click vào.
+
+## 3. Who – Ai nên làm SEO Website?
+
+1. **Doanh nghiệp nhỏ và vừa** muốn tiết kiệm chi phí quảng cáo.
+2. **Người viết blog cá nhân** muốn tăng lượt đọc tự nhiên. _(Tôi thuộc đối tượng này đó, còn bạn thì sao?)_
+3. **Cửa hàng kinh doanh online** muốn tăng đơn hàng.
+4. **Lập trình viên, marketer**, hoặc bất cứ ai quản lý website.
+
+Nói cách khác, **bất kỳ ai sở hữu hoặc quản lý một website đều nên hiểu và áp dụng SEO** ở mức cơ bản.
+
+## 4. Where – SEO áp dụng ở đâu trên website?
+
+SEO không chỉ là viết bài chèn từ khóa. Nó bao gồm nhiều phần:
+
+- **SEO On-page**: Tối ưu nội dung, tiêu đề, URL, hình ảnh, tốc độ tải trang...
+- **SEO Off-page**: Xây dựng liên kết (backlink), chia sẻ nội dung, PR.
+- **SEO Technical**: Sơ đồ website, robots.txt, schema, responsive, SSL, tốc độ server...
+
+SEO có mặt **trên toàn bộ website**, từ nội dung bạn viết đến cấu trúc kỹ thuật của trang.
+
+## 5. When – Khi nào nên bắt đầu làm SEO?
+
+**Càng sớm càng tốt.** SEO là một quá trình dài hạn và cần thời gian để thấy kết quả. Nếu bạn vừa tạo website, hãy bắt đầu tối ưu hóa nội dung và cấu trúc từ bây giờ.
+
+Nếu website của bạn đã hoạt động lâu rồi, vẫn không muộn. Bạn có thể **audit lại toàn bộ**, tối ưu từng phần và từng bước cải thiện thứ hạng.
+
+## 6. How – Làm sao để bắt đầu SEO Website?
+
+Dưới đây là các bước SEO cơ bản cho người mới:
+
+1. **Nghiên cứu từ khóa**: Tìm từ khóa người dùng đang tìm kiếm (sử dụng Google Keyword Planner, Ubersuggest…).
+2. **Tối ưu nội dung**: Viết bài chuẩn SEO với từ khóa, tiêu đề hấp dẫn, dễ đọc.
+3. **Tối ưu kỹ thuật**: Kiểm tra tốc độ, thiết bị di động, sitemap, robots.txt.
+4. **Tạo liên kết**: Chia sẻ bài viết trên mạng xã hội, đăng bài ở các website khác.
+5. **Theo dõi kết quả**: Dùng Google Search Console và Google Analytics để theo dõi.
+
+---
+
+## Kết luận
+
+Có thể thấy, để SEO 1 website thành công lên top tìm kiếm quả thật không hề đơn giản phải không nào.
+
+SEO không phải là công việc “chỉ dành cho chuyên gia SEO”. Bất kỳ ai cũng có thể **tìm hiểu và bắt đầu với những bước cơ bản**, đặc biệt khi bạn hiểu được những khái niệm cơ bản về SEO website mà tôi vừa để cập ở trên.
+
+Đối với 1 newbie SEO như tôi, thành công đơn giản chỉ cần trang web này xuất hiện trên trang 2, trang 3 của `Google tìm kiếm` là tôi đã có thể thể tận hưởng hương vị thành công rồi.
+
+Còn bạn thì sao? Hãy để lại bình luận và cùng chờ đợi những phần tiếp theo của series này. Tôi sẽ chia sẻ cụ thể những việc chúng ta cần làm.
+
+> Bài viết có sử dụng AI và đã được kiểm duyệt cùng với sự chỉnh sửa để cá nhân hóa theo cách riêng của tôi.
+a:["$","$L17",null,{"post":{"slug":"ky-thuat-SEO-website-co-ban-phan-1","title":"Kỹ thuật SEO website cơ bản (Phần 1)","excerpt":"Đây là series viết song song cùng với trải nghiệm của mình khi SEO cho website này. Hãy cùng mình tìm hiểu cơ bản về SEO website và thực hành trên dự án sử dụng NextJS nhé.","date":"2025-08-02","author":"Hoang Tri Dung","views":0,"series":"Kỹ thuật SEO website cơ bản","tags":["SEO","Next.js","ReactJS","Web Development","Typescript","Tutorials","AI Generated"],"content":"$18"},"children":"$L19"}]
+1a:T1a51,<blockquote class="blog-blockquote"><p>Xin chào các bạn đã đến với trang blog cá nhân <a href="https://dzunght.github.io/blog" target="_blank" rel="noopener noreferrer" title="">dzunght.github.io</a> - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.<br>Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.</p>
+</blockquote><h1>Phần 1: Hiểu về SEO website là gì?</h1>
+<p>SEO website là một khái niệm cũng không còn mới mẻ trong ngành CNTT của chúng ta ngành nay. Nhưng tôi cá là nhiều bạn làm lập trình viên web như tôi nhiều năm cũng chưa biết SEO website là làm gì và làm như thế nào. Khi làm trang blog này, tôi cũng muốn thử áp dụng SEO coi như một trải nghiệm.</p>
+<p>Do vậy, tôi viết series này để ghi lại những trải nghiệm, kinh nghiệm của mình khi áp dụng SEO cho trang blog của tôi. Để SEO thành công thì cần rất nhiều yếu tố, do vậy trong khuôn khổ của series này, <strong>tôi chỉ đề cập chính đến yếu tố về mặt lập trình</strong>.</p>
+<p><strong>Bạn có website nhưng không ai tìm biết? Lượng truy cập khiêm tốn?</strong> Bạn đang nghe nhiều về &quot;SEO&quot; nhưng vẫn chưa hiểu rõ SEO là gì và bắt đầu từ đâu? Bài viết này sẽ giúp bạn hiểu rõ về SEO website một cách dễ dàng và hệ thống nhất, theo phương pháp 5W1H: <em>What - Why - Who - Where - When - How</em>.</p>
+<hr>
+<h2>1. What – SEO Website là gì?</h2>
+<p>SEO (<strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimization) là quá trình <strong>tối ưu hóa website để cải thiện thứ hạng trên công cụ tìm kiếm</strong> như Google, Bing,... Nói đơn giản, khi người dùng tìm kiếm từ khóa liên quan đến lĩnh vực của bạn, website của bạn càng lên top, thì càng dễ được click vào.</p>
+<p>Ví dụ: Nếu bạn bán giày và người dùng tìm “giày thể thao nam”, SEO giúp website của bạn xuất hiện ở những vị trí đầu trong kết quả tìm kiếm.</p>
+<h2>2. Why – Tại sao cần SEO Website?</h2>
+<p>SEO không chỉ giúp bạn <strong>tăng lượng truy cập miễn phí</strong> (organic traffic), mà còn:</p>
+<ul>
+<li><strong>Tiết kiệm chi phí quảng cáo</strong> dài hạn.</li>
+<li><strong>Tăng uy tín thương hiệu</strong> nhờ xuất hiện ở những vị trí hàng đầu.</li>
+<li><strong>Thu hút đúng đối tượng khách hàng</strong> đang có nhu cầu tìm kiếm.</li>
+<li>Dễ dàng <strong>phân tích hành vi người dùng</strong> qua các từ khóa.</li>
+</ul>
+<p>Nếu không SEO, website của bạn có thể bị “chôn vùi” trong hàng trăm trang kết quả mà không ai click vào.</p>
+<h2>3. Who – Ai nên làm SEO Website?</h2>
+<ol>
+<li><strong>Doanh nghiệp nhỏ và vừa</strong> muốn tiết kiệm chi phí quảng cáo.</li>
+<li><strong>Người viết blog cá nhân</strong> muốn tăng lượt đọc tự nhiên. <em>(Tôi thuộc đối tượng này đó, còn bạn thì sao?)</em></li>
+<li><strong>Cửa hàng kinh doanh online</strong> muốn tăng đơn hàng.</li>
+<li><strong>Lập trình viên, marketer</strong>, hoặc bất cứ ai quản lý website.</li>
+</ol>
+<p>Nói cách khác, <strong>bất kỳ ai sở hữu hoặc quản lý một website đều nên hiểu và áp dụng SEO</strong> ở mức cơ bản.</p>
+<h2>4. Where – SEO áp dụng ở đâu trên website?</h2>
+<p>SEO không chỉ là viết bài chèn từ khóa. Nó bao gồm nhiều phần:</p>
+<ul>
+<li><strong>SEO On-page</strong>: Tối ưu nội dung, tiêu đề, URL, hình ảnh, tốc độ tải trang...</li>
+<li><strong>SEO Off-page</strong>: Xây dựng liên kết (backlink), chia sẻ nội dung, PR.</li>
+<li><strong>SEO Technical</strong>: Sơ đồ website, robots.txt, schema, responsive, SSL, tốc độ server...</li>
+</ul>
+<p>SEO có mặt <strong>trên toàn bộ website</strong>, từ nội dung bạn viết đến cấu trúc kỹ thuật của trang.</p>
+<h2>5. When – Khi nào nên bắt đầu làm SEO?</h2>
+<p><strong>Càng sớm càng tốt.</strong> SEO là một quá trình dài hạn và cần thời gian để thấy kết quả. Nếu bạn vừa tạo website, hãy bắt đầu tối ưu hóa nội dung và cấu trúc từ bây giờ.</p>
+<p>Nếu website của bạn đã hoạt động lâu rồi, vẫn không muộn. Bạn có thể <strong>audit lại toàn bộ</strong>, tối ưu từng phần và từng bước cải thiện thứ hạng.</p>
+<h2>6. How – Làm sao để bắt đầu SEO Website?</h2>
+<p>Dưới đây là các bước SEO cơ bản cho người mới:</p>
+<ol>
+<li><strong>Nghiên cứu từ khóa</strong>: Tìm từ khóa người dùng đang tìm kiếm (sử dụng Google Keyword Planner, Ubersuggest…).</li>
+<li><strong>Tối ưu nội dung</strong>: Viết bài chuẩn SEO với từ khóa, tiêu đề hấp dẫn, dễ đọc.</li>
+<li><strong>Tối ưu kỹ thuật</strong>: Kiểm tra tốc độ, thiết bị di động, sitemap, robots.txt.</li>
+<li><strong>Tạo liên kết</strong>: Chia sẻ bài viết trên mạng xã hội, đăng bài ở các website khác.</li>
+<li><strong>Theo dõi kết quả</strong>: Dùng Google Search Console và Google Analytics để theo dõi.</li>
+</ol>
+<hr>
+<h2>Kết luận</h2>
+<p>Có thể thấy, để SEO 1 website thành công lên top tìm kiếm quả thật không hề đơn giản phải không nào.</p>
+<p>SEO không phải là công việc “chỉ dành cho chuyên gia SEO”. Bất kỳ ai cũng có thể <strong>tìm hiểu và bắt đầu với những bước cơ bản</strong>, đặc biệt khi bạn hiểu được những khái niệm cơ bản về SEO website mà tôi vừa để cập ở trên.</p>
+<p>Đối với 1 newbie SEO như tôi, thành công đơn giản chỉ cần trang web này xuất hiện trên trang 2, trang 3 của <code>Google tìm kiếm</code> là tôi đã có thể thể tận hưởng hương vị thành công rồi.</p>
+<p>Còn bạn thì sao? Hãy để lại bình luận và cùng chờ đợi những phần tiếp theo của series này. Tôi sẽ chia sẻ cụ thể những việc chúng ta cần làm.</p>
+<blockquote class="blog-blockquote"><p>Bài viết có sử dụng AI và đã được kiểm duyệt cùng với sự chỉnh sửa để cá nhân hóa theo cách riêng của tôi.</p>
+</blockquote>19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1a"}}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+f:{"metadata":[["$","title","0",{"children":"Kỹ thuật SEO website cơ bản (Phần 1) | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Đây là series viết song song cùng với trải nghiệm của mình khi SEO cho website này. Hãy cùng mình tìm hiểu cơ bản về SEO website và thực hành trên dự án sử dụng NextJS nhé."}],["$","meta","2",{"property":"og:title","content":"Kỹ thuật SEO website cơ bản (Phần 1)"}],["$","meta","3",{"property":"og:description","content":"Đây là series viết song song cùng với trải nghiệm của mình khi SEO cho website này. Hãy cùng mình tìm hiểu cơ bản về SEO website và thực hành trên dự án sử dụng NextJS nhé."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-02"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Kỹ thuật SEO website cơ bản (Phần 1)"}],["$","meta","9",{"name":"twitter:description","content":"Đây là series viết song song cùng với trải nghiệm của mình khi SEO cho website này. Hãy cùng mình tìm hiểu cơ bản về SEO website và thực hành trên dự án sử dụng NextJS nhé."}]],"error":null,"digest":"$undefined"}
+16:{"metadata":"$f:metadata","error":null,"digest":"$undefined"}

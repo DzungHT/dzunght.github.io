@@ -1,0 +1,386 @@
+1:"$Sreact.fragment"
+2:I[8354,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+3:I[7033,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[6874,["874","static/chunks/874-1d2740a4d60ef656.js","345","static/chunks/app/not-found-b1ff5eed07aa575f.js"],""]
+7:I[2403,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+8:"$Sreact.suspense"
+9:I[447,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-f737e91cf1f6f6d5.js"],"default"]
+b:I[9665,[],"OutletBoundary"]
+e:I[4911,[],"AsyncMetadataOutlet"]
+10:I[9665,[],"ViewportBoundary"]
+12:I[9665,[],"MetadataBoundary"]
+14:I[6614,[],""]
+:HL["/_next/static/css/7a23b55d7e7780b7.css","style"]
+:HL["/_next/static/css/b3fba3c3f93148a1.css","style"]
+0:{"P":null,"b":"Vd_RjxPu2AYO-2W9-tiox","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b3fba3c3f93148a1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","XJI5CbV2HUIuT6y1Cv746v",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+15:I[4911,[],"AsyncMetadata"]
+13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
+d:null
+17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","874","static/chunks/874-1d2740a4d60ef656.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-ed9f6b395972e54c.js"],"default"]
+18:T1664,
+Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I'll share insights from my 10+ years of experience in project management.
+
+## The Foundation: Understanding Your Team
+
+### 1. Team Dynamics
+
+Every team is unique, and understanding individual strengths and weaknesses is crucial:
+
+- **Technical Skills**: Assess the team's technical capabilities
+- **Communication Styles**: Adapt your communication approach
+- **Work Preferences**: Some prefer detailed plans, others thrive with flexibility
+
+### 2. Building Trust
+
+Trust is the cornerstone of effective project management:
+
+```typescript
+// Example: Regular check-ins and transparent communication
+interface TeamMember {
+  name: string;
+  role: string;
+  strengths: string[];
+  growthAreas: string[];
+}
+
+function buildTeamTrust(members: TeamMember[]): void {
+  // Regular 1-on-1 meetings
+  // Transparent project status updates
+  // Recognition of achievements
+}
+```
+
+## Planning and Strategy
+
+### 1. Requirements Gathering
+
+Start with clear, well-defined requirements:
+
+| Phase     | Activities                              | Deliverables            |
+| --------- | --------------------------------------- | ----------------------- |
+| Discovery | Stakeholder interviews, user research   | Requirements document   |
+| Analysis  | Feasibility study, technical assessment | Technical specification |
+| Planning  | Timeline, resource allocation           | Project plan            |
+
+### 2. Agile Methodology
+
+Implementing Agile effectively:
+
+```javascript
+// Sprint Planning Example
+const sprintPlanning = {
+  duration: '2 weeks',
+  ceremonies: ['Sprint Planning', 'Daily Standups', 'Sprint Review', 'Retrospective'],
+  artifacts: ['Product Backlog', 'Sprint Backlog', 'Burndown Chart'],
+};
+```
+
+## Communication Strategies
+
+### 1. Stakeholder Management
+
+Regular updates keep everyone aligned:
+
+- **Weekly Status Reports**: High-level progress and blockers
+- **Monthly Reviews**: Detailed analysis and planning
+- **Quarterly Planning**: Strategic alignment and roadmap
+
+### 2. Team Communication
+
+Foster open communication channels:
+
+> "The best project managers are not just organizers; they are facilitators who create an environment where teams can thrive." - Anonymous
+
+## Risk Management
+
+### 1. Identifying Risks
+
+Common software project risks:
+
+1. **Technical Risks**: New technologies, integration challenges
+2. **Resource Risks**: Team availability, skill gaps
+3. **Timeline Risks**: Scope creep, dependencies
+4. **Business Risks**: Changing requirements, market shifts
+
+### 2. Mitigation Strategies
+
+Proactive risk management:
+
+```typescript
+interface Risk {
+  id: string;
+  description: string;
+  probability: 'Low' | 'Medium' | 'High';
+  impact: 'Low' | 'Medium' | 'High';
+  mitigation: string[];
+}
+
+function createRiskMitigationPlan(risks: Risk[]): string[] {
+  return risks
+    .filter((risk) => risk.probability === 'High' || risk.impact === 'High')
+    .map((risk) => risk.mitigation)
+    .flat();
+}
+```
+
+## Quality Assurance
+
+### 1. Testing Strategy
+
+Comprehensive testing approach:
+
+- **Unit Testing**: Individual component testing
+- **Integration Testing**: Component interaction testing
+- **User Acceptance Testing**: End-user validation
+- **Performance Testing**: Load and stress testing
+
+### 2. Code Review Process
+
+Implementing effective code reviews:
+
+```javascript
+const codeReviewChecklist = [
+  'Code follows team standards',
+  'No obvious bugs or issues',
+  'Appropriate test coverage',
+  'Documentation updated',
+  'Security considerations addressed',
+];
+```
+
+## Delivery and Deployment
+
+### 1. Release Management
+
+Structured release process:
+
+1. **Feature Freeze**: Stop new feature development
+2. **Testing Phase**: Comprehensive testing
+3. **Staging Deployment**: Production-like environment testing
+4. **Production Deployment**: Live release
+5. **Post-Release Monitoring**: Performance and issue tracking
+
+### 2. Continuous Integration/Deployment
+
+Automating the delivery pipeline:
+
+```yaml
+# Example CI/CD Pipeline
+name: Deploy to Production
+on:
+  push:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: npm test
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production
+        run: npm run deploy
+```
+
+## Metrics and KPIs
+
+### 1. Project Health Indicators
+
+Track these key metrics:
+
+- **Velocity**: Story points completed per sprint
+- **Burndown**: Progress against planned work
+- **Quality Metrics**: Bug count, code coverage
+- **Team Satisfaction**: Regular surveys and feedback
+
+### 2. Success Criteria
+
+Define clear success criteria:
+
+```typescript
+interface ProjectSuccess {
+  onTime: boolean;
+  onBudget: boolean;
+  meetsRequirements: boolean;
+  teamSatisfaction: number; // 1-10 scale
+  stakeholderSatisfaction: number; // 1-10 scale
+}
+```
+
+## Conclusion
+
+Effective project management is both an art and a science. It requires technical knowledge, soft skills, and the ability to adapt to changing circumstances. The key is to create an environment where your team can do their best work while delivering value to stakeholders.
+
+Remember: **Great project managers don't just manage projects; they enable teams to succeed.**
+
+The strategies outlined in this post provide a foundation for successful project management, but always be ready to adapt and learn from each project experience.
+a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effective Project Management in Software Development","excerpt":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery.","date":"2025-08-01","author":"Hoang Tri Dung","views":890,"series":"Project Management","tags":["Project Management","Agile","Software Development","Leadership","Management"],"content":"$18"},"children":"$L19"}]
+1a:T2b1c,<p>Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I&#39;ll share insights from my 10+ years of experience in project management.</p>
+<h2>The Foundation: Understanding Your Team</h2>
+<h3>1. Team Dynamics</h3>
+<p>Every team is unique, and understanding individual strengths and weaknesses is crucial:</p>
+<ul>
+<li><strong>Technical Skills</strong>: Assess the team&#39;s technical capabilities</li>
+<li><strong>Communication Styles</strong>: Adapt your communication approach</li>
+<li><strong>Work Preferences</strong>: Some prefer detailed plans, others thrive with flexibility</li>
+</ul>
+<h3>2. Building Trust</h3>
+<p>Trust is the cornerstone of effective project management:</p>
+<pre><code class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">TeamMember</span> {
+  <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>;
+  <span class="hljs-attr">role</span>: <span class="hljs-built_in">string</span>;
+  <span class="hljs-attr">strengths</span>: <span class="hljs-built_in">string</span>[];
+  <span class="hljs-attr">growthAreas</span>: <span class="hljs-built_in">string</span>[];
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">buildTeamTrust</span>(<span class="hljs-params"><span class="hljs-attr">members</span>: <span class="hljs-title class_">TeamMember</span>[]</span>): <span class="hljs-built_in">void</span> {
+  <span class="hljs-comment">// Regular 1-on-1 meetings</span>
+  <span class="hljs-comment">// Transparent project status updates</span>
+  <span class="hljs-comment">// Recognition of achievements</span>
+}</code></pre><h2>Planning and Strategy</h2>
+<h3>1. Requirements Gathering</h3>
+<p>Start with clear, well-defined requirements:</p>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Activities</th>
+<th>Deliverables</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Discovery</td>
+<td>Stakeholder interviews, user research</td>
+<td>Requirements document</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>Feasibility study, technical assessment</td>
+<td>Technical specification</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>Timeline, resource allocation</td>
+<td>Project plan</td>
+</tr>
+</tbody></table>
+<h3>2. Agile Methodology</h3>
+<p>Implementing Agile effectively:</p>
+<pre><code class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
+<span class="hljs-keyword">const</span> sprintPlanning = {
+  <span class="hljs-attr">duration</span>: <span class="hljs-string">&#x27;2 weeks&#x27;</span>,
+  <span class="hljs-attr">ceremonies</span>: [<span class="hljs-string">&#x27;Sprint Planning&#x27;</span>, <span class="hljs-string">&#x27;Daily Standups&#x27;</span>, <span class="hljs-string">&#x27;Sprint Review&#x27;</span>, <span class="hljs-string">&#x27;Retrospective&#x27;</span>],
+  <span class="hljs-attr">artifacts</span>: [<span class="hljs-string">&#x27;Product Backlog&#x27;</span>, <span class="hljs-string">&#x27;Sprint Backlog&#x27;</span>, <span class="hljs-string">&#x27;Burndown Chart&#x27;</span>],
+};</code></pre><h2>Communication Strategies</h2>
+<h3>1. Stakeholder Management</h3>
+<p>Regular updates keep everyone aligned:</p>
+<ul>
+<li><strong>Weekly Status Reports</strong>: High-level progress and blockers</li>
+<li><strong>Monthly Reviews</strong>: Detailed analysis and planning</li>
+<li><strong>Quarterly Planning</strong>: Strategic alignment and roadmap</li>
+</ul>
+<h3>2. Team Communication</h3>
+<p>Foster open communication channels:</p>
+<blockquote class="blog-blockquote"><p>&quot;The best project managers are not just organizers; they are facilitators who create an environment where teams can thrive.&quot; - Anonymous</p>
+</blockquote><h2>Risk Management</h2>
+<h3>1. Identifying Risks</h3>
+<p>Common software project risks:</p>
+<ol>
+<li><strong>Technical Risks</strong>: New technologies, integration challenges</li>
+<li><strong>Resource Risks</strong>: Team availability, skill gaps</li>
+<li><strong>Timeline Risks</strong>: Scope creep, dependencies</li>
+<li><strong>Business Risks</strong>: Changing requirements, market shifts</li>
+</ol>
+<h3>2. Mitigation Strategies</h3>
+<p>Proactive risk management:</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
+  <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
+  <span class="hljs-attr">description</span>: <span class="hljs-built_in">string</span>;
+  <span class="hljs-attr">probability</span>: <span class="hljs-string">&#x27;Low&#x27;</span> | <span class="hljs-string">&#x27;Medium&#x27;</span> | <span class="hljs-string">&#x27;High&#x27;</span>;
+  <span class="hljs-attr">impact</span>: <span class="hljs-string">&#x27;Low&#x27;</span> | <span class="hljs-string">&#x27;Medium&#x27;</span> | <span class="hljs-string">&#x27;High&#x27;</span>;
+  <span class="hljs-attr">mitigation</span>: <span class="hljs-built_in">string</span>[];
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">createRiskMitigationPlan</span>(<span class="hljs-params"><span class="hljs-attr">risks</span>: <span class="hljs-title class_">Risk</span>[]</span>): <span class="hljs-built_in">string</span>[] {
+  <span class="hljs-keyword">return</span> risks
+    .<span class="hljs-title function_">filter</span>(<span class="hljs-function">(<span class="hljs-params">risk</span>) =&gt;</span> risk.<span class="hljs-property">probability</span> === <span class="hljs-string">&#x27;High&#x27;</span> || risk.<span class="hljs-property">impact</span> === <span class="hljs-string">&#x27;High&#x27;</span>)
+    .<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">risk</span>) =&gt;</span> risk.<span class="hljs-property">mitigation</span>)
+    .<span class="hljs-title function_">flat</span>();
+}</code></pre><h2>Quality Assurance</h2>
+<h3>1. Testing Strategy</h3>
+<p>Comprehensive testing approach:</p>
+<ul>
+<li><strong>Unit Testing</strong>: Individual component testing</li>
+<li><strong>Integration Testing</strong>: Component interaction testing</li>
+<li><strong>User Acceptance Testing</strong>: End-user validation</li>
+<li><strong>Performance Testing</strong>: Load and stress testing</li>
+</ul>
+<h3>2. Code Review Process</h3>
+<p>Implementing effective code reviews:</p>
+<pre><code class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
+  <span class="hljs-string">&#x27;Code follows team standards&#x27;</span>,
+  <span class="hljs-string">&#x27;No obvious bugs or issues&#x27;</span>,
+  <span class="hljs-string">&#x27;Appropriate test coverage&#x27;</span>,
+  <span class="hljs-string">&#x27;Documentation updated&#x27;</span>,
+  <span class="hljs-string">&#x27;Security considerations addressed&#x27;</span>,
+];</code></pre><h2>Delivery and Deployment</h2>
+<h3>1. Release Management</h3>
+<p>Structured release process:</p>
+<ol>
+<li><strong>Feature Freeze</strong>: Stop new feature development</li>
+<li><strong>Testing Phase</strong>: Comprehensive testing</li>
+<li><strong>Staging Deployment</strong>: Production-like environment testing</li>
+<li><strong>Production Deployment</strong>: Live release</li>
+<li><strong>Post-Release Monitoring</strong>: Performance and issue tracking</li>
+</ol>
+<h3>2. Continuous Integration/Deployment</h3>
+<p>Automating the delivery pipeline:</p>
+<pre><code class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
+<span class="hljs-attr">name:</span> <span class="hljs-string">Deploy</span> <span class="hljs-string">to</span> <span class="hljs-string">Production</span>
+<span class="hljs-attr">on:</span>
+  <span class="hljs-attr">push:</span>
+    <span class="hljs-attr">branches:</span> [<span class="hljs-string">main</span>]
+<span class="hljs-attr">jobs:</span>
+  <span class="hljs-attr">test:</span>
+    <span class="hljs-attr">runs-on:</span> <span class="hljs-string">ubuntu-latest</span>
+    <span class="hljs-attr">steps:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">uses:</span> <span class="hljs-string">actions/checkout@v2</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Run</span> <span class="hljs-string">tests</span>
+        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">test</span>
+  <span class="hljs-attr">deploy:</span>
+    <span class="hljs-attr">needs:</span> <span class="hljs-string">test</span>
+    <span class="hljs-attr">runs-on:</span> <span class="hljs-string">ubuntu-latest</span>
+    <span class="hljs-attr">steps:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Deploy</span> <span class="hljs-string">to</span> <span class="hljs-string">production</span>
+        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">deploy</span></code></pre><h2>Metrics and KPIs</h2>
+<h3>1. Project Health Indicators</h3>
+<p>Track these key metrics:</p>
+<ul>
+<li><strong>Velocity</strong>: Story points completed per sprint</li>
+<li><strong>Burndown</strong>: Progress against planned work</li>
+<li><strong>Quality Metrics</strong>: Bug count, code coverage</li>
+<li><strong>Team Satisfaction</strong>: Regular surveys and feedback</li>
+</ul>
+<h3>2. Success Criteria</h3>
+<p>Define clear success criteria:</p>
+<pre><code class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
+  <span class="hljs-attr">onTime</span>: <span class="hljs-built_in">boolean</span>;
+  <span class="hljs-attr">onBudget</span>: <span class="hljs-built_in">boolean</span>;
+  <span class="hljs-attr">meetsRequirements</span>: <span class="hljs-built_in">boolean</span>;
+  <span class="hljs-attr">teamSatisfaction</span>: <span class="hljs-built_in">number</span>; <span class="hljs-comment">// 1-10 scale</span>
+  <span class="hljs-attr">stakeholderSatisfaction</span>: <span class="hljs-built_in">number</span>; <span class="hljs-comment">// 1-10 scale</span>
+}</code></pre><h2>Conclusion</h2>
+<p>Effective project management is both an art and a science. It requires technical knowledge, soft skills, and the ability to adapt to changing circumstances. The key is to create an environment where your team can do their best work while delivering value to stakeholders.</p>
+<p>Remember: <strong>Great project managers don&#39;t just manage projects; they enable teams to succeed.</strong></p>
+<p>The strategies outlined in this post provide a foundation for successful project management, but always be ready to adapt and learn from each project experience.</p>
+19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1a"}}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+f:{"metadata":[["$","title","0",{"children":"Effective Project Management in Software Development | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","2",{"property":"og:title","content":"Effective Project Management in Software Development"}],["$","meta","3",{"property":"og:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-01"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Effective Project Management in Software Development"}],["$","meta","9",{"name":"twitter:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}]],"error":null,"digest":"$undefined"}
+16:{"metadata":"$f:metadata","error":null,"digest":"$undefined"}
