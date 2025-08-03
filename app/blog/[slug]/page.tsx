@@ -3,6 +3,7 @@ import MarkdownContent from '@/components/MarkdownContent';
 import { getBlogPost, getBlogPosts } from '@/lib/blogUtils';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 
 // Định nghĩa một kiểu dữ liệu cho params
 interface BlogPostPageProps {
@@ -50,6 +51,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <BlogPost post={post}>
       <MarkdownContent content={post.content} />
+      <Script src="/js/copy-code.js" async={true} />
     </BlogPost>
   );
 }

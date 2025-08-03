@@ -15,13 +15,25 @@ const renderer = new marked.Renderer();
 // Enhance code blocks with syntax highlighting using highlight.js
 renderer.code = (code, language) => {
   let highlighted;
+  const langName = language && hljs.getLanguage(language) ? language : 'plaintext';
+
   if (language && hljs.getLanguage(language)) {
     highlighted = hljs.highlight(code, { language }).value;
   } else {
     highlighted = hljs.highlightAuto(code).value;
   }
-  return `<pre><code class="hljs language-${language || 'plaintext'}">${highlighted}</code></pre>`;
+
+  const codeId = `code-${Math.random().toString(36).substring(2, 10)}`;
+
+  return `
+    <div class="code-block">
+      ${language ? `<div class="code-lang">${langName.toUpperCase()}</div>` : ''}
+      <button class="copy-btn" data-target="${codeId}" onclick="copyCode(this)">Copy</button>
+      <pre><code id="${codeId}" class="hljs language-${langName}">${highlighted}</code></pre>
+    </div>
+  `;
 };
+
 
 // Enhance blockquotes with better styling
 renderer.blockquote = (quote) => {
