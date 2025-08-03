@@ -13,12 +13,13 @@ e:I[4911,[],"AsyncMetadataOutlet"]
 12:I[9665,[],"MetadataBoundary"]
 14:I[6614,[],""]
 :HL["/_next/static/css/7a23b55d7e7780b7.css","style"]
-:HL["/_next/static/css/b3fba3c3f93148a1.css","style"]
-0:{"P":null,"b":"8h_WEMqVTv_PxjS3c5jIP","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b3fba3c3f93148a1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RmAgQS4OyyvpM1HTCidW3v",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/63c67a38d55c6f17.css","style"]
+0:{"P":null,"b":"ani66XE4kYdyg5KYXTJsW","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","o2dC2SyW3bTITOgkdzJ9rv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
 15:I[4911,[],"AsyncMetadata"]
 13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
 d:null
-17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-366460a3ed6c1e5f.js"],"default"]
+17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],"default"]
+1a:I[9243,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],""]
 18:T1664,
 Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I'll share insights from my 10+ years of experience in project management.
 
@@ -219,8 +220,8 @@ Effective project management is both an art and a science. It requires technical
 Remember: **Great project managers don't just manage projects; they enable teams to succeed.**
 
 The strategies outlined in this post provide a foundation for successful project management, but always be ready to adapt and learn from each project experience.
-a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effective Project Management in Software Development","excerpt":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery.","date":"2025-08-01","author":"Hoang Tri Dung","views":890,"series":"Project Management","tags":["Project Management","Agile","Software Development","Leadership","Management"],"content":"$18"},"children":"$L19"}]
-1a:T2b1c,<p>Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I&#39;ll share insights from my 10+ years of experience in project management.</p>
+a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effective Project Management in Software Development","excerpt":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery.","date":"2025-08-01","author":"Hoang Tri Dung","views":890,"series":"Project Management","tags":["Project Management","Agile","Software Development","Leadership","Management"],"content":"$18"},"children":["$L19",["$","$L1a",null,{"src":"/js/copy-code.js","async":true}]]}]
+1b:T3014,<p>Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I&#39;ll share insights from my 10+ years of experience in project management.</p>
 <h2>The Foundation: Understanding Your Team</h2>
 <h3>1. Team Dynamics</h3>
 <p>Every team is unique, and understanding individual strengths and weaknesses is crucial:</p>
@@ -231,7 +232,11 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 </ul>
 <h3>2. Building Trust</h3>
 <p>Trust is the cornerstone of effective project management:</p>
-<pre><code class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
+
+    <div class="code-block">
+      <div class="code-lang">TYPESCRIPT</div>
+      <button class="copy-btn" data-target="code-8nadt1g0" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-8nadt1g0" class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
 <span class="hljs-keyword">interface</span> <span class="hljs-title class_">TeamMember</span> {
   <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">role</span>: <span class="hljs-built_in">string</span>;
@@ -243,7 +248,9 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
   <span class="hljs-comment">// Regular 1-on-1 meetings</span>
   <span class="hljs-comment">// Transparent project status updates</span>
   <span class="hljs-comment">// Recognition of achievements</span>
-}</code></pre><h2>Planning and Strategy</h2>
+}</code></pre>
+    </div>
+  <h2>Planning and Strategy</h2>
 <h3>1. Requirements Gathering</h3>
 <p>Start with clear, well-defined requirements:</p>
 <table>
@@ -272,12 +279,18 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 </tbody></table>
 <h3>2. Agile Methodology</h3>
 <p>Implementing Agile effectively:</p>
-<pre><code class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
+
+    <div class="code-block">
+      <div class="code-lang">JAVASCRIPT</div>
+      <button class="copy-btn" data-target="code-3mu633h1" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-3mu633h1" class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
 <span class="hljs-keyword">const</span> sprintPlanning = {
   <span class="hljs-attr">duration</span>: <span class="hljs-string">&#x27;2 weeks&#x27;</span>,
   <span class="hljs-attr">ceremonies</span>: [<span class="hljs-string">&#x27;Sprint Planning&#x27;</span>, <span class="hljs-string">&#x27;Daily Standups&#x27;</span>, <span class="hljs-string">&#x27;Sprint Review&#x27;</span>, <span class="hljs-string">&#x27;Retrospective&#x27;</span>],
   <span class="hljs-attr">artifacts</span>: [<span class="hljs-string">&#x27;Product Backlog&#x27;</span>, <span class="hljs-string">&#x27;Sprint Backlog&#x27;</span>, <span class="hljs-string">&#x27;Burndown Chart&#x27;</span>],
-};</code></pre><h2>Communication Strategies</h2>
+};</code></pre>
+    </div>
+  <h2>Communication Strategies</h2>
 <h3>1. Stakeholder Management</h3>
 <p>Regular updates keep everyone aligned:</p>
 <ul>
@@ -299,7 +312,11 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 </ol>
 <h3>2. Mitigation Strategies</h3>
 <p>Proactive risk management:</p>
-<pre><code class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
+
+    <div class="code-block">
+      <div class="code-lang">TYPESCRIPT</div>
+      <button class="copy-btn" data-target="code-wflqvdlg" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-wflqvdlg" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
   <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">description</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">probability</span>: <span class="hljs-string">&#x27;Low&#x27;</span> | <span class="hljs-string">&#x27;Medium&#x27;</span> | <span class="hljs-string">&#x27;High&#x27;</span>;
@@ -312,7 +329,9 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
     .<span class="hljs-title function_">filter</span>(<span class="hljs-function">(<span class="hljs-params">risk</span>) =&gt;</span> risk.<span class="hljs-property">probability</span> === <span class="hljs-string">&#x27;High&#x27;</span> || risk.<span class="hljs-property">impact</span> === <span class="hljs-string">&#x27;High&#x27;</span>)
     .<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">risk</span>) =&gt;</span> risk.<span class="hljs-property">mitigation</span>)
     .<span class="hljs-title function_">flat</span>();
-}</code></pre><h2>Quality Assurance</h2>
+}</code></pre>
+    </div>
+  <h2>Quality Assurance</h2>
 <h3>1. Testing Strategy</h3>
 <p>Comprehensive testing approach:</p>
 <ul>
@@ -323,13 +342,19 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 </ul>
 <h3>2. Code Review Process</h3>
 <p>Implementing effective code reviews:</p>
-<pre><code class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
+
+    <div class="code-block">
+      <div class="code-lang">JAVASCRIPT</div>
+      <button class="copy-btn" data-target="code-sz9rm8tk" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-sz9rm8tk" class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
   <span class="hljs-string">&#x27;Code follows team standards&#x27;</span>,
   <span class="hljs-string">&#x27;No obvious bugs or issues&#x27;</span>,
   <span class="hljs-string">&#x27;Appropriate test coverage&#x27;</span>,
   <span class="hljs-string">&#x27;Documentation updated&#x27;</span>,
   <span class="hljs-string">&#x27;Security considerations addressed&#x27;</span>,
-];</code></pre><h2>Delivery and Deployment</h2>
+];</code></pre>
+    </div>
+  <h2>Delivery and Deployment</h2>
 <h3>1. Release Management</h3>
 <p>Structured release process:</p>
 <ol>
@@ -341,7 +366,11 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 </ol>
 <h3>2. Continuous Integration/Deployment</h3>
 <p>Automating the delivery pipeline:</p>
-<pre><code class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
+
+    <div class="code-block">
+      <div class="code-lang">YAML</div>
+      <button class="copy-btn" data-target="code-qwyzoxg0" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-qwyzoxg0" class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
 <span class="hljs-attr">name:</span> <span class="hljs-string">Deploy</span> <span class="hljs-string">to</span> <span class="hljs-string">Production</span>
 <span class="hljs-attr">on:</span>
   <span class="hljs-attr">push:</span>
@@ -358,7 +387,9 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
     <span class="hljs-attr">runs-on:</span> <span class="hljs-string">ubuntu-latest</span>
     <span class="hljs-attr">steps:</span>
       <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Deploy</span> <span class="hljs-string">to</span> <span class="hljs-string">production</span>
-        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">deploy</span></code></pre><h2>Metrics and KPIs</h2>
+        <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">deploy</span></code></pre>
+    </div>
+  <h2>Metrics and KPIs</h2>
 <h3>1. Project Health Indicators</h3>
 <p>Track these key metrics:</p>
 <ul>
@@ -369,17 +400,23 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 </ul>
 <h3>2. Success Criteria</h3>
 <p>Define clear success criteria:</p>
-<pre><code class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
+
+    <div class="code-block">
+      <div class="code-lang">TYPESCRIPT</div>
+      <button class="copy-btn" data-target="code-pymi4j16" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-pymi4j16" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
   <span class="hljs-attr">onTime</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">onBudget</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">meetsRequirements</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">teamSatisfaction</span>: <span class="hljs-built_in">number</span>; <span class="hljs-comment">// 1-10 scale</span>
   <span class="hljs-attr">stakeholderSatisfaction</span>: <span class="hljs-built_in">number</span>; <span class="hljs-comment">// 1-10 scale</span>
-}</code></pre><h2>Conclusion</h2>
+}</code></pre>
+    </div>
+  <h2>Conclusion</h2>
 <p>Effective project management is both an art and a science. It requires technical knowledge, soft skills, and the ability to adapt to changing circumstances. The key is to create an environment where your team can do their best work while delivering value to stakeholders.</p>
 <p>Remember: <strong>Great project managers don&#39;t just manage projects; they enable teams to succeed.</strong></p>
 <p>The strategies outlined in this post provide a foundation for successful project management, but always be ready to adapt and learn from each project experience.</p>
-19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1a"}}]
+19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1b"}}]
 11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:null
 f:{"metadata":[["$","title","0",{"children":"Effective Project Management in Software Development | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","2",{"property":"og:title","content":"Effective Project Management in Software Development"}],["$","meta","3",{"property":"og:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-01"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Effective Project Management in Software Development"}],["$","meta","9",{"name":"twitter:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}]],"error":null,"digest":"$undefined"}

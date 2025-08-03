@@ -13,12 +13,13 @@ e:I[4911,[],"AsyncMetadataOutlet"]
 12:I[9665,[],"MetadataBoundary"]
 14:I[6614,[],""]
 :HL["/_next/static/css/7a23b55d7e7780b7.css","style"]
-:HL["/_next/static/css/b3fba3c3f93148a1.css","style"]
-0:{"P":null,"b":"8h_WEMqVTv_PxjS3c5jIP","p":"","c":["","blog","getting-started-with-nextjs"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","getting-started-with-nextjs","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","getting-started-with-nextjs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b3fba3c3f93148a1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Wc8cjCTd8g2g3NBHUxQxAv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+:HL["/_next/static/css/63c67a38d55c6f17.css","style"]
+0:{"P":null,"b":"ani66XE4kYdyg5KYXTJsW","p":"","c":["","blog","getting-started-with-nextjs"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","getting-started-with-nextjs","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","getting-started-with-nextjs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","9HDvWKGTcQpC2WLG26hYTv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
 15:I[4911,[],"AsyncMetadata"]
 13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
 d:null
-17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-366460a3ed6c1e5f.js"],"default"]
+17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],"default"]
+1a:I[9243,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],""]
 18:Ta8f,
 # Getting Started with Next.js 15
 
@@ -128,22 +129,32 @@ export default function Hero() {
 Next.js 15 continues to push the boundaries of what's possible with React applications. The combination of server components, improved performance, and excellent developer experience makes it an excellent choice for modern web development.
 
 Whether you're building a simple blog or a complex enterprise application, Next.js 15 provides the tools and features you need to succeed.
-a:["$","$L17",null,{"post":{"slug":"getting-started-with-nextjs","title":"Getting Started with Next.js 15","excerpt":"Learn how to build modern web applications with Next.js 15, the latest version of the popular React framework.","date":"2025-08-01","author":"Hoang Tri Dung","views":1250,"series":"Next.js Tutorials","tags":["Next.js","React","Web Development","JavaScript","Tutorials","AI Generated"],"content":"$18"},"children":"$L19"}]
-1a:T1a64,<h1>Getting Started with Next.js 15</h1>
+a:["$","$L17",null,{"post":{"slug":"getting-started-with-nextjs","title":"Getting Started with Next.js 15","excerpt":"Learn how to build modern web applications with Next.js 15, the latest version of the popular React framework.","date":"2025-08-01","author":"Hoang Tri Dung","views":1250,"series":"Next.js Tutorials","tags":["Next.js","React","Web Development","JavaScript","Tutorials","AI Generated"],"content":"$18"},"children":["$L19",["$","$L1a",null,{"src":"/js/copy-code.js","async":true}]]}]
+1b:T1f55,<h1>Getting Started with Next.js 15</h1>
 <p>Next.js 15 brings exciting new features and improvements that make building modern web applications even more powerful and efficient. In this post, I&#39;ll walk you through the key features and how to get started.</p>
 <h2>What&#39;s New in Next.js 15</h2>
 <h3>1. Improved App Router</h3>
 <p>The App Router has been enhanced with better performance and developer experience:</p>
-<pre><code class="hljs language-javascript"><span class="hljs-comment">// app/page.tsx</span>
+
+    <div class="code-block">
+      <div class="code-lang">JAVASCRIPT</div>
+      <button class="copy-btn" data-target="code-gy7m29n6" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-gy7m29n6" class="hljs language-javascript"><span class="hljs-comment">// app/page.tsx</span>
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Home</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> (
     <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Welcome to Next.js 15<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span></span>
   );
-}</code></pre><h3>2. Enhanced Server Components</h3>
+}</code></pre>
+    </div>
+  <h3>2. Enhanced Server Components</h3>
 <p>Server Components are now more powerful with better streaming and caching:</p>
-<pre><code class="hljs language-javascript"><span class="hljs-comment">// app/blog/[slug]/page.tsx</span>
+
+    <div class="code-block">
+      <div class="code-lang">JAVASCRIPT</div>
+      <button class="copy-btn" data-target="code-alz9uy4i" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-alz9uy4i" class="hljs language-javascript"><span class="hljs-comment">// app/blog/[slug]/page.tsx</span>
 <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">getPost</span>(<span class="hljs-params">slug: string</span>) {
   <span class="hljs-keyword">const</span> post = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetch</span>(<span class="hljs-string">`/api/posts/<span class="hljs-subst">${slug}</span>`</span>)
   <span class="hljs-keyword">return</span> post.<span class="hljs-title function_">json</span>()
@@ -158,7 +169,9 @@ a:["$","$L17",null,{"post":{"slug":"getting-started-with-nextjs","title":"Gettin
       <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{post.content}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span></span>
   )
-}</code></pre><h2>Key Benefits</h2>
+}</code></pre>
+    </div>
+  <h2>Key Benefits</h2>
 <ol>
 <li><strong>Performance</strong>: Automatic code splitting and optimization</li>
 <li><strong>SEO</strong>: Built-in SEO features with metadata API</li>
@@ -167,35 +180,59 @@ a:["$","$L17",null,{"post":{"slug":"getting-started-with-nextjs","title":"Gettin
 </ol>
 <h2>Getting Started</h2>
 <p>To create a new Next.js 15 project:</p>
-<pre><code class="hljs language-bash">npx create-next-app@latest my-app
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-jzl46s7k" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-jzl46s7k" class="hljs language-bash">npx create-next-app@latest my-app
 <span class="hljs-built_in">cd</span> my-app
-npm run dev</code></pre><h2>Best Practices</h2>
+npm run dev</code></pre>
+    </div>
+  <h2>Best Practices</h2>
 <h3>1. Use TypeScript</h3>
 <p>TypeScript provides better developer experience and catch errors early:</p>
-<pre><code class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Post</span> {
+
+    <div class="code-block">
+      <div class="code-lang">TYPESCRIPT</div>
+      <button class="copy-btn" data-target="code-bityhkjl" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-bityhkjl" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Post</span> {
   <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">title</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">content</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">publishedAt</span>: <span class="hljs-title class_">Date</span>;
-}</code></pre><h3>2. Implement Proper Error Handling</h3>
+}</code></pre>
+    </div>
+  <h3>2. Implement Proper Error Handling</h3>
 <p>Always handle errors gracefully:</p>
-<pre><code class="hljs language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">BlogList</span>(<span class="hljs-params"></span>) {
+
+    <div class="code-block">
+      <div class="code-lang">TYPESCRIPT</div>
+      <button class="copy-btn" data-target="code-pz1fgdhc" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-pz1fgdhc" class="hljs language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">BlogList</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">const</span> posts = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetchPosts</span>()
     <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">PostList</span> <span class="hljs-attr">posts</span>=<span class="hljs-string">{posts}</span> /&gt;</span></span>
   } <span class="hljs-keyword">catch</span> (error) {
     <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">ErrorComponent</span> <span class="hljs-attr">error</span>=<span class="hljs-string">{error}</span> /&gt;</span></span>
   }
-}</code></pre><h3>3. Optimize Images</h3>
+}</code></pre>
+    </div>
+  <h3>3. Optimize Images</h3>
 <p>Use Next.js Image component for automatic optimization:</p>
-<pre><code class="hljs language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">Image</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;next/image&#x27;</span>;
+
+    <div class="code-block">
+      <div class="code-lang">JSX</div>
+      <button class="copy-btn" data-target="code-wq6is5zk" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-wq6is5zk" class="hljs language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">Image</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;next/image&#x27;</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Hero</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Image</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/hero.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;Hero image&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{1200}</span> <span class="hljs-attr">height</span>=<span class="hljs-string">{600}</span> <span class="hljs-attr">priority</span> /&gt;</span></span>;
-}</code></pre><h2>Conclusion</h2>
+}</code></pre>
+    </div>
+  <h2>Conclusion</h2>
 <p>Next.js 15 continues to push the boundaries of what&#39;s possible with React applications. The combination of server components, improved performance, and excellent developer experience makes it an excellent choice for modern web development.</p>
 <p>Whether you&#39;re building a simple blog or a complex enterprise application, Next.js 15 provides the tools and features you need to succeed.</p>
-19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1a"}}]
+19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1b"}}]
 11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:null
 f:{"metadata":[["$","title","0",{"children":"Getting Started with Next.js 15 | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Learn how to build modern web applications with Next.js 15, the latest version of the popular React framework."}],["$","meta","2",{"property":"og:title","content":"Getting Started with Next.js 15"}],["$","meta","3",{"property":"og:description","content":"Learn how to build modern web applications with Next.js 15, the latest version of the popular React framework."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-01"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Getting Started with Next.js 15"}],["$","meta","9",{"name":"twitter:description","content":"Learn how to build modern web applications with Next.js 15, the latest version of the popular React framework."}]],"error":null,"digest":"$undefined"}

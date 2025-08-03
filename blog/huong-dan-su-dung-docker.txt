@@ -1,0 +1,349 @@
+1:"$Sreact.fragment"
+2:I[8354,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+3:I[7033,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[6874,["874","static/chunks/874-1d2740a4d60ef656.js","345","static/chunks/app/not-found-b1ff5eed07aa575f.js"],""]
+7:I[2403,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+8:"$Sreact.suspense"
+9:I[447,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+b:I[9665,[],"OutletBoundary"]
+e:I[4911,[],"AsyncMetadataOutlet"]
+10:I[9665,[],"ViewportBoundary"]
+12:I[9665,[],"MetadataBoundary"]
+14:I[6614,[],""]
+:HL["/_next/static/css/7a23b55d7e7780b7.css","style"]
+:HL["/_next/static/css/63c67a38d55c6f17.css","style"]
+0:{"P":null,"b":"ani66XE4kYdyg5KYXTJsW","p":"","c":["","blog","huong-dan-su-dung-docker"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","huong-dan-su-dung-docker","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","huong-dan-su-dung-docker","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","aD5-weEvuHpPMMXX2BgCJv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+15:I[4911,[],"AsyncMetadata"]
+13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
+d:null
+17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],"default"]
+1a:I[9243,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],""]
+18:T1ecf,
+> Xin chào các bạn đã đến với trang blog cá nhân [dzunght.github.io](https://dzunght.github.io/blog) - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.
+> Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.
+
+## 1. Docker là gì?
+
+Docker là một nền tảng mã nguồn mở giúp đóng gói, triển khai và chạy các ứng dụng trong các **container** – một môi trường nhẹ, độc lập, và có thể chạy ở bất kỳ đâu. Docker giúp đơn giản hóa việc phát triển và triển khai ứng dụng, đặc biệt hữu ích trong các môi trường CI/CD và microservices.
+
+## 2. Cài đặt Docker trên Linux
+
+Linux gồm có rất nhiều bản phân phối khác nhau. Trong bài viết này, tôi sẽ nói về cách cài đặt trên 2 bản phân phối thông dụng nhất là:
+
+- **Amazon Linux**, **CentOS 7**: Bản OS nhẹ và ổn định hay dùng cho các server linux.
+- **Ubuntu** : Đang dần trở nên phổ biến để sử dụng cho các server chạy Linux hiện giờ và cũng được nhiều đơn vị cho thuê server ảo recommend sử dụng thay cho `CentOS`
+
+ở đây tôi đã tập hợp lại các lệnh. Để biết thêm chi tiết hãy tham khảo [tài liệu official của Docker](https://docs.docker.com/engine/install/) tương ứng với OS bạn sử dụng nhé.
+
+### 2.1 Cài đặt cho **Amazon Linux**, **CentOS 7**
+
+Nói là dành cho `Amazon Linux` và `CentOS 7` thôi chứ tôi thấy cứ OS nào dùng được lệnh `yum` để quản lý package, cài app thì hầu như có thể dùng cách này nhé.
+
+Dưới dây là tập hợp các câu lệnh để cài đặt full bộ `docker` và `docker-compose`
+
+```bash
+sudo yum install -y yum-utils
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -a -G docker <username>
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+```
+
+**Chú ý:** Các bạn nhớ để ý dòng lệnh sau
+
+```bash
+sudo usermod -a -G docker <username>
+```
+
+Các bạn cần thay `username` thành username mà bạn muốn dùng docker mà không cần `sudo` (bỏ qua lệnh này không ảnh hưởng).
+
+VD: thường gặp nếu cài trên EC2 của AWS:
+
+```bash
+sudo usermod -a -G docker ec2-user
+```
+
+### 2.2 Cài đặt cho Ubuntu
+
+Tại thời điểm viết bài, Tôi đã dùng để cài cho `Ubuntu 24.0.1 LTS` và thành công
+
+Uninstall các package cũ đã cài. Tránh bị conflict khi cài version mới.
+
+```bash
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
+```
+
+Set up Docker's apt repository.
+
+```bash
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+```
+
+Install the Docker packages
+
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -a -G docker <username>
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+```
+
+## 3. Các lệnh cơ bản để dùng trong các trường hợp không cơ bản
+
+Bạn nghĩ tôi sẽ liệt kê, copy lại các lệnh trên trang chủ của docker sao?
+Mấy lệnh đấy bạn lên `Google` tra nhé vì nó không phải lệnh cơ bản đối với tôi.
+
+### 3.1 Giải phóng dung lượng của docker
+
+#### a. Vấn đề, nguyên nhân
+
+Các bạn đã bao giờ gặp tình trạng server của mình chỉ chạy có 1 ứng dụng, không lưu file, không lưu log. Đang chạy ổn định bỗng 1 ngày đẹp trời, bạn không thể request vào server được nữa. Không thể start docker-compose.
+
+Thủ phạm không ai khác chính là `docker` đã làm cho server của chúng ta đầy bộ nhớ. Dù nó dùng `docker` và `docker-compose` rất tiện nhưng nhiều khi nó lại rất bất tiện như vậy đó.
+
+Nguyên nhân docker gây đầy bộ nhớ có thể kể ra 1 số như sau:
+
+- Build image: Nếu bạn chạy docker bằng cách build docker image bằng file Dockerfile thì bạn phải lưu ý. Mỗi 1 dòng lệnh trong Dockerfile sẽ là 1 image vô danh của docker (Cơ chế cache image của docker để những lần sau build nhanh hơn). Theo thời gian, số lượng image vô danh sẽ tăng dần lên và gây đầy bộ nhớ.
+- Log của docker
+- Docker Container: Theo tôi dự đoán, có thể do container lưu lại 1 số thông tin cached hoặc
+- Các thư mục overlay: Đây là nguyên nhân chính khiến server của chúng ta hay bị đầy bộ nhớ. Mấy file này tôi cũng không rõ các tác dụng gì nhưng tôi xóa đi thấy không ảnh hưởng gì cả.
+
+#### b. Các lệnh cơ bản để giải quyết vấn đề
+
+**Đây là câu lệnh thần thánh để xử lý được 90% các vấn đề liên quan đến đầy dung lượng bộ nhớ do docker gây ra**
+
+```bash
+sudo docker system prune
+
+```
+
+Một số lệnh tương tự
+
+```bash
+sudo docker container prune
+sudo docker image prune -a -f
+
+```
+
+Nếu bạn dùng docker-compose thì nên chạy lệnh này mỗi khi down ứng dụng:
+
+```bash
+sudo docker-compose down --rmi all
+
+```
+
+> Bạn lo sợ ứng dụng của bạn sẽ bị ảnh hưởng nếu dùng như vậy đúng không?
+> Nếu bạn đã mount thư mục data trong docker với host (server) thì khi bạn bật lại app của bạn chỉ khởi tạo lại tài nguyên cần thiết thôi. Data vẫn được lưu giữ trong mounted folder của bạn. Everything is still fine!
+
+**Sau khi chạy các lệnh trên không ăn thua thì chạy lệnh này nhé**
+
+```bash
+sudo rm -rf *
+```
+
+Khoan! dừng khoảng chừng là 5s và đọc tiếp nhé 🤣
+
+Sử dụng các lệnh sau để tìm đến nơi có dung lượng nhiều nhất mà xóa nhé.
+
+Xem phân vùng nào chiếm nhiều dung lượng nhất
+
+```bash
+df -h
+
+```
+
+Xem dung lượng của các thư mục con cấp 1 (trực tiếp) tại thư mục đang đứng. Các bạn mò dần vào đến thư mục `overlay` của docker là đến đích rồi đấy. Mạnh dạn xóa đi nhé. Lỗi thì cài lại docker lo gì 😉
+
+```bash
+du -h -d 1
+
+```
+
+> Tạm thời trải nghiệm của tôi với `docker` mới chỉ có vậy. Tương lai nếu có thể các tình huống không cơ bản nào nữa thì tôi sẽ cập nhật thêm sau. Hy vọng là sẽ không còn 3.2 nữa.
+
+Hãy follow blog của tôi để cập nhật những bài viết mới nhé.
+a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm việc với docker và docker-compose","excerpt":"Cài đặt docker và docker-compose. Các trường hợp hay gặp trong quá trình sử dụng docker","date":"2025-08-03","author":"Hoang Tri Dung","views":0,"series":null,"tags":["Docker","docker-compose","CI/CD","Linux"],"content":"$18"},"children":["$L19",["$","$L1a",null,{"src":"/js/copy-code.js","async":true}]]}]
+1b:T3499,<blockquote class="blog-blockquote"><p>Xin chào các bạn đã đến với trang blog cá nhân <a href="https://dzunght.github.io/blog" target="_blank" rel="noopener noreferrer" title="">dzunght.github.io</a> - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.<br>Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.</p>
+</blockquote><h2>1. Docker là gì?</h2>
+<p>Docker là một nền tảng mã nguồn mở giúp đóng gói, triển khai và chạy các ứng dụng trong các <strong>container</strong> – một môi trường nhẹ, độc lập, và có thể chạy ở bất kỳ đâu. Docker giúp đơn giản hóa việc phát triển và triển khai ứng dụng, đặc biệt hữu ích trong các môi trường CI/CD và microservices.</p>
+<h2>2. Cài đặt Docker trên Linux</h2>
+<p>Linux gồm có rất nhiều bản phân phối khác nhau. Trong bài viết này, tôi sẽ nói về cách cài đặt trên 2 bản phân phối thông dụng nhất là:</p>
+<ul>
+<li><strong>Amazon Linux</strong>, <strong>CentOS 7</strong>: Bản OS nhẹ và ổn định hay dùng cho các server linux.</li>
+<li><strong>Ubuntu</strong> : Đang dần trở nên phổ biến để sử dụng cho các server chạy Linux hiện giờ và cũng được nhiều đơn vị cho thuê server ảo recommend sử dụng thay cho <code>CentOS</code></li>
+</ul>
+<p>ở đây tôi đã tập hợp lại các lệnh. Để biết thêm chi tiết hãy tham khảo <a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer" title="">tài liệu official của Docker</a> tương ứng với OS bạn sử dụng nhé.</p>
+<h3>2.1 Cài đặt cho <strong>Amazon Linux</strong>, <strong>CentOS 7</strong></h3>
+<p>Nói là dành cho <code>Amazon Linux</code> và <code>CentOS 7</code> thôi chứ tôi thấy cứ OS nào dùng được lệnh <code>yum</code> để quản lý package, cài app thì hầu như có thể dùng cách này nhé.</p>
+<p>Dưới dây là tập hợp các câu lệnh để cài đặt full bộ <code>docker</code> và <code>docker-compose</code></p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-jeye3vvy" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-jeye3vvy" class="hljs language-bash"><span class="hljs-built_in">sudo</span> yum install -y yum-utils
+<span class="hljs-built_in">sudo</span> yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+<span class="hljs-built_in">sudo</span> yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+<span class="hljs-built_in">sudo</span> systemctl start docker
+<span class="hljs-built_in">sudo</span> systemctl <span class="hljs-built_in">enable</span> docker
+<span class="hljs-built_in">sudo</span> usermod -a -G docker &lt;username&gt;
+<span class="hljs-built_in">sudo</span> curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(<span class="hljs-built_in">uname</span> -s)-$(<span class="hljs-built_in">uname</span> -m) -o /usr/local/bin/docker-compose
+<span class="hljs-built_in">sudo</span> <span class="hljs-built_in">chmod</span> +x /usr/local/bin/docker-compose
+</code></pre>
+    </div>
+  <p><strong>Chú ý:</strong> Các bạn nhớ để ý dòng lệnh sau</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-r26ihtjl" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-r26ihtjl" class="hljs language-bash"><span class="hljs-built_in">sudo</span> usermod -a -G docker &lt;username&gt;</code></pre>
+    </div>
+  <p>Các bạn cần thay <code>username</code> thành username mà bạn muốn dùng docker mà không cần <code>sudo</code> (bỏ qua lệnh này không ảnh hưởng).</p>
+<p>VD: thường gặp nếu cài trên EC2 của AWS:</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-b7c0row9" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-b7c0row9" class="hljs language-bash"><span class="hljs-built_in">sudo</span> usermod -a -G docker ec2-user</code></pre>
+    </div>
+  <h3>2.2 Cài đặt cho Ubuntu</h3>
+<p>Tại thời điểm viết bài, Tôi đã dùng để cài cho <code>Ubuntu 24.0.1 LTS</code> và thành công</p>
+<p>Uninstall các package cũ đã cài. Tránh bị conflict khi cài version mới.</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-o5mb6c35" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-o5mb6c35" class="hljs language-bash"><span class="hljs-keyword">for</span> pkg <span class="hljs-keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="hljs-keyword">do</span> <span class="hljs-built_in">sudo</span> apt-get remove <span class="hljs-variable">$pkg</span>; <span class="hljs-keyword">done</span>
+</code></pre>
+    </div>
+  <p>Set up Docker&#39;s apt repository.</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-safopmh4" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-safopmh4" class="hljs language-bash"><span class="hljs-comment"># Add Docker&#x27;s official GPG key:</span>
+<span class="hljs-built_in">sudo</span> apt-get update
+<span class="hljs-built_in">sudo</span> apt-get install ca-certificates curl
+<span class="hljs-built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings
+<span class="hljs-built_in">sudo</span> curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+<span class="hljs-built_in">sudo</span> <span class="hljs-built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc
+
+<span class="hljs-comment"># Add the repository to Apt sources:</span>
+<span class="hljs-built_in">echo</span> \
+  <span class="hljs-string">&quot;deb [arch=<span class="hljs-subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  <span class="hljs-subst">$(. /etc/os-release &amp;&amp; echo <span class="hljs-string">&quot;<span class="hljs-variable">${UBUNTU_CODENAME:-<span class="hljs-variable">$VERSION_CODENAME</span>}</span>&quot;</span>)</span> stable&quot;</span> | \
+  <span class="hljs-built_in">sudo</span> <span class="hljs-built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null
+<span class="hljs-built_in">sudo</span> apt-get update
+</code></pre>
+    </div>
+  <p>Install the Docker packages</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-nz6pi0qd" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-nz6pi0qd" class="hljs language-bash"><span class="hljs-built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+<span class="hljs-built_in">sudo</span> systemctl start docker
+<span class="hljs-built_in">sudo</span> systemctl <span class="hljs-built_in">enable</span> docker
+<span class="hljs-built_in">sudo</span> usermod -a -G docker &lt;username&gt;
+<span class="hljs-built_in">sudo</span> curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(<span class="hljs-built_in">uname</span> -s)-$(<span class="hljs-built_in">uname</span> -m) -o /usr/local/bin/docker-compose
+<span class="hljs-built_in">sudo</span> <span class="hljs-built_in">chmod</span> +x /usr/local/bin/docker-compose
+</code></pre>
+    </div>
+  <h2>3. Các lệnh cơ bản để dùng trong các trường hợp không cơ bản</h2>
+<p>Bạn nghĩ tôi sẽ liệt kê, copy lại các lệnh trên trang chủ của docker sao?<br>Mấy lệnh đấy bạn lên <code>Google</code> tra nhé vì nó không phải lệnh cơ bản đối với tôi.</p>
+<h3>3.1 Giải phóng dung lượng của docker</h3>
+<h4>a. Vấn đề, nguyên nhân</h4>
+<p>Các bạn đã bao giờ gặp tình trạng server của mình chỉ chạy có 1 ứng dụng, không lưu file, không lưu log. Đang chạy ổn định bỗng 1 ngày đẹp trời, bạn không thể request vào server được nữa. Không thể start docker-compose.</p>
+<p>Thủ phạm không ai khác chính là <code>docker</code> đã làm cho server của chúng ta đầy bộ nhớ. Dù nó dùng <code>docker</code> và <code>docker-compose</code> rất tiện nhưng nhiều khi nó lại rất bất tiện như vậy đó.</p>
+<p>Nguyên nhân docker gây đầy bộ nhớ có thể kể ra 1 số như sau:</p>
+<ul>
+<li>Build image: Nếu bạn chạy docker bằng cách build docker image bằng file Dockerfile thì bạn phải lưu ý. Mỗi 1 dòng lệnh trong Dockerfile sẽ là 1 image vô danh của docker (Cơ chế cache image của docker để những lần sau build nhanh hơn). Theo thời gian, số lượng image vô danh sẽ tăng dần lên và gây đầy bộ nhớ.</li>
+<li>Log của docker</li>
+<li>Docker Container: Theo tôi dự đoán, có thể do container lưu lại 1 số thông tin cached hoặc</li>
+<li>Các thư mục overlay: Đây là nguyên nhân chính khiến server của chúng ta hay bị đầy bộ nhớ. Mấy file này tôi cũng không rõ các tác dụng gì nhưng tôi xóa đi thấy không ảnh hưởng gì cả.</li>
+</ul>
+<h4>b. Các lệnh cơ bản để giải quyết vấn đề</h4>
+<p><strong>Đây là câu lệnh thần thánh để xử lý được 90% các vấn đề liên quan đến đầy dung lượng bộ nhớ do docker gây ra</strong></p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-izc4fjr4" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-izc4fjr4" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker system prune
+</code></pre>
+    </div>
+  <p>Một số lệnh tương tự</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-4kn8h69c" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-4kn8h69c" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker container prune
+<span class="hljs-built_in">sudo</span> docker image prune -a -f
+</code></pre>
+    </div>
+  <p>Nếu bạn dùng docker-compose thì nên chạy lệnh này mỗi khi down ứng dụng:</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-znaxpnnc" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-znaxpnnc" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker-compose down --rmi all
+</code></pre>
+    </div>
+  <blockquote class="blog-blockquote"><p>Bạn lo sợ ứng dụng của bạn sẽ bị ảnh hưởng nếu dùng như vậy đúng không?<br>Nếu bạn đã mount thư mục data trong docker với host (server) thì khi bạn bật lại app của bạn chỉ khởi tạo lại tài nguyên cần thiết thôi. Data vẫn được lưu giữ trong mounted folder của bạn. Everything is still fine!</p>
+</blockquote><p><strong>Sau khi chạy các lệnh trên không ăn thua thì chạy lệnh này nhé</strong></p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-uc7rbwb9" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-uc7rbwb9" class="hljs language-bash"><span class="hljs-built_in">sudo</span> <span class="hljs-built_in">rm</span> -rf *</code></pre>
+    </div>
+  <p>Khoan! dừng khoảng chừng là 5s và đọc tiếp nhé 🤣</p>
+<p>Sử dụng các lệnh sau để tìm đến nơi có dung lượng nhiều nhất mà xóa nhé.</p>
+<p>Xem phân vùng nào chiếm nhiều dung lượng nhất</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-s14k1yrj" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-s14k1yrj" class="hljs language-bash"><span class="hljs-built_in">df</span> -h
+</code></pre>
+    </div>
+  <p>Xem dung lượng của các thư mục con cấp 1 (trực tiếp) tại thư mục đang đứng. Các bạn mò dần vào đến thư mục <code>overlay</code> của docker là đến đích rồi đấy. Mạnh dạn xóa đi nhé. Lỗi thì cài lại docker lo gì 😉</p>
+
+    <div class="code-block">
+      <div class="code-lang">BASH</div>
+      <button class="copy-btn" data-target="code-1fb17tc8" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-1fb17tc8" class="hljs language-bash"><span class="hljs-built_in">du</span> -h -d 1
+</code></pre>
+    </div>
+  <blockquote class="blog-blockquote"><p>Tạm thời trải nghiệm của tôi với <code>docker</code> mới chỉ có vậy. Tương lai nếu có thể các tình huống không cơ bản nào nữa thì tôi sẽ cập nhật thêm sau. Hy vọng là sẽ không còn 3.2 nữa.</p>
+</blockquote><p>Hãy follow blog của tôi để cập nhật những bài viết mới nhé.</p>
+19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1b"}}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+f:{"metadata":[["$","title","0",{"children":"Làm việc với docker và docker-compose | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Cài đặt docker và docker-compose. Các trường hợp hay gặp trong quá trình sử dụng docker"}],["$","meta","2",{"property":"og:title","content":"Làm việc với docker và docker-compose"}],["$","meta","3",{"property":"og:description","content":"Cài đặt docker và docker-compose. Các trường hợp hay gặp trong quá trình sử dụng docker"}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-03"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Làm việc với docker và docker-compose"}],["$","meta","9",{"name":"twitter:description","content":"Cài đặt docker và docker-compose. Các trường hợp hay gặp trong quá trình sử dụng docker"}]],"error":null,"digest":"$undefined"}
+16:{"metadata":"$f:metadata","error":null,"digest":"$undefined"}
