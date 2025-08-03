@@ -43,8 +43,8 @@ const Footer: React.FC = () => {
     fetch('/version.json')
       .then((res) => res.json())
       .then((data) => {
-        const { major, minor, build } = data;
-        setVersionText(`v${major}.${minor}.${build}`);
+        const { major, minor, buildDate, buildTime } = data;
+        setVersionText(`v${major}.${minor}.${buildDate}.${buildTime}`);
       })
       .catch(() => setVersionText('unknown'));
   }, []);

@@ -15,7 +15,10 @@ function ask(question) {
 function getBuildTimestamp() {
   const now = new Date();
   const pad = (n) => n.toString().padStart(2, '0');
-  return `${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}${pad(now.getHours())}${pad(now.getMinutes())}`;
+  return {
+    buildDate: `${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}`,
+    buildTime: `${pad(now.getHours())}${pad(now.getMinutes())}`,
+  };
 }
 
 function checkUncommittedChanges() {
@@ -49,7 +52,8 @@ async function main() {
   let versionData = {
     major: 1,
     minor: 0,
-    build: '202501010000',
+    buildDate: '20250101',
+    buildTime: '0000',
   };
 
   if (fs.existsSync(versionPath)) {
@@ -61,7 +65,7 @@ async function main() {
     }
   }
 
-  console.log(`📦 Current version: v${versionData.major}.${versionData.minor}.${versionData.build}`);
+  console.log(`📦 Current version: v${versionData.major}.${versionData.minor}.${versionData.buildDate}.${versionData.buildTime}`);
 
   const ansMajor = (await ask('🔢 Increase major version? (y/N): ')).trim().toLowerCase();
   const ansMinor = (await ask('➕ Increase minor version? (y/N): ')).trim().toLowerCase();
@@ -76,8 +80,10 @@ async function main() {
     versionData.minor += 1;
   }
 
-  versionData.build = getBuildTimestamp();
-  const fullVersion = `v${versionData.major}.${versionData.minor}.${versionData.build}`;
+  const { buildDate, buildTime } = getBuildTimestamp();
+  versionData.buildDate = buildDate;
+  versionData.buildTime = buildTime;
+  const fullVersion = `v${versionData.major}.${versionData.minor}.${versionData.buildDate}.${versionData.buildTime}`;
 
   fs.writeFileSync(versionPath, JSON.stringify(versionData, null, 2));
   // console.log(`✅ Updated version: ${fullVersion}`);
