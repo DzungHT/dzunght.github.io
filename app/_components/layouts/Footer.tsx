@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
   const [versionText, setVersionText] = useState<string>('loading...');
 
   useEffect(() => {
-    fetch('/version.json')
+    fetch(`/version.json?v=1.1`)
       .then((res) => res.json())
       .then((data) => {
         const { major, minor, buildDate, buildTime } = data;
