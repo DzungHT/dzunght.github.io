@@ -1,25 +1,25 @@
 1:"$Sreact.fragment"
-2:I[8354,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
-3:I[7033,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+2:I[8354,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
+3:I[7033,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
 4:I[7555,[],""]
 5:I[1295,[],""]
 6:I[6874,["874","static/chunks/874-1d2740a4d60ef656.js","345","static/chunks/app/not-found-b1ff5eed07aa575f.js"],""]
-7:I[2403,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+7:I[2403,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
 8:"$Sreact.suspense"
-9:I[447,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-36120a1eca8f32ab.js"],"default"]
+9:I[447,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
 b:I[9665,[],"OutletBoundary"]
 e:I[4911,[],"AsyncMetadataOutlet"]
 10:I[9665,[],"ViewportBoundary"]
 12:I[9665,[],"MetadataBoundary"]
 14:I[6614,[],""]
-:HL["/_next/static/css/7a23b55d7e7780b7.css","style"]
+:HL["/_next/static/css/ad56338834cf7aea.css","style"]
 :HL["/_next/static/css/63c67a38d55c6f17.css","style"]
-0:{"P":null,"b":"ani66XE4kYdyg5KYXTJsW","p":"","c":["","blog","huong-dan-su-dung-docker"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","huong-dan-su-dung-docker","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7a23b55d7e7780b7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","huong-dan-su-dung-docker","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","aD5-weEvuHpPMMXX2BgCJv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"bdzNJb7oAFfrAtp9pFjMt","p":"","c":["","blog","huong-dan-su-dung-docker"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","huong-dan-su-dung-docker","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ad56338834cf7aea.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","huong-dan-su-dung-docker","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","WBIxU9snjv5-M_ilcJGR-v",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
 15:I[4911,[],"AsyncMetadata"]
 13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
 d:null
-17:I[4544,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],"default"]
-1a:I[9243,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-e69c9988b1dbebd2.js"],""]
+17:I[6266,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-0f1b66b922bbf653.js"],"default"]
+1a:I[9243,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-0f1b66b922bbf653.js"],""]
 18:T1ecf,
 > Xin chào các bạn đã đến với trang blog cá nhân [dzunght.github.io](https://dzunght.github.io/blog) - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.
 > Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.
@@ -188,24 +188,21 @@ du -h -d 1
 
 Hãy follow blog của tôi để cập nhật những bài viết mới nhé.
 a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm việc với docker và docker-compose","excerpt":"Cài đặt docker và docker-compose. Các trường hợp hay gặp trong quá trình sử dụng docker","date":"2025-08-03","author":"Hoang Tri Dung","views":0,"series":null,"tags":["Docker","docker-compose","CI/CD","Linux"],"content":"$18"},"children":["$L19",["$","$L1a",null,{"src":"/js/copy-code.js","async":true}]]}]
-1b:T3499,<blockquote class="blog-blockquote"><p>Xin chào các bạn đã đến với trang blog cá nhân <a href="https://dzunght.github.io/blog" target="_blank" rel="noopener noreferrer" title="">dzunght.github.io</a> - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.<br>Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.</p>
-</blockquote><h2>1. Docker là gì?</h2>
-<p>Docker là một nền tảng mã nguồn mở giúp đóng gói, triển khai và chạy các ứng dụng trong các <strong>container</strong> – một môi trường nhẹ, độc lập, và có thể chạy ở bất kỳ đâu. Docker giúp đơn giản hóa việc phát triển và triển khai ứng dụng, đặc biệt hữu ích trong các môi trường CI/CD và microservices.</p>
-<h2>2. Cài đặt Docker trên Linux</h2>
-<p>Linux gồm có rất nhiều bản phân phối khác nhau. Trong bài viết này, tôi sẽ nói về cách cài đặt trên 2 bản phân phối thông dụng nhất là:</p>
+1b:T35d3,<blockquote class="blog-blockquote"><p>Xin chào các bạn đã đến với trang blog cá nhân <a href="https://dzunght.github.io/blog" target="_blank" rel="noopener noreferrer" title="">dzunght.github.io</a> - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.<br>Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.</p>
+</blockquote><h2 id="1-docker-la-gi">1. Docker là gì?</h2><p>Docker là một nền tảng mã nguồn mở giúp đóng gói, triển khai và chạy các ứng dụng trong các <strong>container</strong> – một môi trường nhẹ, độc lập, và có thể chạy ở bất kỳ đâu. Docker giúp đơn giản hóa việc phát triển và triển khai ứng dụng, đặc biệt hữu ích trong các môi trường CI/CD và microservices.</p>
+<h2 id="2-cai-dat-docker-tren-linux">2. Cài đặt Docker trên Linux</h2><p>Linux gồm có rất nhiều bản phân phối khác nhau. Trong bài viết này, tôi sẽ nói về cách cài đặt trên 2 bản phân phối thông dụng nhất là:</p>
 <ul>
 <li><strong>Amazon Linux</strong>, <strong>CentOS 7</strong>: Bản OS nhẹ và ổn định hay dùng cho các server linux.</li>
 <li><strong>Ubuntu</strong> : Đang dần trở nên phổ biến để sử dụng cho các server chạy Linux hiện giờ và cũng được nhiều đơn vị cho thuê server ảo recommend sử dụng thay cho <code>CentOS</code></li>
 </ul>
 <p>ở đây tôi đã tập hợp lại các lệnh. Để biết thêm chi tiết hãy tham khảo <a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer" title="">tài liệu official của Docker</a> tương ứng với OS bạn sử dụng nhé.</p>
-<h3>2.1 Cài đặt cho <strong>Amazon Linux</strong>, <strong>CentOS 7</strong></h3>
-<p>Nói là dành cho <code>Amazon Linux</code> và <code>CentOS 7</code> thôi chứ tôi thấy cứ OS nào dùng được lệnh <code>yum</code> để quản lý package, cài app thì hầu như có thể dùng cách này nhé.</p>
+<h3 id="21-cai-dat-cho-strongamazon-linuxstrong-strongcentos-7strong">2.1 Cài đặt cho <strong>Amazon Linux</strong>, <strong>CentOS 7</strong></h3><p>Nói là dành cho <code>Amazon Linux</code> và <code>CentOS 7</code> thôi chứ tôi thấy cứ OS nào dùng được lệnh <code>yum</code> để quản lý package, cài app thì hầu như có thể dùng cách này nhé.</p>
 <p>Dưới dây là tập hợp các câu lệnh để cài đặt full bộ <code>docker</code> và <code>docker-compose</code></p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-jeye3vvy" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-jeye3vvy" class="hljs language-bash"><span class="hljs-built_in">sudo</span> yum install -y yum-utils
+      <button class="copy-btn" data-target="code-omj4nm33" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-omj4nm33" class="hljs language-bash"><span class="hljs-built_in">sudo</span> yum install -y yum-utils
 <span class="hljs-built_in">sudo</span> yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
@@ -221,33 +218,32 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-r26ihtjl" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-r26ihtjl" class="hljs language-bash"><span class="hljs-built_in">sudo</span> usermod -a -G docker &lt;username&gt;</code></pre>
+      <button class="copy-btn" data-target="code-3n292ox2" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-3n292ox2" class="hljs language-bash"><span class="hljs-built_in">sudo</span> usermod -a -G docker &lt;username&gt;</code></pre>
     </div>
   <p>Các bạn cần thay <code>username</code> thành username mà bạn muốn dùng docker mà không cần <code>sudo</code> (bỏ qua lệnh này không ảnh hưởng).</p>
 <p>VD: thường gặp nếu cài trên EC2 của AWS:</p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-b7c0row9" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-b7c0row9" class="hljs language-bash"><span class="hljs-built_in">sudo</span> usermod -a -G docker ec2-user</code></pre>
+      <button class="copy-btn" data-target="code-imiz61so" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-imiz61so" class="hljs language-bash"><span class="hljs-built_in">sudo</span> usermod -a -G docker ec2-user</code></pre>
     </div>
-  <h3>2.2 Cài đặt cho Ubuntu</h3>
-<p>Tại thời điểm viết bài, Tôi đã dùng để cài cho <code>Ubuntu 24.0.1 LTS</code> và thành công</p>
+  <h3 id="22-cai-dat-cho-ubuntu">2.2 Cài đặt cho Ubuntu</h3><p>Tại thời điểm viết bài, Tôi đã dùng để cài cho <code>Ubuntu 24.0.1 LTS</code> và thành công</p>
 <p>Uninstall các package cũ đã cài. Tránh bị conflict khi cài version mới.</p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-o5mb6c35" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-o5mb6c35" class="hljs language-bash"><span class="hljs-keyword">for</span> pkg <span class="hljs-keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="hljs-keyword">do</span> <span class="hljs-built_in">sudo</span> apt-get remove <span class="hljs-variable">$pkg</span>; <span class="hljs-keyword">done</span>
+      <button class="copy-btn" data-target="code-z01uj5l0" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-z01uj5l0" class="hljs language-bash"><span class="hljs-keyword">for</span> pkg <span class="hljs-keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="hljs-keyword">do</span> <span class="hljs-built_in">sudo</span> apt-get remove <span class="hljs-variable">$pkg</span>; <span class="hljs-keyword">done</span>
 </code></pre>
     </div>
   <p>Set up Docker&#39;s apt repository.</p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-safopmh4" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-safopmh4" class="hljs language-bash"><span class="hljs-comment"># Add Docker&#x27;s official GPG key:</span>
+      <button class="copy-btn" data-target="code-aibs95eg" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-aibs95eg" class="hljs language-bash"><span class="hljs-comment"># Add Docker&#x27;s official GPG key:</span>
 <span class="hljs-built_in">sudo</span> apt-get update
 <span class="hljs-built_in">sudo</span> apt-get install ca-certificates curl
 <span class="hljs-built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings
@@ -266,8 +262,8 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-nz6pi0qd" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-nz6pi0qd" class="hljs language-bash"><span class="hljs-built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+      <button class="copy-btn" data-target="code-nzisnjt1" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-nzisnjt1" class="hljs language-bash"><span class="hljs-built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 <span class="hljs-built_in">sudo</span> systemctl start docker
 <span class="hljs-built_in">sudo</span> systemctl <span class="hljs-built_in">enable</span> docker
 <span class="hljs-built_in">sudo</span> usermod -a -G docker &lt;username&gt;
@@ -275,11 +271,8 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 <span class="hljs-built_in">sudo</span> <span class="hljs-built_in">chmod</span> +x /usr/local/bin/docker-compose
 </code></pre>
     </div>
-  <h2>3. Các lệnh cơ bản để dùng trong các trường hợp không cơ bản</h2>
-<p>Bạn nghĩ tôi sẽ liệt kê, copy lại các lệnh trên trang chủ của docker sao?<br>Mấy lệnh đấy bạn lên <code>Google</code> tra nhé vì nó không phải lệnh cơ bản đối với tôi.</p>
-<h3>3.1 Giải phóng dung lượng của docker</h3>
-<h4>a. Vấn đề, nguyên nhân</h4>
-<p>Các bạn đã bao giờ gặp tình trạng server của mình chỉ chạy có 1 ứng dụng, không lưu file, không lưu log. Đang chạy ổn định bỗng 1 ngày đẹp trời, bạn không thể request vào server được nữa. Không thể start docker-compose.</p>
+  <h2 id="3-cac-lenh-co-ban-de-dung-trong-cac-truong-hop-khong-co-ban">3. Các lệnh cơ bản để dùng trong các trường hợp không cơ bản</h2><p>Bạn nghĩ tôi sẽ liệt kê, copy lại các lệnh trên trang chủ của docker sao?<br>Mấy lệnh đấy bạn lên <code>Google</code> tra nhé vì nó không phải lệnh cơ bản đối với tôi.</p>
+<h3 id="31-giai-phong-dung-luong-cua-docker">3.1 Giải phóng dung lượng của docker</h3><h4 id="a-van-de-nguyen-nhan">a. Vấn đề, nguyên nhân</h4><p>Các bạn đã bao giờ gặp tình trạng server của mình chỉ chạy có 1 ứng dụng, không lưu file, không lưu log. Đang chạy ổn định bỗng 1 ngày đẹp trời, bạn không thể request vào server được nữa. Không thể start docker-compose.</p>
 <p>Thủ phạm không ai khác chính là <code>docker</code> đã làm cho server của chúng ta đầy bộ nhớ. Dù nó dùng <code>docker</code> và <code>docker-compose</code> rất tiện nhưng nhiều khi nó lại rất bất tiện như vậy đó.</p>
 <p>Nguyên nhân docker gây đầy bộ nhớ có thể kể ra 1 số như sau:</p>
 <ul>
@@ -288,21 +281,20 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 <li>Docker Container: Theo tôi dự đoán, có thể do container lưu lại 1 số thông tin cached hoặc</li>
 <li>Các thư mục overlay: Đây là nguyên nhân chính khiến server của chúng ta hay bị đầy bộ nhớ. Mấy file này tôi cũng không rõ các tác dụng gì nhưng tôi xóa đi thấy không ảnh hưởng gì cả.</li>
 </ul>
-<h4>b. Các lệnh cơ bản để giải quyết vấn đề</h4>
-<p><strong>Đây là câu lệnh thần thánh để xử lý được 90% các vấn đề liên quan đến đầy dung lượng bộ nhớ do docker gây ra</strong></p>
+<h4 id="b-cac-lenh-co-ban-de-giai-quyet-van-de">b. Các lệnh cơ bản để giải quyết vấn đề</h4><p><strong>Đây là câu lệnh thần thánh để xử lý được 90% các vấn đề liên quan đến đầy dung lượng bộ nhớ do docker gây ra</strong></p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-izc4fjr4" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-izc4fjr4" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker system prune
+      <button class="copy-btn" data-target="code-69f428wv" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-69f428wv" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker system prune
 </code></pre>
     </div>
   <p>Một số lệnh tương tự</p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-4kn8h69c" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-4kn8h69c" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker container prune
+      <button class="copy-btn" data-target="code-rimzwdkf" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-rimzwdkf" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker container prune
 <span class="hljs-built_in">sudo</span> docker image prune -a -f
 </code></pre>
     </div>
@@ -310,8 +302,8 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-znaxpnnc" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-znaxpnnc" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker-compose down --rmi all
+      <button class="copy-btn" data-target="code-yugmi2fx" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-yugmi2fx" class="hljs language-bash"><span class="hljs-built_in">sudo</span> docker-compose down --rmi all
 </code></pre>
     </div>
   <blockquote class="blog-blockquote"><p>Bạn lo sợ ứng dụng của bạn sẽ bị ảnh hưởng nếu dùng như vậy đúng không?<br>Nếu bạn đã mount thư mục data trong docker với host (server) thì khi bạn bật lại app của bạn chỉ khởi tạo lại tài nguyên cần thiết thôi. Data vẫn được lưu giữ trong mounted folder của bạn. Everything is still fine!</p>
@@ -319,8 +311,8 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-uc7rbwb9" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-uc7rbwb9" class="hljs language-bash"><span class="hljs-built_in">sudo</span> <span class="hljs-built_in">rm</span> -rf *</code></pre>
+      <button class="copy-btn" data-target="code-iwwy93wu" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-iwwy93wu" class="hljs language-bash"><span class="hljs-built_in">sudo</span> <span class="hljs-built_in">rm</span> -rf *</code></pre>
     </div>
   <p>Khoan! dừng khoảng chừng là 5s và đọc tiếp nhé 🤣</p>
 <p>Sử dụng các lệnh sau để tìm đến nơi có dung lượng nhiều nhất mà xóa nhé.</p>
@@ -328,16 +320,16 @@ a:["$","$L17",null,{"post":{"slug":"huong-dan-su-dung-docker","title":"Làm vi�
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-s14k1yrj" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-s14k1yrj" class="hljs language-bash"><span class="hljs-built_in">df</span> -h
+      <button class="copy-btn" data-target="code-fg2z2b2d" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-fg2z2b2d" class="hljs language-bash"><span class="hljs-built_in">df</span> -h
 </code></pre>
     </div>
   <p>Xem dung lượng của các thư mục con cấp 1 (trực tiếp) tại thư mục đang đứng. Các bạn mò dần vào đến thư mục <code>overlay</code> của docker là đến đích rồi đấy. Mạnh dạn xóa đi nhé. Lỗi thì cài lại docker lo gì 😉</p>
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-1fb17tc8" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-1fb17tc8" class="hljs language-bash"><span class="hljs-built_in">du</span> -h -d 1
+      <button class="copy-btn" data-target="code-x847sxuv" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-x847sxuv" class="hljs language-bash"><span class="hljs-built_in">du</span> -h -d 1
 </code></pre>
     </div>
   <blockquote class="blog-blockquote"><p>Tạm thời trải nghiệm của tôi với <code>docker</code> mới chỉ có vậy. Tương lai nếu có thể các tình huống không cơ bản nào nữa thì tôi sẽ cập nhật thêm sau. Hy vọng là sẽ không còn 3.2 nữa.</p>
