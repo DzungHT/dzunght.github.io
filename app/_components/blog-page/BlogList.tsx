@@ -3,7 +3,6 @@
 import SectionTitle from '@/components/SectionTitle';
 import Tag from '@/components/Tag';
 import { motion } from 'motion/react';
-import Link from 'next/link';
 import { Card, Col, Container, OverlayTrigger, Row, Tooltip, Form } from 'react-bootstrap';
 import { FaBook, FaCalendar } from 'react-icons/fa';
 import { useState, useMemo } from 'react';
@@ -86,11 +85,10 @@ export default function BlogList({ posts }: BlogListProps) {
                           </OverlayTrigger>
                         )}
                         <Card.Title as="h3" className="blog-title">
-                          <Link href={`/blog/${post.slug}`} className="text-decoration-none">
+                          <a href={`/blog/${post.slug}`} className="text-decoration-none">
                             {post.title}
-                          </Link>
+                          </a>
                         </Card.Title>
-
                         <div className="blog-meta mb-3">
                           <OverlayTrigger placement="top" overlay={<Tooltip>Publication date</Tooltip>}>
                             <span className="meta-item">
