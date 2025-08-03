@@ -1,0 +1,173 @@
+---
+title: 'Làm việc với docker và docker-compose'
+excerpt: 'Cài đặt docker và docker-compose. Các trường hợp hay gặp trong quá trình sử dụng docker'
+date: '2025-08-03'
+tags: ['Docker', 'docker-compose', 'CI/CD', 'Linux']
+---
+
+> Xin chào các bạn đã đến với trang blog cá nhân [dzunght.github.io](https://dzunght.github.io/blog) - Nơi chia sẻ kiến thức, kinh nghiệm và trải nghiệm về mọi mặt đời sống.
+> Chia sẻ bài viết này nếu thấy hữu ích để cùng nhau lan tỏa những kiến thức thú vị với cộng đồng nhé.
+
+## 1. Docker là gì?
+
+Docker là một nền tảng mã nguồn mở giúp đóng gói, triển khai và chạy các ứng dụng trong các **container** – một môi trường nhẹ, độc lập, và có thể chạy ở bất kỳ đâu. Docker giúp đơn giản hóa việc phát triển và triển khai ứng dụng, đặc biệt hữu ích trong các môi trường CI/CD và microservices.
+
+## 2. Cài đặt Docker trên Linux
+
+Linux gồm có rất nhiều bản phân phối khác nhau. Trong bài viết này, tôi sẽ nói về cách cài đặt trên 2 bản phân phối thông dụng nhất là:
+
+- **Amazon Linux**, **CentOS 7**: Bản OS nhẹ và ổn định hay dùng cho các server linux.
+- **Ubuntu** : Đang dần trở nên phổ biến để sử dụng cho các server chạy Linux hiện giờ và cũng được nhiều đơn vị cho thuê server ảo recommend sử dụng thay cho `CentOS`
+
+ở đây tôi đã tập hợp lại các lệnh. Để biết thêm chi tiết hãy tham khảo [tài liệu official của Docker](https://docs.docker.com/engine/install/) tương ứng với OS bạn sử dụng nhé.
+
+### 2.1 Cài đặt cho **Amazon Linux**, **CentOS 7**
+
+Nói là dành cho `Amazon Linux` và `CentOS 7` thôi chứ tôi thấy cứ OS nào dùng được lệnh `yum` để quản lý package, cài app thì hầu như có thể dùng cách này nhé.
+
+Dưới dây là tập hợp các câu lệnh để cài đặt full bộ `docker` và `docker-compose`
+
+```bash
+sudo yum install -y yum-utils
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -a -G docker <username>
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+```
+
+**Chú ý:** Các bạn nhớ để ý dòng lệnh sau
+
+```bash
+sudo usermod -a -G docker <username>
+```
+
+Các bạn cần thay `username` thành username mà bạn muốn dùng docker mà không cần `sudo` (bỏ qua lệnh này không ảnh hưởng).
+
+VD: thường gặp nếu cài trên EC2 của AWS:
+
+```bash
+sudo usermod -a -G docker ec2-user
+```
+
+### 2.2 Cài đặt cho Ubuntu
+
+Tại thời điểm viết bài, Tôi đã dùng để cài cho `Ubuntu 24.0.1 LTS` và thành công
+
+Uninstall các package cũ đã cài. Tránh bị conflict khi cài version mới.
+
+```bash
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
+```
+
+Set up Docker's apt repository.
+
+```bash
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+```
+
+Install the Docker packages
+
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -a -G docker <username>
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+```
+
+## 3. Các lệnh cơ bản để dùng trong các trường hợp không cơ bản
+
+Bạn nghĩ tôi sẽ liệt kê, copy lại các lệnh trên trang chủ của docker sao?
+Mấy lệnh đấy bạn lên `Google` tra nhé vì nó không phải lệnh cơ bản đối với tôi.
+
+### 3.1 Giải phóng dung lượng của docker
+
+#### a. Vấn đề, nguyên nhân
+
+Các bạn đã bao giờ gặp tình trạng server của mình chỉ chạy có 1 ứng dụng, không lưu file, không lưu log. Đang chạy ổn định bỗng 1 ngày đẹp trời, bạn không thể request vào server được nữa. Không thể start docker-compose.
+
+Thủ phạm không ai khác chính là `docker` đã làm cho server của chúng ta đầy bộ nhớ. Dù nó dùng `docker` và `docker-compose` rất tiện nhưng nhiều khi nó lại rất bất tiện như vậy đó.
+
+Nguyên nhân docker gây đầy bộ nhớ có thể kể ra 1 số như sau:
+
+- Build image: Nếu bạn chạy docker bằng cách build docker image bằng file Dockerfile thì bạn phải lưu ý. Mỗi 1 dòng lệnh trong Dockerfile sẽ là 1 image vô danh của docker (Cơ chế cache image của docker để những lần sau build nhanh hơn). Theo thời gian, số lượng image vô danh sẽ tăng dần lên và gây đầy bộ nhớ.
+- Log của docker
+- Docker Container: Theo tôi dự đoán, có thể do container lưu lại 1 số thông tin cached hoặc
+- Các thư mục overlay: Đây là nguyên nhân chính khiến server của chúng ta hay bị đầy bộ nhớ. Mấy file này tôi cũng không rõ các tác dụng gì nhưng tôi xóa đi thấy không ảnh hưởng gì cả.
+
+#### b. Các lệnh cơ bản để giải quyết vấn đề
+
+**Đây là câu lệnh thần thánh để xử lý được 90% các vấn đề liên quan đến đầy dung lượng bộ nhớ do docker gây ra**
+
+```bash
+sudo docker system prune
+
+```
+
+Một số lệnh tương tự
+
+```bash
+sudo docker container prune
+sudo docker image prune -a -f
+
+```
+
+Nếu bạn dùng docker-compose thì nên chạy lệnh này mỗi khi down ứng dụng:
+
+```bash
+sudo docker-compose down --rmi all
+
+```
+
+> Bạn lo sợ ứng dụng của bạn sẽ bị ảnh hưởng nếu dùng như vậy đúng không?
+> Nếu bạn đã mount thư mục data trong docker với host (server) thì khi bạn bật lại app của bạn chỉ khởi tạo lại tài nguyên cần thiết thôi. Data vẫn được lưu giữ trong mounted folder của bạn. Everything is still fine!
+
+**Sau khi chạy các lệnh trên không ăn thua thì chạy lệnh này nhé**
+
+```bash
+sudo rm -rf *
+```
+
+Khoan! dừng khoảng chừng là 5s và đọc tiếp nhé 🤣
+
+Sử dụng các lệnh sau để tìm đến nơi có dung lượng nhiều nhất mà xóa nhé.
+
+Xem phân vùng nào chiếm nhiều dung lượng nhất
+
+```bash
+df -h
+
+```
+
+Xem dung lượng của các thư mục con cấp 1 (trực tiếp) tại thư mục đang đứng. Các bạn mò dần vào đến thư mục `overlay` của docker là đến đích rồi đấy. Mạnh dạn xóa đi nhé. Lỗi thì cài lại docker lo gì 😉
+
+```bash
+du -h -d 1
+
+```
+
+> Tạm thời trải nghiệm của tôi với `docker` mới chỉ có vậy. Tương lai nếu có thể các tình huống không cơ bản nào nữa thì tôi sẽ cập nhật thêm sau. Hy vọng là sẽ không còn 3.2 nữa.
+
+Hãy follow blog của tôi để cập nhật những bài viết mới nhé.
