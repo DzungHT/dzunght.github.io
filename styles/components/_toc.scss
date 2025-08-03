@@ -1,0 +1,50 @@
+@use '../custom/base.scss' as *;
+
+.toc-fixed {
+  position: fixed;
+  top: 100px;
+  right: 40px;
+  width: 260px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background-color: rgba($color-bg1, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem 1.2rem;
+  z-index: 100;
+  font-size: 0.98rem;
+}
+.toc-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc-item {
+  margin-bottom: 0.5rem;
+}
+.toc-level-2 {
+  margin-left: 0.5rem;
+}
+.toc-level-3 {
+  margin-left: 1.5rem;
+  font-size: 0.95em;
+}
+.toc-item a {
+  color: $color-primary-sub-text;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.toc-item a:hover {
+  color: $primary;
+}
+
+@include media-breakpoint-down(md) {
+  .toc-fixed {
+    display: none;
+  }
+}

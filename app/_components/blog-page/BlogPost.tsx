@@ -5,6 +5,8 @@ import { motion } from 'motion/react';
 import Link from 'next/link';
 import { Badge, Col, Container, OverlayTrigger, Row, Tooltip } from 'react-bootstrap';
 import { FaArrowLeft, FaBook, FaCalendar, FaEye } from 'react-icons/fa';
+import TableOfContents, { TocItem } from '@/components/TableOfContents';
+import React, { useEffect, useState } from 'react';
 
 interface BlogPostData {
   slug: string;
@@ -24,8 +26,22 @@ interface BlogPostProps {
   children: React.ReactNode;
 }
 
-export default function BlogPost({ post, children }: BlogPostProps) {
-  // Markdown rendering handled by MarkdownContent component
+const BlogPost: React.FC<BlogPostProps> = ({ post, children }) => {
+  const [toc, setToc] = useState<TocItem[]>([]);
+
+  useEffect(() => {
+    // Find the blog post content div and extract headings
+    const contentDiv = document.querySelector('.blog-post-content');
+    if (contentDiv) {
+      const headings = Array.from(contentDiv.querySelectorAll('h2, h3'));
+      const tocItems = headings.map((el) => ({
+        id: el.id || el.textContent?.replace(/\s+/g, '-').toLowerCase() || '',
+        text: el.textContent || '',
+        level: el.tagName === 'H2' ? 2 : 3,
+      }));
+      setToc(tocItems);
+    }
+  }, [children]);
 
   return (
     <section className="blog-post-section bg-1">
@@ -84,7 +100,10 @@ export default function BlogPost({ post, children }: BlogPostProps) {
                 )}
               </header>
 
-              <div className="blog-post-content">{children}</div>
+              <div className="blog-post-content" style={{ position: 'relative' }}>
+                {children}
+                {toc.length > 0 && <TableOfContents toc={toc} />}
+              </div>
             </motion.article>
           </Col>
         </Row>
@@ -102,4 +121,6 @@ export default function BlogPost({ post, children }: BlogPostProps) {
       </Container>
     </section>
   );
-}
+};
+
+export default BlogPost;

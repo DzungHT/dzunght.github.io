@@ -9,8 +9,29 @@ marked.setOptions({
   gfm: true,
 });
 
-// Custom renderer for better code highlighting
+
+// Custom renderer for better code highlighting and heading ids
 const renderer = new marked.Renderer();
+// Add id to headings for ToC and anchor links
+function slugify(text: string) {
+  const vietnameseStr = text.normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, '') // loại dấu
+    .replace(/đ/g, 'd').replace(/Đ/g, 'D');
+
+  return vietnameseStr
+    .toLowerCase()
+    .replace(/\s+/g, '-')       // khoảng trắng → dấu gạch ngang
+    .replace(/[^\w\-]+/g, '')   // loại ký tự đặc biệt
+    .replace(/\-\-+/g, '-')     // gộp nhiều dấu '-' lại
+    .replace(/^-+/, '')         // xóa '-' đầu
+    .replace(/-+$/, '');        // xóa '-' cuối
+}
+
+
+renderer.heading = (text: string, level: number) => {
+  const id = slugify(text);
+  return `<h${level} id="${id}">${text}</h${level}>`;
+};
 
 // Enhance code blocks with syntax highlighting using highlight.js
 renderer.code = (code, language) => {

@@ -25,7 +25,8 @@ export default function ScrollHandler() {
     setTimeout(() => {
       const el = document.getElementById(target);
       if (el) {
-        el.scrollIntoView({ behavior });
+        const y = el.getBoundingClientRect().top + window.pageYOffset - 74;
+        window.scrollTo({ top: y, behavior });
       } else {
         window.scrollTo({ top: 0, behavior });
       }
