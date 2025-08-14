@@ -1,39 +1,42 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { marked } from 'marked';
 import hljs from 'highlight.js';
 import 'highlight.js/styles/github-dark.css';
 import '../styles/components/_markdown-content.scss';
 
-// Configure marked for security and better rendering
+// Configure marked for line breaks and GitHub-style markdown
 marked.setOptions({
   breaks: true,
   gfm: true,
 });
 
-
-// Custom renderer for better code highlighting and heading ids
 const renderer = new marked.Renderer();
-// Add id to headings for ToC and anchor links
+
+/**
+ * Convert heading text to an ID-friendly slug
+ * Removes Vietnamese accents and special characters
+ */
 function slugify(text: string) {
   const vietnameseStr = text.normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, '') // loại dấu
+    .replace(/[\u0300-\u036f]/g, '') // remove diacritics
     .replace(/đ/g, 'd').replace(/Đ/g, 'D');
 
   return vietnameseStr
     .toLowerCase()
-    .replace(/\s+/g, '-')       // khoảng trắng → dấu gạch ngang
-    .replace(/[^\w\-]+/g, '')   // loại ký tự đặc biệt
-    .replace(/\-\-+/g, '-')     // gộp nhiều dấu '-' lại
-    .replace(/^-+/, '')         // xóa '-' đầu
-    .replace(/-+$/, '');        // xóa '-' cuối
+    .replace(/\s+/g, '-')       // spaces → dash
+    .replace(/[^\w\-]+/g, '')   // remove non-word characters
+    .replace(/\-\-+/g, '-')     // collapse multiple dashes
+    .replace(/^-+/, '')         // trim starting dash
+    .replace(/-+$/, '');        // trim ending dash
 }
 
-
+// Custom heading renderer: add id for anchor links
 renderer.heading = (text: string, level: number) => {
   const id = slugify(text);
   return `<h${level} id="${id}">${text}</h${level}>`;
 };
 
-// Enhance code blocks with syntax highlighting using highlight.js
+// Custom code block renderer with syntax highlighting and copy button
 renderer.code = (code, language) => {
   let highlighted;
   const langName = language && hljs.getLanguage(language) ? language : 'plaintext';
@@ -55,26 +58,54 @@ renderer.code = (code, language) => {
   `;
 };
 
-
-// Enhance blockquotes with better styling
+// Custom blockquote renderer for better styling
 renderer.blockquote = (quote) => {
   return `<blockquote class="blog-blockquote">${quote}</blockquote>`;
 };
 
-// Enhance links with security
+// Custom link renderer for security (open external links in new tab)
 renderer.link = (href, title, text) => {
-  const safeHref = href?.startsWith('http') ? href : '#';
-  const target = href?.startsWith('http') ? 'target="_blank" rel="noopener noreferrer"' : '';
+  const isAbsoluteHttp = /^https?:\/\//i.test(href);
+  const isRelative = href?.startsWith('/') || !/^[a-zA-Z][a-zA-Z\d+\-.]*:/.test(href);
+
+  const safeHref = (isAbsoluteHttp || isRelative) ? href : '#';
+  const target = isAbsoluteHttp ? 'target="_blank" rel="noopener noreferrer"' : '';
+
   return `<a href="${safeHref}" ${target} title="${title || ''}">${text}</a>`;
 };
 
+
+// Custom image renderer to fix relative image paths
+renderer.image = (href, title, text) => {
+  let finalSrc = href || '';
+
+  // If the image path is relative (./ or ../), prepend /blog/<slug>/
+  if (href && (href.startsWith('./') || href.startsWith('../'))) {
+    const slug = (renderer as any)._currentSlug || '';
+    const src = `/blog/${slug}/${href.replace(/^\.\/|^\.\.\//, '')}`;
+    finalSrc = src;
+  }
+
+  const alt = text || '';
+  const titleAttr = title ? ` title="${title}"` : '';
+  return `<img src="${finalSrc}" alt="${alt}"${titleAttr} />`;
+};
+
+// Apply our custom renderer to marked
 marked.use({ renderer });
 
-export async function renderMarkdown(content: string): Promise<string> {
-  // marked(content) may return a Promise in some versions, so ensure always await
+/**
+ * Render markdown to HTML
+ * @param content - markdown text
+ * @param slug - current blog post slug (used for fixing image paths)
+ */
+export async function renderMarkdown(content: string, slug?: string): Promise<string> {
+  // Pass slug to renderer so images can resolve relative paths
+  (renderer as any)._currentSlug = slug || '';
+
   if (typeof marked.parse === 'function') {
     return await marked.parse(content);
   } else {
     return marked(content);
   }
-} 
+}
