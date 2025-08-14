@@ -1,26 +1,22 @@
 1:"$Sreact.fragment"
-2:I[8354,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
-3:I[7033,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
+2:I[8354,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
+3:I[7033,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
 4:I[7555,[],""]
 5:I[1295,[],""]
-6:I[6874,["874","static/chunks/874-1d2740a4d60ef656.js","345","static/chunks/app/not-found-b1ff5eed07aa575f.js"],""]
-7:I[2403,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
+6:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-e6414256c63df27d.js"],""]
+7:I[2403,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
 8:"$Sreact.suspense"
-9:I[447,["446","static/chunks/53c13509-4de1efb46b409180.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","354","static/chunks/354-60a99db85bd5778c.js","177","static/chunks/app/layout-b93b81f3b8695dcc.js"],"default"]
+9:I[447,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
 b:I[9665,[],"OutletBoundary"]
-e:I[4911,[],"AsyncMetadataOutlet"]
-10:I[9665,[],"ViewportBoundary"]
-12:I[9665,[],"MetadataBoundary"]
-14:I[6614,[],""]
-:HL["/_next/static/css/ad56338834cf7aea.css","style"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[9665,[],"MetadataBoundary"]
+13:I[8393,[],""]
+:HL["/_next/static/css/619336efdfbbfe5d.css","style"]
 :HL["/_next/static/css/63c67a38d55c6f17.css","style"]
-0:{"P":null,"b":"bdzNJb7oAFfrAtp9pFjMt","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ad56338834cf7aea.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","VLZ0iS3XLMEmKQmO43AjPv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
-15:I[4911,[],"AsyncMetadata"]
-13:["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]}]
-d:null
-17:I[6266,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-0f1b66b922bbf653.js"],"default"]
-1a:I[9243,["711","static/chunks/8e1d74a4-7a17c4961c3edfa8.js","401","static/chunks/401-d41626062166063e.js","176","static/chunks/176-21bfa01b8f1f6aa5.js","874","static/chunks/874-1d2740a4d60ef656.js","299","static/chunks/299-140be44f9712af0f.js","953","static/chunks/app/blog/%5Bslug%5D/page-0f1b66b922bbf653.js"],""]
-18:T1664,
+0:{"P":null,"b":"rnWD0qYJDnotQJtrQmZoa","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
+14:I[6266,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],"default"]
+15:T1664,
 Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I'll share insights from my 10+ years of experience in project management.
 
 ## The Foundation: Understanding Your Team
@@ -220,8 +216,10 @@ Effective project management is both an art and a science. It requires technical
 Remember: **Great project managers don't just manage projects; they enable teams to succeed.**
 
 The strategies outlined in this post provide a foundation for successful project management, but always be ready to adapt and learn from each project experience.
-a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effective Project Management in Software Development","excerpt":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery.","date":"2025-08-01","author":"Hoang Tri Dung","views":890,"series":"Project Management","tags":["Project Management","Agile","Software Development","Leadership","Management"],"content":"$18"},"children":["$L19",["$","$L1a",null,{"src":"/js/copy-code.js","async":true}]]}]
-1b:T3250,<p>Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I&#39;ll share insights from my 10+ years of experience in project management.</p>
+a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effective Project Management in Software Development","excerpt":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery.","date":"2025-08-01","author":"Hoang Tri Dung","views":890,"series":"Project Management","tags":["Project Management","Agile","Software Development","Leadership","Management"],"content":"$15"},"children":["$L16","$L17"]}]
+18:I[9243,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],""]
+17:["$","$L18",null,{"src":"/js/copy-code.js","async":true}]
+19:T3250,<p>Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I&#39;ll share insights from my 10+ years of experience in project management.</p>
 <h2 id="the-foundation-understanding-your-team">The Foundation: Understanding Your Team</h2><h3 id="1-team-dynamics">1. Team Dynamics</h3><p>Every team is unique, and understanding individual strengths and weaknesses is crucial:</p>
 <ul>
 <li><strong>Technical Skills</strong>: Assess the team&#39;s technical capabilities</li>
@@ -232,8 +230,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-xmg212g4" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-xmg212g4" class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
+      <button class="copy-btn" data-target="code-pwg41w3y" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-pwg41w3y" class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
 <span class="hljs-keyword">interface</span> <span class="hljs-title class_">TeamMember</span> {
   <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">role</span>: <span class="hljs-built_in">string</span>;
@@ -276,8 +274,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">JAVASCRIPT</div>
-      <button class="copy-btn" data-target="code-eifpqlfw" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-eifpqlfw" class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
+      <button class="copy-btn" data-target="code-7acuoodu" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-7acuoodu" class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
 <span class="hljs-keyword">const</span> sprintPlanning = {
   <span class="hljs-attr">duration</span>: <span class="hljs-string">&#x27;2 weeks&#x27;</span>,
   <span class="hljs-attr">ceremonies</span>: [<span class="hljs-string">&#x27;Sprint Planning&#x27;</span>, <span class="hljs-string">&#x27;Daily Standups&#x27;</span>, <span class="hljs-string">&#x27;Sprint Review&#x27;</span>, <span class="hljs-string">&#x27;Retrospective&#x27;</span>],
@@ -303,8 +301,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-7fjc7psg" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-7fjc7psg" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
+      <button class="copy-btn" data-target="code-dj6fwo3y" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-dj6fwo3y" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
   <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">description</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">probability</span>: <span class="hljs-string">&#x27;Low&#x27;</span> | <span class="hljs-string">&#x27;Medium&#x27;</span> | <span class="hljs-string">&#x27;High&#x27;</span>;
@@ -330,8 +328,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">JAVASCRIPT</div>
-      <button class="copy-btn" data-target="code-ka8558dj" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-ka8558dj" class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
+      <button class="copy-btn" data-target="code-yvxfreic" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-yvxfreic" class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
   <span class="hljs-string">&#x27;Code follows team standards&#x27;</span>,
   <span class="hljs-string">&#x27;No obvious bugs or issues&#x27;</span>,
   <span class="hljs-string">&#x27;Appropriate test coverage&#x27;</span>,
@@ -351,8 +349,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">YAML</div>
-      <button class="copy-btn" data-target="code-mcmgzjqg" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-mcmgzjqg" class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
+      <button class="copy-btn" data-target="code-vwnwqbab" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-vwnwqbab" class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
 <span class="hljs-attr">name:</span> <span class="hljs-string">Deploy</span> <span class="hljs-string">to</span> <span class="hljs-string">Production</span>
 <span class="hljs-attr">on:</span>
   <span class="hljs-attr">push:</span>
@@ -382,8 +380,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-8gdncxot" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-8gdncxot" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
+      <button class="copy-btn" data-target="code-tcpqdyyb" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-tcpqdyyb" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
   <span class="hljs-attr">onTime</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">onBudget</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">meetsRequirements</span>: <span class="hljs-built_in">boolean</span>;
@@ -394,8 +392,8 @@ a:["$","$L17",null,{"post":{"slug":"effective-project-management","title":"Effec
   <h2 id="conclusion">Conclusion</h2><p>Effective project management is both an art and a science. It requires technical knowledge, soft skills, and the ability to adapt to changing circumstances. The key is to create an environment where your team can do their best work while delivering value to stakeholders.</p>
 <p>Remember: <strong>Great project managers don&#39;t just manage projects; they enable teams to succeed.</strong></p>
 <p>The strategies outlined in this post provide a foundation for successful project management, but always be ready to adapt and learn from each project experience.</p>
-19:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$1b"}}]
-11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$19"}}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:null
-f:{"metadata":[["$","title","0",{"children":"Effective Project Management in Software Development | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","2",{"property":"og:title","content":"Effective Project Management in Software Development"}],["$","meta","3",{"property":"og:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-01"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Effective Project Management in Software Development"}],["$","meta","9",{"name":"twitter:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}]],"error":null,"digest":"$undefined"}
-16:{"metadata":"$f:metadata","error":null,"digest":"$undefined"}
+e:{"metadata":[["$","title","0",{"children":"Effective Project Management in Software Development | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","2",{"property":"og:title","content":"Effective Project Management in Software Development"}],["$","meta","3",{"property":"og:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2025-08-01"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Effective Project Management in Software Development"}],["$","meta","9",{"name":"twitter:description","content":"Discover key strategies and best practices for managing software development projects successfully, from planning to delivery."}]],"error":null,"digest":"$undefined"}
+12:"$e:metadata"

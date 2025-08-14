@@ -1,0 +1,324 @@
+1:"$Sreact.fragment"
+2:I[8354,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
+3:I[7033,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","345","static/chunks/app/not-found-e6414256c63df27d.js"],""]
+7:I[2403,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
+8:"$Sreact.suspense"
+9:I[447,["446","static/chunks/53c13509-be3a60146c7dbd04.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","354","static/chunks/354-b418acd6064f3d8a.js","177","static/chunks/app/layout-fdedff127bed96bb.js"],"default"]
+b:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[9665,[],"MetadataBoundary"]
+13:I[8393,[],""]
+:HL["/_next/static/css/619336efdfbbfe5d.css","style"]
+:HL["/_next/static/css/63c67a38d55c6f17.css","style"]
+0:{"P":null,"b":"rnWD0qYJDnotQJtrQmZoa","p":"","c":["","blog","cai-dat-ubuntu-tren-windows"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","cai-dat-ubuntu-tren-windows","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","cai-dat-ubuntu-tren-windows","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
+14:I[6266,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],"default"]
+15:T17ba,
+Hầu hết các ứng dụng server-side những năm gần đầy đều được triển khai trên môi trường `Linux` vì tính nhẹ, ổn định và đặc biệt là **tiết kiệm chi phí** của hệ điều hành này. Vì vậy, hầu như các dev cũng đang chuyển dịch dần sang sử dụng `Ubuntu` cho việc lập trình để có được môi trường `dev` giống với môi trường `Production` nhất có thể hoặc đơn giản là dự án được cấu hình chỉ có thể chạy trên Linux. Nhưng môi trường công ty đôi khi lại yêu cầu bạn phải sử dụng những phần mềm mà chỉ có thể chạy được hoặc chạy ổn định hơn trên windows như Office,...
+
+Vậy thì đây là bài viết dành cho bạn, giúp bạn giải quyết các vấn đề chạy song song giữa Ubuntu và Windows một cách thuận tiện nhất.
+
+## Cài đặt Ubuntu trên Windows bằng WSL (Windows Subsystem for Linux)
+
+### 1. Bật các feature cần thiết trong windows
+
+1. `Window + S` -> Tìm kiếm "Turn Windows Features on or off"
+
+![Mở "Turn Windows Features on or off"](image.png)
+
+2. Bật WSL và Hyper-V
+
+Sau khi tick 2 mục như trong ảnh, sau đó "OK" rồi đợi Windows cài đặt và khởi động lại máy.
+
+![WSL](image-2.png)
+
+Mục `Hyper-V` chúng ta nên cài nhé. Vì trong quá trình cài đặt, mình đã gặp lỗi vì không bật nó lên.
+![Bật Hyper-V](image-1.png)
+
+### 2. Cài 1 distro Linux bằng WSL
+
+Trong hướng dẫn này tôi sử dụng `powershell`, bạn cũng có thể sử dụng `CMD` để chạy các lệnh nhé.
+
+Ngoài ra, tôi chỉ tổng hợp các lệnh cần thiết chạy lần lượt để cài Ubuntu để tiện cho việc cài đặt sau này của tôi. Các bạn có thể tham khảo thêm ở trên mạng cho những cách cài đặt khác nhé.
+
+Set mặc định **version của WSL = 2**
+
+```powershell
+wsl.exe --set-default-version 2
+
+```
+
+Xem danh sách các distro có thể cài trên WSL
+
+```powershell
+wsl --list --online
+
+```
+
+Output:
+```
+The following is a list of valid distributions that can be installed.
+Install using 'wsl.exe --install <Distro>'.
+
+NAME                            FRIENDLY NAME
+AlmaLinux-8                     AlmaLinux OS 8
+AlmaLinux-9                     AlmaLinux OS 9
+AlmaLinux-Kitten-10             AlmaLinux OS Kitten 10
+AlmaLinux-10                    AlmaLinux OS 10
+Debian                          Debian GNU/Linux
+FedoraLinux-42                  Fedora Linux 42
+SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
+SUSE-Linux-Enterprise-15-SP7    SUSE Linux Enterprise 15 SP7
+Ubuntu                          Ubuntu
+Ubuntu-24.04                    Ubuntu 24.04 LTS
+archlinux                       Arch Linux
+kali-linux                      Kali Linux Rolling
+openSUSE-Tumbleweed             openSUSE Tumbleweed
+openSUSE-Leap-15.6              openSUSE Leap 15.6
+Ubuntu-18.04                    Ubuntu 18.04 LTS
+Ubuntu-20.04                    Ubuntu 20.04 LTS
+Ubuntu-22.04                    Ubuntu 22.04 LTS
+OracleLinux_7_9                 Oracle Linux 7.9
+OracleLinux_8_10                Oracle Linux 8.10
+OracleLinux_9_5                 Oracle Linux 9.5
+
+```
+
+Cài đặt distro bằng `Name` của distro ở trên
+
+```powershell
+wsl --install -d Ubuntu-24.04
+
+```
+
+Nếu gặp output như bên dưới _(`wsl` thấy mình chưa bật đủ các feature nên tự enable)_ thì khởi động lại máy và chạy lại lệnh cài đặt ở trên nhé. 
+
+```
+The requested operation requires elevation.
+Installing Windows optional component: VirtualMachinePlatform
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.1150
+
+Image Version: 10.0.26100.4946
+
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+The requested operation is successful. Changes will not be effective until the system is rebooted.
+The requested operation is successful. Changes will not be effective until the system is rebooted.
+```
+Đến đây thì **Khởi động lại máy** rồi đi tiếp nhé
+
+
+Sau khi chạy lệnh cài distro thành công, màn hình sẽ yêu cầu chúng ta nhập các thông tin `username`, `password` để khởi tạo hệ điều hành.
+
+```
+Downloading: Ubuntu 24.04 LTS
+Installing: Ubuntu 24.04 LTS
+Distribution successfully installed. It can be launched via 'wsl.exe -d Ubuntu-24.04'
+Launching Ubuntu-24.04...
+Provisioning the new WSL instance Ubuntu-24.04
+This might take a while...
+Create a default Unix user account: dzung
+New password:
+Retype new password:
+passwd: password updated successfully
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+```
+
+Đến đây là chúng ta đã thành công cài đặt Ubuntu chạy song song với Windows rồi.
+
+Việc làm tiếp theo là cài đặt các package cần thiết để sử dụng môi trường Ubuntu và tận hưởng thôi.
+
+Nhu cầu của tôi thì hay dùng Ubuntu để chạy `docker` vì bản chất `docker` không dành cho `windows`. Nên việc đầu tiên sau khi cài Ubuntu là [cài đặt Docker](/blog/huong-dan-su-dung-docker) 😉
+
+
+## Các lệnh hay sử dụng với wsl
+
+### 1. Kiểm tra danh sách distro đã cài trong wsl
+
+```powershell
+wsl -l -v
+
+```
+
+Ouput
+```
+  NAME            STATE           VERSION
+* Ubuntu-24.04    Running         2
+```
+
+**Kiểm tra kỹ Version phải là 2 thì mới chạy được full tính năng của Ubuntu nhé**
+
+
+### 2. Khởi chạy distro
+
+```powershell
+wsl -d <DistroName>
+
+```
+
+`DistroName` lấy ở lệnh trên nhé.
+
+VD:
+```powershell
+wsl -d Ubuntu-24.04
+
+```
+
+Sau đó, chúng ta sẽ vào giao diện terminal của Ubuntu (Có thể nói nó giống như chúng ta đang SSH vào Ubuntu vậy).a:["$","$L14",null,{"post":{"slug":"cai-dat-ubuntu-tren-windows","title":"Hướng dẫn cài đặt Ubuntu song song Windows dễ dàng","excerpt":"Hướng dẫn cài Ubuntu song song với Windows không cần dual boot, không cần khởi động lại máy mỗi khi cần chuyển OS. Chạy chương trình Ubuntu ngay trong nền của Windows...","date":"$D2025-08-15T00:00:00.000Z","author":"Hoang Tri Dung","views":890,"series":null,"tags":["command line","development environment","Docker","dual boot","Environment","Linux","OS","programming","software installation","system configuration","tech guide.","terminal","Ubuntu","virtualization","Windows","WSL"],"content":"$15"},"children":["$L16","$L17"]}]
+18:I[9243,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],""]
+17:["$","$L18",null,{"src":"/js/copy-code.js","async":true}]
+19:T33d3,<p>Hầu hết các ứng dụng server-side những năm gần đầy đều được triển khai trên môi trường <code>Linux</code> vì tính nhẹ, ổn định và đặc biệt là <strong>tiết kiệm chi phí</strong> của hệ điều hành này. Vì vậy, hầu như các dev cũng đang chuyển dịch dần sang sử dụng <code>Ubuntu</code> cho việc lập trình để có được môi trường <code>dev</code> giống với môi trường <code>Production</code> nhất có thể hoặc đơn giản là dự án được cấu hình chỉ có thể chạy trên Linux. Nhưng môi trường công ty đôi khi lại yêu cầu bạn phải sử dụng những phần mềm mà chỉ có thể chạy được hoặc chạy ổn định hơn trên windows như Office,...</p>
+<p>Vậy thì đây là bài viết dành cho bạn, giúp bạn giải quyết các vấn đề chạy song song giữa Ubuntu và Windows một cách thuận tiện nhất.</p>
+<h2 id="cai-dat-ubuntu-tren-windows-bang-wsl-windows-subsystem-for-linux">Cài đặt Ubuntu trên Windows bằng WSL (Windows Subsystem for Linux)</h2><h3 id="1-bat-cac-feature-can-thiet-trong-windows">1. Bật các feature cần thiết trong windows</h3><ol>
+<li><code>Window + S</code> -&gt; Tìm kiếm &quot;Turn Windows Features on or off&quot;</li>
+</ol>
+<p><img src="image.png" alt="Mở &quot;Turn Windows Features on or off&quot;" /></p>
+<ol start="2">
+<li>Bật WSL và Hyper-V</li>
+</ol>
+<p>Sau khi tick 2 mục như trong ảnh, sau đó &quot;OK&quot; rồi đợi Windows cài đặt và khởi động lại máy.</p>
+<p><img src="image-2.png" alt="WSL" /></p>
+<p>Mục <code>Hyper-V</code> chúng ta nên cài nhé. Vì trong quá trình cài đặt, mình đã gặp lỗi vì không bật nó lên.<br><img src="image-1.png" alt="Bật Hyper-V" /></p>
+<h3 id="2-cai-1-distro-linux-bang-wsl">2. Cài 1 distro Linux bằng WSL</h3><p>Trong hướng dẫn này tôi sử dụng <code>powershell</code>, bạn cũng có thể sử dụng <code>CMD</code> để chạy các lệnh nhé.</p>
+<p>Ngoài ra, tôi chỉ tổng hợp các lệnh cần thiết chạy lần lượt để cài Ubuntu để tiện cho việc cài đặt sau này của tôi. Các bạn có thể tham khảo thêm ở trên mạng cho những cách cài đặt khác nhé.</p>
+<p>Set mặc định <strong>version của WSL = 2</strong></p>
+
+    <div class="code-block">
+      <div class="code-lang">POWERSHELL</div>
+      <button class="copy-btn" data-target="code-cb5hze64" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-cb5hze64" class="hljs language-powershell">wsl.exe <span class="hljs-literal">--set-default-version</span> <span class="hljs-number">2</span>
+</code></pre>
+    </div>
+  <p>Xem danh sách các distro có thể cài trên WSL</p>
+
+    <div class="code-block">
+      <div class="code-lang">POWERSHELL</div>
+      <button class="copy-btn" data-target="code-otv50oud" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-otv50oud" class="hljs language-powershell">wsl <span class="hljs-literal">--list</span> <span class="hljs-literal">--online</span>
+</code></pre>
+    </div>
+  <p>Output:</p>
+
+    <div class="code-block">
+      
+      <button class="copy-btn" data-target="code-rmkutyz7" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-rmkutyz7" class="hljs language-plaintext"><span class="hljs-attribute">The</span> following is a list of valid distributions that can be installed.
+<span class="hljs-attribute">Install</span> using &#x27;wsl.exe --install &lt;Distro&gt;&#x27;.
+
+<span class="hljs-attribute">NAME</span>                            FRIENDLY NAME
+<span class="hljs-attribute">AlmaLinux</span>-<span class="hljs-number">8</span>                     AlmaLinux OS <span class="hljs-number">8</span>
+<span class="hljs-attribute">AlmaLinux</span>-<span class="hljs-number">9</span>                     AlmaLinux OS <span class="hljs-number">9</span>
+<span class="hljs-attribute">AlmaLinux</span>-Kitten-<span class="hljs-number">10</span>             AlmaLinux OS Kitten <span class="hljs-number">10</span>
+<span class="hljs-attribute">AlmaLinux</span>-<span class="hljs-number">10</span>                    AlmaLinux OS <span class="hljs-number">10</span>
+<span class="hljs-attribute">Debian</span>                          Debian GNU/Linux
+<span class="hljs-attribute">FedoraLinux</span>-<span class="hljs-number">42</span>                  Fedora Linux <span class="hljs-number">42</span>
+<span class="hljs-attribute">SUSE</span>-Linux-Enterprise-<span class="hljs-number">15</span>-SP6    SUSE Linux Enterprise <span class="hljs-number">15</span> SP6
+<span class="hljs-attribute">SUSE</span>-Linux-Enterprise-<span class="hljs-number">15</span>-SP7    SUSE Linux Enterprise <span class="hljs-number">15</span> SP7
+<span class="hljs-attribute">Ubuntu</span>                          Ubuntu
+<span class="hljs-attribute">Ubuntu</span>-<span class="hljs-number">24</span>.<span class="hljs-number">04</span>                    Ubuntu <span class="hljs-number">24</span>.<span class="hljs-number">04</span> LTS
+<span class="hljs-attribute">archlinux</span>                       Arch Linux
+<span class="hljs-attribute">kali</span>-linux                      Kali Linux Rolling
+<span class="hljs-attribute">openSUSE</span>-Tumbleweed             openSUSE Tumbleweed
+<span class="hljs-attribute">openSUSE</span>-Leap-<span class="hljs-number">15</span>.<span class="hljs-number">6</span>              openSUSE Leap <span class="hljs-number">15</span>.<span class="hljs-number">6</span>
+<span class="hljs-attribute">Ubuntu</span>-<span class="hljs-number">18</span>.<span class="hljs-number">04</span>                    Ubuntu <span class="hljs-number">18</span>.<span class="hljs-number">04</span> LTS
+<span class="hljs-attribute">Ubuntu</span>-<span class="hljs-number">20</span>.<span class="hljs-number">04</span>                    Ubuntu <span class="hljs-number">20</span>.<span class="hljs-number">04</span> LTS
+<span class="hljs-attribute">Ubuntu</span>-<span class="hljs-number">22</span>.<span class="hljs-number">04</span>                    Ubuntu <span class="hljs-number">22</span>.<span class="hljs-number">04</span> LTS
+<span class="hljs-attribute">OracleLinux_7_9</span>                 Oracle Linux <span class="hljs-number">7</span>.<span class="hljs-number">9</span>
+<span class="hljs-attribute">OracleLinux_8_10</span>                Oracle Linux <span class="hljs-number">8</span>.<span class="hljs-number">10</span>
+<span class="hljs-attribute">OracleLinux_9_5</span>                 Oracle Linux <span class="hljs-number">9</span>.<span class="hljs-number">5</span>
+</code></pre>
+    </div>
+  <p>Cài đặt distro bằng <code>Name</code> của distro ở trên</p>
+
+    <div class="code-block">
+      <div class="code-lang">POWERSHELL</div>
+      <button class="copy-btn" data-target="code-ln0zif38" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-ln0zif38" class="hljs language-powershell">wsl <span class="hljs-literal">--install</span> <span class="hljs-literal">-d</span> Ubuntu<span class="hljs-literal">-24</span>.<span class="hljs-number">04</span>
+</code></pre>
+    </div>
+  <p>Nếu gặp output như bên dưới <em>(<code>wsl</code> thấy mình chưa bật đủ các feature nên tự enable)</em> thì khởi động lại máy và chạy lại lệnh cài đặt ở trên nhé. </p>
+
+    <div class="code-block">
+      
+      <button class="copy-btn" data-target="code-i9syax7d" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-i9syax7d" class="hljs language-plaintext">The requested operation requires elevation.
+Installing Windows optional component: VirtualMachinePlatform
+
+Deployment Image Servicing <span class="hljs-keyword">and</span> Management tool
+<span class="hljs-keyword">Version</span>: <span class="hljs-number">10.0</span><span class="hljs-number">.26100</span><span class="hljs-number">.1150</span>
+
+Image <span class="hljs-keyword">Version</span>: <span class="hljs-number">10.0</span><span class="hljs-number">.26100</span><span class="hljs-number">.4946</span>
+
+Enabling feature(s)
+[==========================<span class="hljs-number">100.0</span>%==========================]
+The operation completed successfully.
+The requested operation <span class="hljs-keyword">is</span> successful. Changes will <span class="hljs-keyword">not</span> be effective <span class="hljs-keyword">until</span> the <span class="hljs-keyword">system</span> <span class="hljs-keyword">is</span> rebooted.
+The requested operation <span class="hljs-keyword">is</span> successful. Changes will <span class="hljs-keyword">not</span> be effective <span class="hljs-keyword">until</span> the <span class="hljs-keyword">system</span> <span class="hljs-keyword">is</span> rebooted.</code></pre>
+    </div>
+  <p>Đến đây thì <strong>Khởi động lại máy</strong> rồi đi tiếp nhé</p>
+<p>Sau khi chạy lệnh cài distro thành công, màn hình sẽ yêu cầu chúng ta nhập các thông tin <code>username</code>, <code>password</code> để khởi tạo hệ điều hành.</p>
+
+    <div class="code-block">
+      
+      <button class="copy-btn" data-target="code-bmkm3ipd" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-bmkm3ipd" class="hljs language-plaintext"><span class="hljs-symbol">Downloading:</span> Ubuntu <span class="hljs-number">24.04</span> LTS
+<span class="hljs-symbol">Installing:</span> Ubuntu <span class="hljs-number">24.04</span> LTS
+Distribution successfully installed. It can be launched via <span class="hljs-comment">&#x27;wsl.exe -d Ubuntu-24.04&#x27;</span>
+Launching Ubuntu-<span class="hljs-number">24.04</span>...
+Provisioning the <span class="hljs-built_in">new</span> WSL instance Ubuntu-<span class="hljs-number">24.04</span>
+This might <span class="hljs-keyword">take</span> a <span class="hljs-keyword">while</span>...
+Create a <span class="hljs-keyword">default</span> Unix user account: dzung
+<span class="hljs-built_in">New</span> password:
+Retype <span class="hljs-built_in">new</span> password:
+<span class="hljs-symbol">passwd:</span> password updated successfully
+<span class="hljs-keyword">To</span> run a command <span class="hljs-keyword">as</span> administrator (user <span class="hljs-string">&quot;root&quot;</span>), use <span class="hljs-string">&quot;sudo &lt;command&gt;&quot;</span>.
+See <span class="hljs-string">&quot;man sudo_root&quot;</span> <span class="hljs-keyword">for</span> details.</code></pre>
+    </div>
+  <p>Đến đây là chúng ta đã thành công cài đặt Ubuntu chạy song song với Windows rồi.</p>
+<p>Việc làm tiếp theo là cài đặt các package cần thiết để sử dụng môi trường Ubuntu và tận hưởng thôi.</p>
+<p>Nhu cầu của tôi thì hay dùng Ubuntu để chạy <code>docker</code> vì bản chất <code>docker</code> không dành cho <code>windows</code>. Nên việc đầu tiên sau khi cài Ubuntu là <a href="/blog/huong-dan-su-dung-docker"  title="">cài đặt Docker</a> 😉</p>
+<h2 id="cac-lenh-hay-su-dung-voi-wsl">Các lệnh hay sử dụng với wsl</h2><h3 id="1-kiem-tra-danh-sach-distro-da-cai-trong-wsl">1. Kiểm tra danh sách distro đã cài trong wsl</h3>
+    <div class="code-block">
+      <div class="code-lang">POWERSHELL</div>
+      <button class="copy-btn" data-target="code-ry02pvt8" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-ry02pvt8" class="hljs language-powershell">wsl <span class="hljs-literal">-l</span> <span class="hljs-literal">-v</span>
+</code></pre>
+    </div>
+  <p>Ouput</p>
+
+    <div class="code-block">
+      
+      <button class="copy-btn" data-target="code-6yio4apv" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-6yio4apv" class="hljs language-plaintext">  <span class="hljs-type">NAME</span>            STATE           <span class="hljs-keyword">VERSION</span>
+* Ubuntu<span class="hljs-number">-24.04</span>    Running         <span class="hljs-number">2</span></code></pre>
+    </div>
+  <p><strong>Kiểm tra kỹ Version phải là 2 thì mới chạy được full tính năng của Ubuntu nhé</strong></p>
+<h3 id="2-khoi-chay-distro">2. Khởi chạy distro</h3>
+    <div class="code-block">
+      <div class="code-lang">POWERSHELL</div>
+      <button class="copy-btn" data-target="code-5kbdrqqc" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-5kbdrqqc" class="hljs language-powershell">wsl <span class="hljs-literal">-d</span> &lt;DistroName&gt;
+</code></pre>
+    </div>
+  <p><code>DistroName</code> lấy ở lệnh trên nhé.</p>
+<p>VD:</p>
+
+    <div class="code-block">
+      <div class="code-lang">POWERSHELL</div>
+      <button class="copy-btn" data-target="code-4e6z8se6" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-4e6z8se6" class="hljs language-powershell">wsl <span class="hljs-literal">-d</span> Ubuntu<span class="hljs-literal">-24</span>.<span class="hljs-number">04</span>
+</code></pre>
+    </div>
+  <p>Sau đó, chúng ta sẽ vào giao diện terminal của Ubuntu (Có thể nói nó giống như chúng ta đang SSH vào Ubuntu vậy).</p>
+16:["$","div",null,{"className":"markdown-body ","dangerouslySetInnerHTML":{"__html":"$19"}}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+e:{"metadata":[["$","title","0",{"children":"Hướng dẫn cài đặt Ubuntu song song Windows dễ dàng | Hoang Tri Dung"}],["$","meta","1",{"name":"description","content":"Hướng dẫn cài Ubuntu song song với Windows không cần dual boot, không cần khởi động lại máy mỗi khi cần chuyển OS. Chạy chương trình Ubuntu ngay trong nền của Windows..."}],["$","meta","2",{"property":"og:title","content":"Hướng dẫn cài đặt Ubuntu song song Windows dễ dàng"}],["$","meta","3",{"property":"og:description","content":"Hướng dẫn cài Ubuntu song song với Windows không cần dual boot, không cần khởi động lại máy mỗi khi cần chuyển OS. Chạy chương trình Ubuntu ngay trong nền của Windows..."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"Fri Aug 15 2025 07:00:00 GMT+0700 (Indochina Time)"}],["$","meta","6",{"property":"article:author","content":"Hoang Tri Dung"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Hướng dẫn cài đặt Ubuntu song song Windows dễ dàng"}],["$","meta","9",{"name":"twitter:description","content":"Hướng dẫn cài Ubuntu song song với Windows không cần dual boot, không cần khởi động lại máy mỗi khi cần chuyển OS. Chạy chương trình Ubuntu ngay trong nền của Windows..."}]],"error":null,"digest":"$undefined"}
+12:"$e:metadata"
