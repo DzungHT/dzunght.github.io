@@ -50,7 +50,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   }
   return (
     <BlogPost post={post}>
-      <MarkdownContent content={post.content} />
+      <MarkdownContent content={post.content} slug={paramsData.slug} />
       <Script src="/js/copy-code.js" async={true} />
     </BlogPost>
   );
