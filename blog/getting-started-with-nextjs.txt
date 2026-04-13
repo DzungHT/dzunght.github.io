@@ -14,7 +14,7 @@ f:I[9665,[],"ViewportBoundary"]
 13:I[8393,[],""]
 :HL["/_next/static/css/619336efdfbbfe5d.css","style"]
 :HL["/_next/static/css/63c67a38d55c6f17.css","style"]
-0:{"P":null,"b":"rnWD0qYJDnotQJtrQmZoa","p":"","c":["","blog","getting-started-with-nextjs"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","getting-started-with-nextjs","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","getting-started-with-nextjs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
+0:{"P":null,"b":"W8R8fkBEKPtW00etfHGUq","p":"","c":["","blog","getting-started-with-nextjs"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","getting-started-with-nextjs","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","getting-started-with-nextjs","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
 14:I[6266,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],"default"]
 17:I[9243,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],""]
 15:Ta8f,
@@ -132,8 +132,8 @@ a:["$","$L14",null,{"post":{"slug":"getting-started-with-nextjs","title":"Gettin
 
     <div class="code-block">
       <div class="code-lang">JAVASCRIPT</div>
-      <button class="copy-btn" data-target="code-9adc1o80" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-9adc1o80" class="hljs language-javascript"><span class="hljs-comment">// app/page.tsx</span>
+      <button class="copy-btn" data-target="code-1dmxv511" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-1dmxv511" class="hljs language-javascript"><span class="hljs-comment">// app/page.tsx</span>
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Home</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> (
     <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
@@ -146,8 +146,8 @@ a:["$","$L14",null,{"post":{"slug":"getting-started-with-nextjs","title":"Gettin
 
     <div class="code-block">
       <div class="code-lang">JAVASCRIPT</div>
-      <button class="copy-btn" data-target="code-42jeb76x" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-42jeb76x" class="hljs language-javascript"><span class="hljs-comment">// app/blog/[slug]/page.tsx</span>
+      <button class="copy-btn" data-target="code-j1lfhyxu" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-j1lfhyxu" class="hljs language-javascript"><span class="hljs-comment">// app/blog/[slug]/page.tsx</span>
 <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">getPost</span>(<span class="hljs-params">slug: string</span>) {
   <span class="hljs-keyword">const</span> post = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetch</span>(<span class="hljs-string">`/api/posts/<span class="hljs-subst">${slug}</span>`</span>)
   <span class="hljs-keyword">return</span> post.<span class="hljs-title function_">json</span>()
@@ -174,8 +174,8 @@ a:["$","$L14",null,{"post":{"slug":"getting-started-with-nextjs","title":"Gettin
 
     <div class="code-block">
       <div class="code-lang">BASH</div>
-      <button class="copy-btn" data-target="code-tyqjj36y" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-tyqjj36y" class="hljs language-bash">npx create-next-app@latest my-app
+      <button class="copy-btn" data-target="code-fz49nzu2" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-fz49nzu2" class="hljs language-bash">npx create-next-app@latest my-app
 <span class="hljs-built_in">cd</span> my-app
 npm run dev</code></pre>
     </div>
@@ -183,8 +183,8 @@ npm run dev</code></pre>
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-ymgs8tga" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-ymgs8tga" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Post</span> {
+      <button class="copy-btn" data-target="code-upg0am0l" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-upg0am0l" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Post</span> {
   <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">title</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">content</span>: <span class="hljs-built_in">string</span>;
@@ -195,8 +195,8 @@ npm run dev</code></pre>
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-odwsktqv" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-odwsktqv" class="hljs language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">BlogList</span>(<span class="hljs-params"></span>) {
+      <button class="copy-btn" data-target="code-4ltpp7ku" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-4ltpp7ku" class="hljs language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">BlogList</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">const</span> posts = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetchPosts</span>()
     <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">PostList</span> <span class="hljs-attr">posts</span>=<span class="hljs-string">{posts}</span> /&gt;</span></span>
@@ -209,8 +209,8 @@ npm run dev</code></pre>
 
     <div class="code-block">
       <div class="code-lang">JSX</div>
-      <button class="copy-btn" data-target="code-kbh3djks" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-kbh3djks" class="hljs language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">Image</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;next/image&#x27;</span>;
+      <button class="copy-btn" data-target="code-q0wa534t" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-q0wa534t" class="hljs language-jsx"><span class="hljs-keyword">import</span> <span class="hljs-title class_">Image</span> <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;next/image&#x27;</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Hero</span>(<span class="hljs-params"></span>) {
   <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Image</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/hero.jpg&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;Hero image&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{1200}</span> <span class="hljs-attr">height</span>=<span class="hljs-string">{600}</span> <span class="hljs-attr">priority</span> /&gt;</span></span>;

@@ -14,7 +14,7 @@ f:I[9665,[],"ViewportBoundary"]
 13:I[8393,[],""]
 :HL["/_next/static/css/619336efdfbbfe5d.css","style"]
 :HL["/_next/static/css/63c67a38d55c6f17.css","style"]
-0:{"P":null,"b":"rnWD0qYJDnotQJtrQmZoa","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
+0:{"P":null,"b":"W8R8fkBEKPtW00etfHGUq","p":"","c":["","blog","effective-project-management"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","effective-project-management","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","effective-project-management","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
 14:I[6266,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],"default"]
 15:T1664,
 Managing software development projects requires a delicate balance of technical expertise, communication skills, and strategic thinking. In this comprehensive guide, I'll share insights from my 10+ years of experience in project management.
@@ -230,8 +230,8 @@ a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-pwg41w3y" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-pwg41w3y" class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
+      <button class="copy-btn" data-target="code-wyp8rz1k" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-wyp8rz1k" class="hljs language-typescript"><span class="hljs-comment">// Example: Regular check-ins and transparent communication</span>
 <span class="hljs-keyword">interface</span> <span class="hljs-title class_">TeamMember</span> {
   <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">role</span>: <span class="hljs-built_in">string</span>;
@@ -274,8 +274,8 @@ a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">JAVASCRIPT</div>
-      <button class="copy-btn" data-target="code-7acuoodu" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-7acuoodu" class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
+      <button class="copy-btn" data-target="code-62wnl2ek" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-62wnl2ek" class="hljs language-javascript"><span class="hljs-comment">// Sprint Planning Example</span>
 <span class="hljs-keyword">const</span> sprintPlanning = {
   <span class="hljs-attr">duration</span>: <span class="hljs-string">&#x27;2 weeks&#x27;</span>,
   <span class="hljs-attr">ceremonies</span>: [<span class="hljs-string">&#x27;Sprint Planning&#x27;</span>, <span class="hljs-string">&#x27;Daily Standups&#x27;</span>, <span class="hljs-string">&#x27;Sprint Review&#x27;</span>, <span class="hljs-string">&#x27;Retrospective&#x27;</span>],
@@ -301,8 +301,8 @@ a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-dj6fwo3y" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-dj6fwo3y" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
+      <button class="copy-btn" data-target="code-exwtewxa" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-exwtewxa" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">Risk</span> {
   <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">description</span>: <span class="hljs-built_in">string</span>;
   <span class="hljs-attr">probability</span>: <span class="hljs-string">&#x27;Low&#x27;</span> | <span class="hljs-string">&#x27;Medium&#x27;</span> | <span class="hljs-string">&#x27;High&#x27;</span>;
@@ -328,8 +328,8 @@ a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">JAVASCRIPT</div>
-      <button class="copy-btn" data-target="code-yvxfreic" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-yvxfreic" class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
+      <button class="copy-btn" data-target="code-eas93r7q" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-eas93r7q" class="hljs language-javascript"><span class="hljs-keyword">const</span> codeReviewChecklist = [
   <span class="hljs-string">&#x27;Code follows team standards&#x27;</span>,
   <span class="hljs-string">&#x27;No obvious bugs or issues&#x27;</span>,
   <span class="hljs-string">&#x27;Appropriate test coverage&#x27;</span>,
@@ -349,8 +349,8 @@ a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">YAML</div>
-      <button class="copy-btn" data-target="code-vwnwqbab" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-vwnwqbab" class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
+      <button class="copy-btn" data-target="code-pj82egid" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-pj82egid" class="hljs language-yaml"><span class="hljs-comment"># Example CI/CD Pipeline</span>
 <span class="hljs-attr">name:</span> <span class="hljs-string">Deploy</span> <span class="hljs-string">to</span> <span class="hljs-string">Production</span>
 <span class="hljs-attr">on:</span>
   <span class="hljs-attr">push:</span>
@@ -380,8 +380,8 @@ a:["$","$L14",null,{"post":{"slug":"effective-project-management","title":"Effec
 
     <div class="code-block">
       <div class="code-lang">TYPESCRIPT</div>
-      <button class="copy-btn" data-target="code-tcpqdyyb" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-tcpqdyyb" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
+      <button class="copy-btn" data-target="code-7qs2vq3n" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-7qs2vq3n" class="hljs language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">ProjectSuccess</span> {
   <span class="hljs-attr">onTime</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">onBudget</span>: <span class="hljs-built_in">boolean</span>;
   <span class="hljs-attr">meetsRequirements</span>: <span class="hljs-built_in">boolean</span>;

@@ -14,7 +14,7 @@ f:I[9665,[],"ViewportBoundary"]
 13:I[8393,[],""]
 :HL["/_next/static/css/619336efdfbbfe5d.css","style"]
 :HL["/_next/static/css/63c67a38d55c6f17.css","style"]
-0:{"P":null,"b":"rnWD0qYJDnotQJtrQmZoa","p":"","c":["","blog","cai-dat-ubuntu-tren-windows"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","cai-dat-ubuntu-tren-windows","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","cai-dat-ubuntu-tren-windows","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
+0:{"P":null,"b":"W8R8fkBEKPtW00etfHGUq","p":"","c":["","blog","cai-dat-ubuntu-tren-windows"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","cai-dat-ubuntu-tren-windows","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/619336efdfbbfe5d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/png","href":"/favicon-96x96.png","sizes":"96x96"}],["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/apple-touch-icon.png"}],["$","meta",null,{"name":"apple-mobile-web-app-title","content":"DzungHT"}],["$","link",null,{"rel":"manifest","href":"/site.webmanifest"}],["$","link",null,{"rel":"stylesheet","href":"/css/loader.css"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","div",null,{"id":"page-top"}],["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"style":{"padding":"4rem","textAlign":"center"},"children":[["$","h1",null,{"children":"404 - Page Not Found"}],["$","p",null,{"children":"The page you're looking for does not exist."}],["$","$L6",null,{"href":"/","style":{"color":"#0070f3","textDecoration":"underline"},"children":"Go back home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}],["$","$8",null,{"fallback":null,"children":["$","$L9",null,{}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","cai-dat-ubuntu-tren-windows","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63c67a38d55c6f17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lf",null,{"children":"$L10"}],null],["$","$L11",null,{"children":["$","div",null,{"hidden":true,"children":["$","$8",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
 14:I[6266,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],"default"]
 15:T17ba,
 Hầu hết các ứng dụng server-side những năm gần đầy đều được triển khai trên môi trường `Linux` vì tính nhẹ, ổn định và đặc biệt là **tiết kiệm chi phí** của hệ điều hành này. Vì vậy, hầu như các dev cũng đang chuyển dịch dần sang sử dụng `Ubuntu` cho việc lập trình để có được môi trường `dev` giống với môi trường `Production` nhất có thể hoặc đơn giản là dự án được cấu hình chỉ có thể chạy trên Linux. Nhưng môi trường công ty đôi khi lại yêu cầu bạn phải sử dụng những phần mềm mà chỉ có thể chạy được hoặc chạy ổn định hơn trên windows như Office,...
@@ -174,42 +174,42 @@ wsl -d Ubuntu-24.04
 Sau đó, chúng ta sẽ vào giao diện terminal của Ubuntu (Có thể nói nó giống như chúng ta đang SSH vào Ubuntu vậy).a:["$","$L14",null,{"post":{"slug":"cai-dat-ubuntu-tren-windows","title":"Hướng dẫn cài đặt Ubuntu song song Windows dễ dàng","excerpt":"Hướng dẫn cài Ubuntu song song với Windows không cần dual boot, không cần khởi động lại máy mỗi khi cần chuyển OS. Chạy chương trình Ubuntu ngay trong nền của Windows...","date":"$D2025-08-15T00:00:00.000Z","author":"Hoang Tri Dung","views":890,"series":null,"tags":["command line","development environment","Docker","dual boot","Environment","Linux","OS","programming","software installation","system configuration","tech guide.","terminal","Ubuntu","virtualization","Windows","WSL"],"content":"$15"},"children":["$L16","$L17"]}]
 18:I[9243,["711","static/chunks/8e1d74a4-624111d6f927fd08.js","659","static/chunks/659-2af6370437c8bb85.js","176","static/chunks/176-97a227e7b6f107f5.js","874","static/chunks/874-437a265a67d6cfee.js","299","static/chunks/299-de19f294e71fac46.js","953","static/chunks/app/blog/%5Bslug%5D/page-556f8148fbbbe0d1.js"],""]
 17:["$","$L18",null,{"src":"/js/copy-code.js","async":true}]
-19:T33d3,<p>Hầu hết các ứng dụng server-side những năm gần đầy đều được triển khai trên môi trường <code>Linux</code> vì tính nhẹ, ổn định và đặc biệt là <strong>tiết kiệm chi phí</strong> của hệ điều hành này. Vì vậy, hầu như các dev cũng đang chuyển dịch dần sang sử dụng <code>Ubuntu</code> cho việc lập trình để có được môi trường <code>dev</code> giống với môi trường <code>Production</code> nhất có thể hoặc đơn giản là dự án được cấu hình chỉ có thể chạy trên Linux. Nhưng môi trường công ty đôi khi lại yêu cầu bạn phải sử dụng những phần mềm mà chỉ có thể chạy được hoặc chạy ổn định hơn trên windows như Office,...</p>
+19:T3439,<p>Hầu hết các ứng dụng server-side những năm gần đầy đều được triển khai trên môi trường <code>Linux</code> vì tính nhẹ, ổn định và đặc biệt là <strong>tiết kiệm chi phí</strong> của hệ điều hành này. Vì vậy, hầu như các dev cũng đang chuyển dịch dần sang sử dụng <code>Ubuntu</code> cho việc lập trình để có được môi trường <code>dev</code> giống với môi trường <code>Production</code> nhất có thể hoặc đơn giản là dự án được cấu hình chỉ có thể chạy trên Linux. Nhưng môi trường công ty đôi khi lại yêu cầu bạn phải sử dụng những phần mềm mà chỉ có thể chạy được hoặc chạy ổn định hơn trên windows như Office,...</p>
 <p>Vậy thì đây là bài viết dành cho bạn, giúp bạn giải quyết các vấn đề chạy song song giữa Ubuntu và Windows một cách thuận tiện nhất.</p>
 <h2 id="cai-dat-ubuntu-tren-windows-bang-wsl-windows-subsystem-for-linux">Cài đặt Ubuntu trên Windows bằng WSL (Windows Subsystem for Linux)</h2><h3 id="1-bat-cac-feature-can-thiet-trong-windows">1. Bật các feature cần thiết trong windows</h3><ol>
 <li><code>Window + S</code> -&gt; Tìm kiếm &quot;Turn Windows Features on or off&quot;</li>
 </ol>
-<p><img src="image.png" alt="Mở &quot;Turn Windows Features on or off&quot;" /></p>
+<p><img src="/blog/cai-dat-ubuntu-tren-windows/image.png" alt="Mở &quot;Turn Windows Features on or off&quot;" /></p>
 <ol start="2">
 <li>Bật WSL và Hyper-V</li>
 </ol>
 <p>Sau khi tick 2 mục như trong ảnh, sau đó &quot;OK&quot; rồi đợi Windows cài đặt và khởi động lại máy.</p>
-<p><img src="image-2.png" alt="WSL" /></p>
-<p>Mục <code>Hyper-V</code> chúng ta nên cài nhé. Vì trong quá trình cài đặt, mình đã gặp lỗi vì không bật nó lên.<br><img src="image-1.png" alt="Bật Hyper-V" /></p>
+<p><img src="/blog/cai-dat-ubuntu-tren-windows/image-2.png" alt="WSL" /></p>
+<p>Mục <code>Hyper-V</code> chúng ta nên cài nhé. Vì trong quá trình cài đặt, mình đã gặp lỗi vì không bật nó lên.<br><img src="/blog/cai-dat-ubuntu-tren-windows/image-1.png" alt="Bật Hyper-V" /></p>
 <h3 id="2-cai-1-distro-linux-bang-wsl">2. Cài 1 distro Linux bằng WSL</h3><p>Trong hướng dẫn này tôi sử dụng <code>powershell</code>, bạn cũng có thể sử dụng <code>CMD</code> để chạy các lệnh nhé.</p>
 <p>Ngoài ra, tôi chỉ tổng hợp các lệnh cần thiết chạy lần lượt để cài Ubuntu để tiện cho việc cài đặt sau này của tôi. Các bạn có thể tham khảo thêm ở trên mạng cho những cách cài đặt khác nhé.</p>
 <p>Set mặc định <strong>version của WSL = 2</strong></p>
 
     <div class="code-block">
       <div class="code-lang">POWERSHELL</div>
-      <button class="copy-btn" data-target="code-cb5hze64" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-cb5hze64" class="hljs language-powershell">wsl.exe <span class="hljs-literal">--set-default-version</span> <span class="hljs-number">2</span>
+      <button class="copy-btn" data-target="code-70edmz26" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-70edmz26" class="hljs language-powershell">wsl.exe <span class="hljs-literal">--set-default-version</span> <span class="hljs-number">2</span>
 </code></pre>
     </div>
   <p>Xem danh sách các distro có thể cài trên WSL</p>
 
     <div class="code-block">
       <div class="code-lang">POWERSHELL</div>
-      <button class="copy-btn" data-target="code-otv50oud" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-otv50oud" class="hljs language-powershell">wsl <span class="hljs-literal">--list</span> <span class="hljs-literal">--online</span>
+      <button class="copy-btn" data-target="code-7667g4lp" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-7667g4lp" class="hljs language-powershell">wsl <span class="hljs-literal">--list</span> <span class="hljs-literal">--online</span>
 </code></pre>
     </div>
   <p>Output:</p>
 
     <div class="code-block">
       
-      <button class="copy-btn" data-target="code-rmkutyz7" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-rmkutyz7" class="hljs language-plaintext"><span class="hljs-attribute">The</span> following is a list of valid distributions that can be installed.
+      <button class="copy-btn" data-target="code-kitzhk6p" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-kitzhk6p" class="hljs language-plaintext"><span class="hljs-attribute">The</span> following is a list of valid distributions that can be installed.
 <span class="hljs-attribute">Install</span> using &#x27;wsl.exe --install &lt;Distro&gt;&#x27;.
 
 <span class="hljs-attribute">NAME</span>                            FRIENDLY NAME
@@ -239,16 +239,16 @@ Sau đó, chúng ta sẽ vào giao diện terminal của Ubuntu (Có thể nói 
 
     <div class="code-block">
       <div class="code-lang">POWERSHELL</div>
-      <button class="copy-btn" data-target="code-ln0zif38" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-ln0zif38" class="hljs language-powershell">wsl <span class="hljs-literal">--install</span> <span class="hljs-literal">-d</span> Ubuntu<span class="hljs-literal">-24</span>.<span class="hljs-number">04</span>
+      <button class="copy-btn" data-target="code-98dct9wu" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-98dct9wu" class="hljs language-powershell">wsl <span class="hljs-literal">--install</span> <span class="hljs-literal">-d</span> Ubuntu<span class="hljs-literal">-24</span>.<span class="hljs-number">04</span>
 </code></pre>
     </div>
   <p>Nếu gặp output như bên dưới <em>(<code>wsl</code> thấy mình chưa bật đủ các feature nên tự enable)</em> thì khởi động lại máy và chạy lại lệnh cài đặt ở trên nhé. </p>
 
     <div class="code-block">
       
-      <button class="copy-btn" data-target="code-i9syax7d" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-i9syax7d" class="hljs language-plaintext">The requested operation requires elevation.
+      <button class="copy-btn" data-target="code-k9nwf5dh" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-k9nwf5dh" class="hljs language-plaintext">The requested operation requires elevation.
 Installing Windows optional component: VirtualMachinePlatform
 
 Deployment Image Servicing <span class="hljs-keyword">and</span> Management tool
@@ -267,8 +267,8 @@ The requested operation <span class="hljs-keyword">is</span> successful. Changes
 
     <div class="code-block">
       
-      <button class="copy-btn" data-target="code-bmkm3ipd" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-bmkm3ipd" class="hljs language-plaintext"><span class="hljs-symbol">Downloading:</span> Ubuntu <span class="hljs-number">24.04</span> LTS
+      <button class="copy-btn" data-target="code-mmmxgsnf" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-mmmxgsnf" class="hljs language-plaintext"><span class="hljs-symbol">Downloading:</span> Ubuntu <span class="hljs-number">24.04</span> LTS
 <span class="hljs-symbol">Installing:</span> Ubuntu <span class="hljs-number">24.04</span> LTS
 Distribution successfully installed. It can be launched via <span class="hljs-comment">&#x27;wsl.exe -d Ubuntu-24.04&#x27;</span>
 Launching Ubuntu-<span class="hljs-number">24.04</span>...
@@ -287,24 +287,24 @@ See <span class="hljs-string">&quot;man sudo_root&quot;</span> <span class="hljs
 <h2 id="cac-lenh-hay-su-dung-voi-wsl">Các lệnh hay sử dụng với wsl</h2><h3 id="1-kiem-tra-danh-sach-distro-da-cai-trong-wsl">1. Kiểm tra danh sách distro đã cài trong wsl</h3>
     <div class="code-block">
       <div class="code-lang">POWERSHELL</div>
-      <button class="copy-btn" data-target="code-ry02pvt8" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-ry02pvt8" class="hljs language-powershell">wsl <span class="hljs-literal">-l</span> <span class="hljs-literal">-v</span>
+      <button class="copy-btn" data-target="code-z6uscuew" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-z6uscuew" class="hljs language-powershell">wsl <span class="hljs-literal">-l</span> <span class="hljs-literal">-v</span>
 </code></pre>
     </div>
   <p>Ouput</p>
 
     <div class="code-block">
       
-      <button class="copy-btn" data-target="code-6yio4apv" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-6yio4apv" class="hljs language-plaintext">  <span class="hljs-type">NAME</span>            STATE           <span class="hljs-keyword">VERSION</span>
+      <button class="copy-btn" data-target="code-4buvh38l" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-4buvh38l" class="hljs language-plaintext">  <span class="hljs-type">NAME</span>            STATE           <span class="hljs-keyword">VERSION</span>
 * Ubuntu<span class="hljs-number">-24.04</span>    Running         <span class="hljs-number">2</span></code></pre>
     </div>
   <p><strong>Kiểm tra kỹ Version phải là 2 thì mới chạy được full tính năng của Ubuntu nhé</strong></p>
 <h3 id="2-khoi-chay-distro">2. Khởi chạy distro</h3>
     <div class="code-block">
       <div class="code-lang">POWERSHELL</div>
-      <button class="copy-btn" data-target="code-5kbdrqqc" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-5kbdrqqc" class="hljs language-powershell">wsl <span class="hljs-literal">-d</span> &lt;DistroName&gt;
+      <button class="copy-btn" data-target="code-nx1bv3fu" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-nx1bv3fu" class="hljs language-powershell">wsl <span class="hljs-literal">-d</span> &lt;DistroName&gt;
 </code></pre>
     </div>
   <p><code>DistroName</code> lấy ở lệnh trên nhé.</p>
@@ -312,8 +312,8 @@ See <span class="hljs-string">&quot;man sudo_root&quot;</span> <span class="hljs
 
     <div class="code-block">
       <div class="code-lang">POWERSHELL</div>
-      <button class="copy-btn" data-target="code-4e6z8se6" onclick="copyCode(this)">Copy</button>
-      <pre><code id="code-4e6z8se6" class="hljs language-powershell">wsl <span class="hljs-literal">-d</span> Ubuntu<span class="hljs-literal">-24</span>.<span class="hljs-number">04</span>
+      <button class="copy-btn" data-target="code-b7lijoba" onclick="copyCode(this)">Copy</button>
+      <pre><code id="code-b7lijoba" class="hljs language-powershell">wsl <span class="hljs-literal">-d</span> Ubuntu<span class="hljs-literal">-24</span>.<span class="hljs-number">04</span>
 </code></pre>
     </div>
   <p>Sau đó, chúng ta sẽ vào giao diện terminal của Ubuntu (Có thể nói nó giống như chúng ta đang SSH vào Ubuntu vậy).</p>
