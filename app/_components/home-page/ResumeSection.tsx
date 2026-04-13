@@ -33,6 +33,25 @@ const educations: TimelineItemData[] = [
 
 const experiences: TimelineItemData[] = [
   {
+    period: '10/2025 - now',
+    periodInfo: (
+      <>
+        <a href="https://fpt-is.com/">FPT IS Company Limited</a>
+      </>
+    ),
+    title: 'Project Manager',
+    description: (
+      <>
+        <strong>Main Responsibilities</strong>
+        <ul className="ps-2">
+          <li>- Leading project teams to ensure successful delivery on time and within scope.</li>
+          <li>- Managing communication between stakeholders and development teams.</li>
+          <li>- Reported project progress and issues to ensure timely resolution and transparency.</li>
+        </ul>
+      </>
+    ),
+  },
+  {
     period: '09/2021 - 04/2025',
     periodInfo: (
       <>
