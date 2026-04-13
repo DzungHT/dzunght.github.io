@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build:loader": "node scripts/postcss-runner.js styles/loader.scss public/css/loader.css",
-    "build": "npm run build:loader && next build",
+    "build": "npm run build:loader && next build && node scripts/copy-blog-assets.js",
     "preview": "serve out",
     "lint": "next lint",
     "predeploy": "node scripts/predeploy.js",

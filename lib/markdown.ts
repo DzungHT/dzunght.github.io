@@ -77,13 +77,22 @@ renderer.link = (href, title, text) => {
 
 // Custom image renderer to fix relative image paths
 renderer.image = (href, title, text) => {
-  let finalSrc = href || '';
+  const rawHref = (href || '').trim();
+  let finalSrc = rawHref;
 
-  // If the image path is relative (./ or ../), prepend /blog/<slug>/
-  if (href && (href.startsWith('./') || href.startsWith('../'))) {
+  const isRemote = /^(https?:)?\/\//i.test(rawHref);
+  const isRootAbsolute = rawHref.startsWith('/');
+  const isDataUri = rawHref.startsWith('data:');
+
+  // Normalize local image paths to /blog/<slug>/... so static export can resolve them.
+  if (rawHref && !isRemote && !isRootAbsolute && !isDataUri) {
     const slug = (renderer as any)._currentSlug || '';
-    const src = `/blog/${slug}/${href.replace(/^\.\/|^\.\.\//, '')}`;
-    finalSrc = src;
+    const cleanedPath = rawHref
+      .replace(/^(\.\/)+/, '')
+      .replace(/^(\.\.\/)+/, '')
+      .replace(/^\/+/, '');
+
+    finalSrc = slug ? `/blog/${slug}/${cleanedPath}` : cleanedPath;
   }
 
   const alt = text || '';
