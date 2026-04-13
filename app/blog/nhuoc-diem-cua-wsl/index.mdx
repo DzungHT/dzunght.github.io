@@ -1,0 +1,40 @@
+---
+title: 'Nhược điểm của WSL trên Windows'
+excerpt: 'Đây là bài viết về trải nghiệm không hài lòng khi sử dụng WSL Ubuntu trên Windows 11'
+date: '2026-04-13'
+tags:
+  - command line
+  - development environment
+  - Docker
+  - dual boot
+  - Environment
+  - Linux
+  - OS
+  - programming
+  - software installation
+  - system configuration
+  - tech guide.
+  - terminal
+  - Ubuntu
+  - virtualization
+  - Windows
+  - WSL
+---
+
+
+## Nhược điểm của WSL
+
+### 1. Không thể chạy được với các ứng dụng truyền tải nhiều dữ liệu 1 lúc
+
+Tôi đã gặp phải vấn đề này khi đang code cho 1 dự án sử dụng node.js để kết nối với mysql server.
+
+Flow chương trình đơn giản như sau:
+
+\[data\] --(request)--> **MyApp** --(Insert Data)---> **MySQL**
+
+Và MySQL được chạy trên môi trường Docker + WSL2
+
+Chuyện rất bình thường khi thực hiện code và test với tập dữ liệu nhỏ. Nhưng đến khi tôi thử chạy 1 tập dữ liệu lớn hơn. Insert khoảng 500 record/thời điểm (1 vòng lặp chạy insert batch 500 record liên tục), lúc này, WSL đã dần tỏ ra sự yếu kém của mình. Tốc độ insert dữ liệu vẫn bình thường, bỗng đùng 1 cái, lỗi ETIMEDOUT khi kết nối với MySQL.
+
+---
+> Bài viết đã bị drop do tác giả bị vướng vòng xoáy cơm - áo - gạo - tiền nên đã quên mất nội dung cần viết. Nhưng đây cũng là trải nghiệm và nhược điểm về WSL mà tôi muốn chia sẻ đến mọi người. Mong các bạn đọc thông cảm, khi có thời gian tôi sẽ dùng ChatGPT để bịa nốt nội dung còn lại 😃
